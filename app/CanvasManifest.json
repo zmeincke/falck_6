@@ -130,7 +130,10 @@
     "UserLocale": "da-DK"
   },
   "ScreenOrder": [
-    "Screen1",
-    "Screen2"
+    "Screen1 (Lucas)",
+    "Screen2 (Zasia)",
+    "Screen3 (Óscar)",
+    "Screen4 (Mats)",
+    "Screen5 (Andreas)"
   ]
 }
