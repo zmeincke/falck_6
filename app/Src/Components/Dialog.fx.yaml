@@ -67,7 +67,9 @@ Dialog As CanvasComponent:
         ZIndex: =2
 
         Container19 As groupContainer.manualLayoutContainer:
+            LayoutDirection: =LayoutDirection.Manual
             LayoutMinHeight: =0
+            LayoutMode: =LayoutMode.Auto
             ZIndex: =1
 
         MiddleContainer As groupContainer.horizontalAutoLayoutContainer:
@@ -80,7 +82,9 @@ Dialog As CanvasComponent:
 
             Container19_2 As groupContainer.manualLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
+                LayoutDirection: =LayoutDirection.Manual
                 LayoutMinWidth: =0
+                LayoutMode: =LayoutMode.Auto
                 ZIndex: =1
 
             CenterDialogContainer As groupContainer.verticalAutoLayoutContainer:
@@ -171,6 +175,8 @@ Dialog As CanvasComponent:
                     ZIndex: =2
 
                 DialogContentContainer As groupContainer.manualLayoutContainer:
+                    LayoutDirection: =LayoutDirection.Manual
+                    LayoutMode: =LayoutMode.Auto
                     PaddingLeft: =24
                     PaddingRight: =24
                     Width: =Dialog.DialogWidth
@@ -234,9 +240,13 @@ Dialog As CanvasComponent:
 
             Container19_3 As groupContainer.manualLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
+                LayoutDirection: =LayoutDirection.Manual
                 LayoutMinWidth: =0
+                LayoutMode: =LayoutMode.Auto
                 ZIndex: =3
 
         Container19_1 As groupContainer.manualLayoutContainer:
+            LayoutDirection: =LayoutDirection.Manual
+            LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 

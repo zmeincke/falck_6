@@ -1,2 +1,10 @@
 "'Patient list overview' As screen":
 
+    BadgeCanvas1 As Badge:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Width: =32
+        X: =485
+        Y: =281
+        ZIndex: =1
+

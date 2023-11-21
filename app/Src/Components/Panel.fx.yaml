@@ -72,6 +72,7 @@ Panel As CanvasComponent:
 
     PanelRootContainer_1 As groupContainer.verticalAutoLayoutContainer:
         Height: =Parent.Height
+        LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         Width: =Parent.Width
         ZIndex: =2
@@ -80,6 +81,7 @@ Panel As CanvasComponent:
             AlignInContainer: =AlignInContainer.SetByContainer
             FillPortions: =0
             Height: =If(IsBlank(Panel.OverlayColor),0,Parent.Height)
+            LayoutDirection: =LayoutDirection.Manual
             LayoutMinHeight: =Panel.Height
             LayoutMinWidth: |-
                 =If(
@@ -91,6 +93,7 @@ Panel As CanvasComponent:
                         Panel.DialogWidth
                     )
                 )
+            LayoutMode: =LayoutMode.Auto
             Width: =If(Panel.PanelPosition="Left",0,Panel.Width-Panel.DialogWidth)
             ZIndex: =1
 
@@ -190,7 +193,9 @@ Panel As CanvasComponent:
                 ZIndex: =2
 
             PanelContentContainer As groupContainer.manualLayoutContainer:
+                LayoutDirection: =LayoutDirection.Manual
                 LayoutMinWidth: =300
+                LayoutMode: =LayoutMode.Auto
                 Width: =Panel.DialogWidth
                 ZIndex: =3
 
@@ -277,6 +282,7 @@ Panel As CanvasComponent:
         ContainerRightSpace As groupContainer.manualLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             Height: =Panel.Height
+            LayoutDirection: =LayoutDirection.Manual
             LayoutMinHeight: =Panel.Height
             LayoutMinWidth: |-
                 =If(
@@ -288,6 +294,7 @@ Panel As CanvasComponent:
                     ),
                     0
                 )
+            LayoutMode: =LayoutMode.Auto
             Width: =If(Panel.PanelPosition="Left",Panel.Width-Panel.DialogWidth,0)
             ZIndex: =4
 
