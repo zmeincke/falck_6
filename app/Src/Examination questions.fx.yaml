@@ -3,9 +3,10 @@
     "Progress1 As 'Progress Bar'":
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
-        Height: =61
-        Width: =1078
-        X: =21
+        Height: =57
+        Thickness: ='Progress.Thickness'.Large
+        Width: =1046
+        X: =36
         Y: =705
         ZIndex: =1
 
@@ -16,8 +17,8 @@
         Height: =35
         Text: ="Previous"
         Width: =96
-        X: =1132
-        Y: =715
+        X: =1116
+        Y: =716
         ZIndex: =2
 
     ButtonCanvas2 As Button:
@@ -29,4 +30,148 @@
         X: =1228
         Y: =715
         ZIndex: =3
+
+    Slider1 As Slider:
+        DisplayMode: =DisplayMode.Edit
+        Height: =100
+        Width: =448
+        X: =40
+        Y: =292
+        ZIndex: =4
+
+    "TabList2 As 'Tab list'.pcfdataset":
+        DisplayMode: =DisplayMode.Edit
+        Height: =55
+        Width: =280
+        X: =40
+        Y: =40
+        ZIndex: =5
+
+    TextCanvas1 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Text: =""
+        Width: =96
+        X: =60
+        Y: =60
+        ZIndex: =6
+
+    TextCanvas2 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =59
+        Size: =30
+        Text: ="Patient questions"
+        Width: =266
+        X: =20
+        Y: =92
+        ZIndex: =7
+
+    UploadedImage1 As image:
+        BorderColor: =RGBA(255, 0, 0, 1)
+        Height: =AddMediaButton1.Height
+        Image: =If(IsBlank(AddMediaButton1.Media), SampleImage, AddMediaButton1.Media)
+        ImagePosition: =ImagePosition.Fill
+        Width: =AddMediaButton1.Width
+        X: =AddMediaButton1.X
+        Y: =AddMediaButton1.Y
+        ZIndex: =9
+
+    Rectangle1 As rectangle:
+        BorderColor: =RGBA(255, 0, 0, 1)
+        Fill: =RGBA(255, 0, 0, 1)
+        Height: =73
+        Width: =1366
+        ZIndex: =10
+
+    Image4 As image:
+        Height: =52
+        Width: =66
+        X: =14
+        Y: =8
+        ZIndex: =11
+
+    TextCanvas3 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Text: |-
+            ="Date: 21/11 2023"
+        Width: =117
+        X: =1154
+        Y: =119
+        ZIndex: =12
+
+    TextCanvas4 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Text: |-
+            ="Examination: 1"
+        Width: =96
+        X: =20
+        Y: =177
+        ZIndex: =13
+
+    TextCanvas5 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Text: |-
+            ="Patient: Lucas Molnar"
+        Width: =158
+        X: =20
+        Y: =151
+        ZIndex: =14
+
+    TextCanvas6 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =52
+        Size: =20
+        Text: ="How is your mood from 1 to 5 ?"
+        Width: =307
+        X: =26
+        Y: =258
+        ZIndex: =15
+
+    TextCanvas7 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Text: ="1 Awfull"
+        Width: =96
+        X: =40
+        Y: =360
+        ZIndex: =16
+
+    TextCanvas8 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Text: ="2 Slightly bad"
+        Width: =96
+        X: =132
+        Y: =360
+        ZIndex: =17
+
+    TextCanvas9 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Text: ="3 Okay"
+        Width: =96
+        X: =253
+        Y: =360
+        ZIndex: =18
+
+    TextCanvas10 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Text: ="4 Good"
+        Width: =96
+        X: =351
+        Y: =360
+        ZIndex: =19
+
+    TextCanvas11 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Text: ="5 Perfect"
+        Width: =96
+        X: =447
+        Y: =360
+        ZIndex: =20
 
