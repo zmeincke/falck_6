@@ -1,19 +1,2 @@
 "'Patient questions form' As screen":
 
-    "Toggle1 As 'In-/uitschakelen'":
-        BasePaletteColor: =
-        DisplayMode: =DisplayMode.Edit
-        Height: =35
-        Width: =110
-        X: =703
-        Y: =282
-        ZIndex: =1
-
-    DatePickerCanvas1 As Datumkiezer:
-        DisplayMode: =DisplayMode.Edit
-        Height: =32
-        Width: =320
-        X: =483
-        Y: =312
-        ZIndex: =2
-
