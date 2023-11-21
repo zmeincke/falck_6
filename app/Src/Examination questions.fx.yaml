@@ -1,6 +1,6 @@
 "'Examination questions' As screen":
 
-    "Progress1 As 'Progress Bar'":
+    Progress1 As Statuslinje:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =61
@@ -9,7 +9,7 @@
         Y: =705
         ZIndex: =1
 
-    ButtonCanvas1 As Button:
+    ButtonCanvas1 As Knap:
         Appearance: ='ButtonCanvas.Appearance'.Secondary
         BasePaletteColor: =RGBA(39, 113, 194, 1)
         DisplayMode: =DisplayMode.Edit
@@ -20,7 +20,7 @@
         Y: =715
         ZIndex: =2
 
-    ButtonCanvas2 As Button:
+    ButtonCanvas2 As Knap:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =35

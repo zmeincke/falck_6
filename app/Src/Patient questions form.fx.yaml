@@ -1,6 +1,6 @@
 "'Patient questions form' As screen":
 
-    Toggle1 As Toggle:
+    "Toggle1 As 'Slå til/fra'":
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =35

@@ -244,7 +244,7 @@ Panel As CanvasComponent:
                     X: =20
                     ZIndex: =1
 
-                    Button1 As Button:
+                    Button1 As Knap:
                         BasePaletteColor: =
                         DisplayMode: =If(ThisItem.Enabled, DisplayMode.Edit, DisplayMode.Disabled)
                         Height: =32

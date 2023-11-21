@@ -13,21 +13,6 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
-  "Button": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_ButtonCanvas",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "PowerApps_CoreControls_ButtonCanvas",
-    "OverridableProperties": {},
-    "TemplateDisplayName": "Button",
-    "Version": "0.0.22"
-  },
   "Etiket": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -145,17 +130,17 @@
   "Knap": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/Microsoft_CoreControls_Button",
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_ButtonCanvas",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPcfControl": true,
     "IsPremiumPcfControl": false,
     "IsWidgetTemplate": false,
     "LastModifiedTimestamp": "0",
-    "Name": "Microsoft_CoreControls_Button",
+    "Name": "PowerApps_CoreControls_ButtonCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Knap",
-    "Version": "1.5.2"
+    "Version": "0.0.22"
   },
   "label": {
     "CustomGroupControlTemplateName": "",
@@ -170,36 +155,6 @@
     "Name": "label",
     "OverridableProperties": {},
     "Version": "2.5.1"
-  },
-  "Label": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/Microsoft_CoreControls_Label",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "Microsoft_CoreControls_Label",
-    "OverridableProperties": {},
-    "TemplateDisplayName": "Label",
-    "Version": "1.6.0"
-  },
-  "Progress Bar": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_Progress",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "PowerApps_CoreControls_Progress",
-    "OverridableProperties": {},
-    "TemplateDisplayName": "Progress Bar",
-    "Version": "1.1.13"
   },
   "rectangle": {
     "CustomGroupControlTemplateName": "",
@@ -229,7 +184,7 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
-  "Toggle": {
+  "Slå til/fra": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
     "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_Toggle",
@@ -241,7 +196,22 @@
     "LastModifiedTimestamp": "0",
     "Name": "PowerApps_CoreControls_Toggle",
     "OverridableProperties": {},
-    "TemplateDisplayName": "Toggle",
+    "TemplateDisplayName": "Slå til/fra",
     "Version": "1.0.18"
+  },
+  "Statuslinje": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_Progress",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerApps_CoreControls_Progress",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Statuslinje",
+    "Version": "1.1.13"
   }
 }
