@@ -1,9 +1,21 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Host": 3,
+    "Patient adding page": 6,
+    "Patient list overview": 5,
+    "Patient questions form": 7,
+    "Screen1 (Lucas)": 8,
+    "Screen2 (Zasia)": 9,
+    "Screen3 (Óscar)": 10,
+    "Screen4 (Mats)": 11,
+    "Screen5 (Andreas)": 4
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "11/21/2023 11:03:00",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -16,11 +28,41 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Host": {},
+    "Patient adding page": {},
+    "Patient list overview": {},
+    "Patient questions form": {},
+    "Screen1 (Lucas)": {},
+    "Screen2 (Zasia)": {},
+    "Screen3 (Óscar)": {},
+    "Screen4 (Mats)": {},
+    "Screen5 (Andreas)": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Host": 0,
+    "Patient adding page": 4,
+    "Patient list overview": 3,
+    "Patient questions form": 5,
+    "Screen1 (Lucas)": 6,
+    "Screen2 (Zasia)": 7,
+    "Screen3 (Óscar)": 8,
+    "Screen4 (Mats)": 9,
+    "Screen5 (Andreas)": 10
+  },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0085311,
+    "ControlCount": {
+      "screen": 8
+    },
+    "DeserializationLoadTime": 0.3162724
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }

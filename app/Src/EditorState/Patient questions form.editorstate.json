@@ -1,6 +1,6 @@
 {
   "ControlStates": {
-    "Schedule": {
+    "Patient questions form": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
@@ -20,7 +20,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Schedule",
+      "Name": "Patient questions form",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -69,5 +69,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "Schedule"
+  "TopParentName": "Patient questions form"
 }
