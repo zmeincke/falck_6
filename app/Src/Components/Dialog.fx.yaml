@@ -204,8 +204,7 @@ Dialog As CanvasComponent:
                     X: =20
                     ZIndex: =4
 
-                    Button1_1 As Knap:
-                        BasePaletteColor: =
+                    Button1_1 As Button:
                         BorderColor: =
                         BorderRadius: =
                         DisabledBorderColor: =

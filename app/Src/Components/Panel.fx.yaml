@@ -244,8 +244,7 @@ Panel As CanvasComponent:
                     X: =20
                     ZIndex: =1
 
-                    Button1 As Knap:
-                        BasePaletteColor: =
+                    Button1 As Button:
                         BorderColor: =
                         DisabledBorderColor: =
                         DisabledFillColor: =

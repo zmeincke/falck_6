@@ -1,6 +1,6 @@
 "'Examination questions' As screen":
 
-    Progress1 As Statuslinje:
+    "Progress1 As 'Progress Bar'":
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =57
@@ -10,8 +10,7 @@
         Y: =705
         ZIndex: =1
 
-    ButtonCanvas1 As Knap:
-        BasePaletteColor: =
+    ButtonCanvas1 As Button:
         BorderColor: =
         DisabledBorderColor: =
         DisabledFillColor: =
@@ -32,8 +31,7 @@
         Y: =716
         ZIndex: =2
 
-    ButtonCanvas2 As Knap:
-        BasePaletteColor: =
+    ButtonCanvas2 As Button:
         BorderColor: =
         DisabledBorderColor: =
         DisabledFillColor: =
@@ -54,15 +52,7 @@
         Y: =715
         ZIndex: =3
 
-    Slider1 As Slider:
-        DisplayMode: =DisplayMode.Edit
-        Height: =100
-        Width: =448
-        X: =40
-        Y: =292
-        ZIndex: =4
-
-    Header1 As Sidehoved:
+    Header1 As Header:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =75
@@ -73,6 +63,15 @@
         Width: =Parent.Width
         X: =0
         Y: =0
+        ZIndex: =4
+
+    Slider1 As Slider:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        Height: =100
+        Width: =448
+        X: =40
+        Y: =292
         ZIndex: =4
 
     "TabList2 As 'Tab list'.pcfdataset":
@@ -114,6 +113,7 @@
 
     Rectangle1 As rectangle:
         BorderColor: =RGBA(255, 0, 0, 1)
+        BorderStyle: =BorderStyle.None
         Fill: =RGBA(255, 0, 0, 1)
         Height: =73
         Width: =1366
