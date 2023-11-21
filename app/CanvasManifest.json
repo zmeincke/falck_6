@@ -130,6 +130,9 @@
     "UserLocale": "es-ES"
   },
   "ScreenOrder": [
+    "Main page",
+    "Schedule",
+    "Patients",
     "Screen1 (Lucas)",
     "Screen2 (Zasia)",
     "Screen3 (Óscar)",
