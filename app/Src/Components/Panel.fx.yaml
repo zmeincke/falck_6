@@ -245,22 +245,11 @@ Panel As CanvasComponent:
                     ZIndex: =1
 
                     Button1 As Botón:
-                        BorderColor: =
-                        DisabledBorderColor: =
-                        DisabledFillColor: =
-                        DisabledTextColor: =
+                        BasePaletteColor: =
                         DisplayMode: =If(ThisItem.Enabled, DisplayMode.Edit, DisplayMode.Disabled)
-                        FillColor: =
                         Height: =32
-                        HoverBorderColor: =
-                        HoverFillColor: =
-                        HoverTextColor: =
                         OnSelect: =Panel.OnButtonSelect()
-                        PressedBorderColor: =
-                        PressedFillColor: =
-                        PressedTextColor: =
                         Text: =ThisItem.Label
-                        TextColor: =
                         Visible: =ThisItem.Visible
                         Width: =96
                         X: =0

@@ -1,6 +1,7 @@
 "'Patient adding page' As screen":
 
     Header2 As Encabezado:
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =75
         Title: =App.ActiveScreen.Name
@@ -11,4 +12,22 @@
         X: =0
         Y: =0
         ZIndex: =1
+
+    BadgeCanvas1 As Distintivo:
+        Content: ="Upload Image"
+        DisplayMode: =DisplayMode.Edit
+        Height: =99
+        Width: =99
+        X: =28
+        Y: =104
+        ZIndex: =2
+
+    "TextInputCanvas1 As 'Entrada de texto'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        Value: ="Insert Patient Name"
+        Width: =320
+        X: =146
+        Y: =116
+        ZIndex: =3
 
