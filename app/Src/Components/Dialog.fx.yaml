@@ -206,6 +206,7 @@ Dialog As CanvasComponent:
 
                     Button1_1 As Knap:
                         BasePaletteColor: =
+                        BorderRadius: =Dialog.BorderRadius
                         DisplayMode: =DisplayMode.Edit
                         Height: =32
                         OnSelect: =Dialog.OnButtonSelect()

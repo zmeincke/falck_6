@@ -295,14 +295,14 @@
       "WebDefaultValue": ""
     }
   ],
-  "Name": "Knap",
+  "Name": "Button",
   "Properties": [
     {
       "Category": "data",
       "DefaultValue": "true",
-      "Description": "Angiver, om dette felt kan nås med Tab-tasten.",
+      "Description": "Whether this field can be reached with Tab key.",
       "DescriptionResourceString": "ButtonCanvas_AcceptsFocus_Desc",
-      "DisplayName": "Accepterer fokus",
+      "DisplayName": "Accepts focus",
       "DisplayNameResourceString": "ButtonCanvas_AcceptsFocus",
       "EnumValues": [],
       "HelperUI": "",
@@ -328,9 +328,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Etiket læst højt af skærmlæsere.",
+      "Description": "Label read out by screen readers.",
       "DescriptionResourceString": "ButtonCanvas_AccessibleLabel_Desc",
-      "DisplayName": "Tilgængelig etiket",
+      "DisplayName": "Accessible label",
       "DisplayNameResourceString": "ButtonCanvas_AccessibleLabel",
       "EnumValues": [],
       "HelperUI": null,
@@ -356,42 +356,42 @@
     {
       "Category": "data",
       "DefaultValue": "Primary",
-      "Description": "Vis som en af knaptyperne.",
+      "Description": "Display as one of button types.",
       "DescriptionResourceString": "ButtonCanvas_Appearance_Desc",
       "DisplayName": "Type",
       "DisplayNameResourceString": "ButtonCanvas_Appearance",
       "EnumValues": [
         {
-          "Description": "Primær",
-          "DisplayName": "Primær",
+          "Description": "Primary",
+          "DisplayName": "Primary",
           "IsDefaultValue": true,
           "Name": "Primary",
           "Value": "Primary"
         },
         {
-          "Description": "Sekundær",
-          "DisplayName": "Sekundær",
+          "Description": "Secondary",
+          "DisplayName": "Secondary",
           "IsDefaultValue": false,
           "Name": "Secondary",
           "Value": "Secondary"
         },
         {
-          "Description": "Kontur",
-          "DisplayName": "Kontur",
+          "Description": "Outline",
+          "DisplayName": "Outline",
           "IsDefaultValue": false,
           "Name": "Outline",
           "Value": "Outline"
         },
         {
-          "Description": "Raffineret",
-          "DisplayName": "Raffineret",
+          "Description": "Subtle",
+          "DisplayName": "Subtle",
           "IsDefaultValue": false,
           "Name": "Subtle",
           "Value": "Subtle"
         },
         {
-          "Description": "Gennemsigtig",
-          "DisplayName": "Gennemsigtig",
+          "Description": "Transparent",
+          "DisplayName": "Transparent",
           "IsDefaultValue": false,
           "Name": "Transparent",
           "Value": "Transparent"
@@ -419,10 +419,10 @@
     },
     {
       "Category": "data",
-      "DefaultValue": "Knap",
-      "Description": "Tekst, der skal vises på knappen.",
+      "DefaultValue": "Button",
+      "Description": "Text to display in the button.",
       "DescriptionResourceString": "ButtonCanvas_Text_Desc",
-      "DisplayName": "Tekst",
+      "DisplayName": "Text",
       "DisplayNameResourceString": "ButtonCanvas_Text",
       "EnumValues": [],
       "HelperUI": null,
@@ -448,9 +448,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Du kan angive en anden farvepalet til det valgte element ved at angive en basispaletfarve. Denne farve genererer et sæt lignende farver, der derefter anvendes på forskellige aspekter af elementet, mest almindeligt: udfyldning, ramme og interaktionstilstande. En tom værdi angiver, at elementet bruger farvepaletten i appens tema.",
+      "Description": "You can provide a different color palette for the selected item by specifying a base palette color. This color generates a set of similar colors that are then applied to different aspects of the item, most commonly: fill, border, and interaction states. A blank value indicates the item will use the color palette of the app's theme.",
       "DescriptionResourceString": "Base_Palette_Color_description",
-      "DisplayName": "Basispaletfarve",
+      "DisplayName": "Base palette color",
       "DisplayNameResourceString": "Base_Palette_Color",
       "EnumValues": [],
       "HelperUI": "color",
@@ -476,9 +476,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Angiv skrifttypestørrelsen for den viste tekst.",
+      "Description": "Set the font size for displayed text.",
       "DescriptionResourceString": "Font_Size_description",
-      "DisplayName": "Skrifttypestørrelse",
+      "DisplayName": "Font size",
       "DisplayNameResourceString": "Font_Size",
       "EnumValues": [],
       "HelperUI": null,
@@ -633,7 +633,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 7,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"ManifestTemplate\",\"Data\":{\"ConstructorName\":\"PowerApps.CoreControls.ButtonCanvas\",\"CustomControlId\":\"PowerApps.CoreControls.ButtonCanvas\",\"IsVirtual\":true,\"Properties\":{\"Resources\":[{\"Name\":\"/PCF/prop-types.js\",\"LoadOrder\":1,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/react-fela.js\",\"LoadOrder\":2,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela.js\",\"LoadOrder\":3,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela-dom.js\",\"LoadOrder\":4,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PCFControls/js/PCFControlWrapper.js\",\"LoadOrder\":6,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PcfControlProxy/js/PcfControlProxy.js\",\"LoadOrder\":7,\"Type\":0,\"LibraryName\":null}],\"GroupDefinitions\":null,\"DataSetDefinitions\":{},\"Properties\":{\"AcceptsFocus\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"AccessibleLabel\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Appearance\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Primary\"},\"Text\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Knap\"},\"BasePaletteColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"FontSize\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"TabIndex\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Tooltip\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"}},\"FeatureUsage\":[{\"IsRequired\":true,\"Name\":\"ExplicitCommonEvents\"}]},\"Events\":null,\"CommonEvents\":{\"OnSelect\":{\"EventName\":\"OnSelect\"}},\"DesignMap\":null,\"PropertyDependencies\":[],\"Children\":null}}",
+      "Path": "{\"Id\":\"ManifestTemplate\",\"Data\":{\"ConstructorName\":\"PowerApps.CoreControls.ButtonCanvas\",\"CustomControlId\":\"PowerApps.CoreControls.ButtonCanvas\",\"IsVirtual\":true,\"Properties\":{\"Resources\":[{\"Name\":\"/PCF/prop-types.js\",\"LoadOrder\":1,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/react-fela.js\",\"LoadOrder\":2,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela.js\",\"LoadOrder\":3,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela-dom.js\",\"LoadOrder\":4,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PCFControls/js/PCFControlWrapper.js\",\"LoadOrder\":6,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PcfControlProxy/js/PcfControlProxy.js\",\"LoadOrder\":7,\"Type\":0,\"LibraryName\":null}],\"GroupDefinitions\":null,\"DataSetDefinitions\":{},\"Properties\":{\"AcceptsFocus\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"AccessibleLabel\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Appearance\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Primary\"},\"Text\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Button\"},\"BasePaletteColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"FontSize\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"TabIndex\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Tooltip\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"}},\"FeatureUsage\":[{\"IsRequired\":true,\"Name\":\"ExplicitCommonEvents\"}]},\"Events\":null,\"CommonEvents\":{\"OnSelect\":{\"EventName\":\"OnSelect\"}},\"DesignMap\":null,\"PropertyDependencies\":[],\"Children\":null}}",
       "Type": 3
     },
     {
@@ -668,7 +668,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 12,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"-\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"d. MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"d. MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d. MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd-MM-yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"sø\",\"ma\",\"ti\",\"on\",\"to\",\"fr\",\"lø\"],\"ShortestDayNames\":[\"sø\",\"ma\",\"ti\",\"on\",\"to\",\"fr\",\"lø\"],\"DayNames\":[\"søndag\",\"mandag\",\"tirsdag\",\"onsdag\",\"torsdag\",\"fredag\",\"lørdag\"],\"AbbreviatedMonthNames\":[\"jan\",\"feb\",\"mar\",\"apr\",\"maj\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthNames\":[\"januar\",\"februar\",\"marts\",\"april\",\"maj\",\"juni\",\"juli\",\"august\",\"september\",\"oktober\",\"november\",\"december\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregoriansk kalender\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"feb\",\"mar\",\"apr\",\"maj\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthGenitiveNames\":[\"januar\",\"februar\",\"marts\",\"april\",\"maj\",\"juni\",\"juli\",\"august\",\"september\",\"oktober\",\"november\",\"december\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"kr.\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"da-DK\",\"formatter\":null,\"languagesByCode\":{\"1030\":\"Danish (Denmark)\",\"-1\":\"All Languages\"}}}",
+      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"AM\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":0,\"CalendarWeekRule\":0,\"FullDateTimePattern\":\"dddd, MMMM d, yyyy h:mm:ss tt\",\"LongDatePattern\":\"dddd, MMMM d, yyyy\",\"LongTimePattern\":\"h:mm:ss tt\",\"MonthDayPattern\":\"MMMM d\",\"PMDesignator\":\"PM\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"M/d/yyyy\",\"ShortTimePattern\":\"h:mm tt\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"],\"ShortestDayNames\":[\"Su\",\"Mo\",\"Tu\",\"We\",\"Th\",\"Fr\",\"Sa\"],\"DayNames\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"],\"AbbreviatedMonthNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"MonthNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregorian Calendar\",\"AbbreviatedMonthGenitiveNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"MonthGenitiveNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\".\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\",\",\"CurrencySymbol\":\"$\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":0,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\".\",\"NumberGroupSeparator\":\",\",\"CurrencyPositivePattern\":0,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\".\",\"PercentGroupSeparator\":\",\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"en-US\",\"formatter\":null,\"languagesByCode\":{\"1033\":\"English (United States)\",\"-1\":\"All Languages\"}}}",
       "Type": 3
     },
     {
@@ -990,7 +990,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"ButtonCanvas\":\"Knap\",\"ButtonCanvas_Desc\":\"Lad brugerne klikke på eller trykke på for at udføre en handling.\",\"ButtonCanvas_Appearance\":\"Type\",\"ButtonCanvas_Appearance_Desc\":\"Vis som en af knaptyperne.\",\"ButtonCanvas_Appearance_Secondary\":\"Sekundær\",\"ButtonCanvas_Appearance_Primary\":\"Primær\",\"ButtonCanvas_Appearance_Outline\":\"Kontur\",\"ButtonCanvas_Appearance_Subtle\":\"Raffineret\",\"ButtonCanvas_Appearance_Transparent\":\"Gennemsigtig\",\"ButtonCanvas_Text\":\"Tekst\",\"ButtonCanvas_Text_Desc\":\"Tekst, der skal vises på knappen.\",\"ButtonCanvas_AcceptsFocus\":\"Accepterer fokus\",\"ButtonCanvas_AcceptsFocus_Desc\":\"Angiver, om dette felt kan nås med Tab-tasten.\",\"ButtonCanvas_AccessibleLabel\":\"Tilgængelig etiket\",\"ButtonCanvas_AccessibleLabel_Desc\":\"Etiket læst højt af skærmlæsere.\",\"Base_Palette_Color\":\"Basispaletfarve\",\"Base_Palette_Color_description\":\"Du kan angive en anden farvepalet til det valgte element ved at angive en basispaletfarve. Denne farve genererer et sæt lignende farver, der derefter anvendes på forskellige aspekter af elementet, mest almindeligt: udfyldning, ramme og interaktionstilstande. En tom værdi angiver, at elementet bruger farvepaletten i appens tema.\",\"Font_Size\":\"Skrifttypestørrelse\",\"Font_Size_description\":\"Angiv skrifttypestørrelsen for den viste tekst.\"}}}",
+      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"ButtonCanvas\":\"Button\",\"ButtonCanvas_Desc\":\"Let users to click or tap to perform an action.\",\"ButtonCanvas_Appearance\":\"Type\",\"ButtonCanvas_Appearance_Desc\":\"Display as one of button types.\",\"ButtonCanvas_Appearance_Secondary\":\"Secondary\",\"ButtonCanvas_Appearance_Primary\":\"Primary\",\"ButtonCanvas_Appearance_Outline\":\"Outline\",\"ButtonCanvas_Appearance_Subtle\":\"Subtle\",\"ButtonCanvas_Appearance_Transparent\":\"Transparent\",\"ButtonCanvas_Text\":\"Text\",\"ButtonCanvas_Text_Desc\":\"Text to display in the button.\",\"ButtonCanvas_AcceptsFocus\":\"Accepts focus\",\"ButtonCanvas_AcceptsFocus_Desc\":\"Whether this field can be reached with Tab key.\",\"ButtonCanvas_AccessibleLabel\":\"Accessible label\",\"ButtonCanvas_AccessibleLabel_Desc\":\"Label read out by screen readers.\",\"Base_Palette_Color\":\"Base palette color\",\"Base_Palette_Color_description\":\"You can provide a different color palette for the selected item by specifying a base palette color. This color generates a set of similar colors that are then applied to different aspects of the item, most commonly: fill, border, and interaction states. A blank value indicates the item will use the color palette of the app's theme.\",\"Font_Size\":\"Font size\",\"Font_Size_description\":\"Set the font size for displayed text.\"}}}",
       "Type": 3
     },
     {
