@@ -38,6 +38,21 @@
     "OverridableProperties": {},
     "Version": "1.6.0"
   },
+  "In-/uitschakelen": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_Toggle",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerApps_CoreControls_Toggle",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "In-/uitschakelen",
+    "Version": "1.0.18"
+  },
   "screen": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,

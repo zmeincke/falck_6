@@ -1,2 +1,10 @@
 "'Patient questions form' As screen":
 
+    "Toggle1 As 'In-/uitschakelen'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =35
+        Width: =110
+        X: =703
+        Y: =282
+        ZIndex: =1
+
