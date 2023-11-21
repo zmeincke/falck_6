@@ -1,2 +1,32 @@
 "'Patient adding page' As screen":
 
+    BadgeCanvas1 As Distintivo:
+        Content: ="Upload Picture"
+        DisplayMode: =DisplayMode.Edit
+        Height: =107
+        Width: =107
+        X: =40
+        Y: =104
+        ZIndex: =1
+
+    "TextInputCanvas1 As 'Entrada de texto'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =69
+        Value: ="Insert Patient Name"
+        Width: =320
+        X: =175
+        Y: =123
+        ZIndex: =2
+
+    Header1 As Encabezado:
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =Parent.Width
+        X: =0
+        Y: =0
+        ZIndex: =3
+

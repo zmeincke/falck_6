@@ -1,2 +1,14 @@
 "'Patient list overview' As screen":
 
+    Header3 As Encabezado:
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =Parent.Width
+        X: =0
+        Y: =0
+        ZIndex: =1
+
