@@ -1,6 +1,7 @@
 "'Examination questions' As screen":
 
     "Progress1 As 'Progress Bar'":
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =61
         Width: =1078
@@ -20,6 +21,7 @@
         ZIndex: =2
 
     ButtonCanvas2 As Button:
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =35
         Text: ="Next"

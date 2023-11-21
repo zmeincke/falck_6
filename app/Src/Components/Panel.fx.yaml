@@ -245,34 +245,11 @@ Panel As CanvasComponent:
                     ZIndex: =1
 
                     Button1 As Button:
-                        Alignment: ="center"
-                        BorderColor: =
-                        BorderRadius: =If(Panel.RoundedButtons, 2, 0)
-                        BorderStyle: =""
-                        BorderThickness: =0
-                        ButtonType: =ThisItem.ButtonType
-                        DisabledBorderColor: =
-                        DisabledFillColor: =
-                        DisabledTextColor: =
+                        BasePaletteColor: =
                         DisplayMode: =If(ThisItem.Enabled, DisplayMode.Edit, DisplayMode.Disabled)
-                        FillColor: =If(ThisItem.ButtonType = 'Spinner.Appearance'.Primary, ColorValue(Panel.Theme.palette.themePrimary), ColorValue(Panel.Theme.palette.white))
                         Height: =32
-                        HideFromAssistiveTechnologies: =false
-                        HoverBorderColor: =
-                        HoverFillColor: =If(ThisItem.ButtonType = 'Spinner.Appearance'.Primary, ColorValue(Panel.Theme.palette.themeDark))
-                        HoverTextColor: =
-                        Italic: =false
                         OnSelect: =Panel.OnButtonSelect()
-                        PaddingBottom: =0
-                        PaddingTop: =0
-                        PressedBorderColor: =
-                        PressedFillColor: =
-                        PressedTextColor: =
-                        Strikethrough: =false
                         Text: =ThisItem.Label
-                        TextColor: =If(ThisItem.ButtonType = 'Spinner.Appearance'.Primary, ColorValue(Panel.Theme.palette.white), ColorValue(Panel.Theme.palette.black))
-                        Underline: =false
-                        VerticalAlignment: ="middle"
                         Visible: =ThisItem.Visible
                         Width: =96
                         X: =0
