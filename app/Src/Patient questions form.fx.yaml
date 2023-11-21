@@ -9,7 +9,8 @@
         Y: =282
         ZIndex: =1
 
-    Header2 As Encabezado:
+    Header2 As Sidehoved:
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =75
         Title: =App.ActiveScreen.Name

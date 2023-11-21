@@ -205,12 +205,23 @@ Dialog As CanvasComponent:
                     ZIndex: =4
 
                     Button1_1 As Knap:
-                        BasePaletteColor: =
+                        BorderColor: =
                         BorderRadius: =Dialog.BorderRadius
+                        DisabledBorderColor: =
+                        DisabledFillColor: =
+                        DisabledTextColor: =
                         DisplayMode: =DisplayMode.Edit
+                        FillColor: =
                         Height: =32
+                        HoverBorderColor: =
+                        HoverFillColor: =
+                        HoverTextColor: =
                         OnSelect: =Dialog.OnButtonSelect()
+                        PressedBorderColor: =
+                        PressedFillColor: =
+                        PressedTextColor: =
                         Text: =ThisItem.Label
+                        TextColor: =
                         Width: =96
                         X: =0
                         Y: =8
