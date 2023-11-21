@@ -11,9 +11,21 @@
 
     ButtonCanvas1 As Knap:
         BasePaletteColor: =
+        BorderColor: =
+        DisabledBorderColor: =
+        DisabledFillColor: =
+        DisabledTextColor: =
         DisplayMode: =DisplayMode.Edit
+        FillColor: =
         Height: =35
+        HoverBorderColor: =
+        HoverFillColor: =
+        HoverTextColor: =
+        PressedBorderColor: =
+        PressedFillColor: =
+        PressedTextColor: =
         Text: ="Previous"
+        TextColor: =
         Width: =96
         X: =1132
         Y: =715
@@ -21,9 +33,21 @@
 
     ButtonCanvas2 As Knap:
         BasePaletteColor: =
+        BorderColor: =
+        DisabledBorderColor: =
+        DisabledFillColor: =
+        DisabledTextColor: =
         DisplayMode: =DisplayMode.Edit
+        FillColor: =
         Height: =35
+        HoverBorderColor: =
+        HoverFillColor: =
+        HoverTextColor: =
+        PressedBorderColor: =
+        PressedFillColor: =
+        PressedTextColor: =
         Text: ="Next"
+        TextColor: =
         Width: =96
         X: =1228
         Y: =715
