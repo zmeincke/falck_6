@@ -204,9 +204,8 @@ Dialog As CanvasComponent:
                     X: =20
                     ZIndex: =4
 
-                    Button1_1 As Button:
+                    Button1_1 As Botón:
                         BasePaletteColor: =
-                        BorderRadius: =Dialog.BorderRadius
                         DisplayMode: =DisplayMode.Edit
                         Height: =32
                         OnSelect: =Dialog.OnButtonSelect()

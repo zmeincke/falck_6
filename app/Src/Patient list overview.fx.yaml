@@ -1,6 +1,7 @@
 "'Patient list overview' As screen":
 
     Header3 As Encabezado:
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =75
         Title: =App.ActiveScreen.Name

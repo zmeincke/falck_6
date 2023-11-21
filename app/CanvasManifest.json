@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 180,
+    "BindingErrorCount": 10,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -131,7 +131,7 @@
   },
   "ScreenOrder": [
     "Patient list overview",
-    "Patient questions form",
+    "Patient adding page",
     "Examination questions"
   ]
 }

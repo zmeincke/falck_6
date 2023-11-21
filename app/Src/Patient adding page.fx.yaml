@@ -1,4 +1,4 @@
-"'Patient questions form' As screen":
+"'Patient adding page' As screen":
 
     Header2 As Encabezado:
         DisplayMode: =DisplayMode.Edit
@@ -10,14 +10,5 @@
         Width: =Parent.Width
         X: =0
         Y: =0
-        ZIndex: =1
-
-    Toggle1 As Toggle:
-        BasePaletteColor: =
-        DisplayMode: =DisplayMode.Edit
-        Height: =35
-        Width: =110
-        X: =703
-        Y: =282
-        ZIndex: =1
+        ZIndex: =2
 
