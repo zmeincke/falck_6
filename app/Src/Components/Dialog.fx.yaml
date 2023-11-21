@@ -1,5 +1,4 @@
 Dialog As CanvasComponent:
-    BorderRadius: =0
     Buttons: |-
         =Table({Label: "Cancel", ButtonType:'Button.ButtonType'.Standard, HasBorder: false }, {Label: "Save", ButtonType:'Button.ButtonType'.Primary, HasBorder: false })
     ContentHeight: =DialogContentContainer.Height
@@ -205,7 +204,6 @@ Dialog As CanvasComponent:
                     ZIndex: =4
 
                     Button1_1 As Knap:
-                        BasePaletteColor: =
                         BorderColor: =
                         BorderRadius: =
                         DisabledBorderColor: =

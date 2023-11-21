@@ -10,7 +10,6 @@
         ZIndex: =1
 
     ButtonCanvas1 As Knap:
-        BasePaletteColor: =
         BorderColor: =
         DisabledBorderColor: =
         DisabledFillColor: =
@@ -32,7 +31,6 @@
         ZIndex: =2
 
     ButtonCanvas2 As Knap:
-        BasePaletteColor: =
         BorderColor: =
         DisabledBorderColor: =
         DisabledFillColor: =

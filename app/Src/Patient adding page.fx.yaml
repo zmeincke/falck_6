@@ -1,6 +1,6 @@
 "'Patient adding page' As screen":
 
-    Header2 As Encabezado:
+    Header2 As Sidehoved:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =75
@@ -13,7 +13,8 @@
         Y: =0
         ZIndex: =1
 
-    BadgeCanvas1 As Distintivo:
+    BadgeCanvas1 As Badge:
+        BasePaletteColor: =
         Content: ="Upload Image"
         DisplayMode: =DisplayMode.Edit
         Height: =99
@@ -22,7 +23,8 @@
         Y: =104
         ZIndex: =2
 
-    "TextInputCanvas1 As 'Entrada de texto'":
+    TextInputCanvas1 As Tekstinput:
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =75
         Value: ="Insert Patient Name"
