@@ -4,13 +4,13 @@
   "ControlUniqueIds": {
     "App": 1,
     "Host": 3,
-    "Patient adding page": 6,
-    "Patient list overview": 5,
-    "Patient questions form": 7
+    "Patient adding page": 5,
+    "Patient list overview": 4,
+    "Patient questions form": 6
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/21/2023 12:06:15",
+  "HeaderLastSavedDateTimeUTC": "11/21/2023 12:16:39",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -43,11 +43,11 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0085311,
+    "AnalysisLoadTime": 0.043178,
     "ControlCount": {
-      "screen": 8
+      "screen": 3
     },
-    "DeserializationLoadTime": 0.3162724
+    "DeserializationLoadTime": 0.3349453
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
