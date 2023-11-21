@@ -7,7 +7,18 @@
         "Hidden": false,
         "PropertyGroupName": "",
         "PropertyKind": 1,
-        "SectionIndex": 0,
+        "SectionIndex": 2,
+        "SectionName": null,
+        "Type": 0,
+        "WizardStep": null
+      },
+      "Appearance": {
+        "EnabledForFlyout": false,
+        "HelperUI": null,
+        "Hidden": false,
+        "PropertyGroupName": "",
+        "PropertyKind": 1,
+        "SectionIndex": 1,
         "SectionName": null,
         "Type": 0,
         "WizardStep": null
@@ -18,9 +29,31 @@
         "Hidden": false,
         "PropertyGroupName": "",
         "PropertyKind": 1,
-        "SectionIndex": 2,
+        "SectionIndex": 3,
         "SectionName": null,
         "Type": 32,
+        "WizardStep": null
+      },
+      "DisplayMode": {
+        "EnabledForFlyout": false,
+        "HelperUI": null,
+        "Hidden": false,
+        "PropertyGroupName": "",
+        "PropertyKind": 1,
+        "SectionIndex": 2,
+        "SectionName": null,
+        "Type": 27,
+        "WizardStep": null
+      },
+      "FontSize": {
+        "EnabledForFlyout": false,
+        "HelperUI": null,
+        "Hidden": false,
+        "PropertyGroupName": "",
+        "PropertyKind": 1,
+        "SectionIndex": 3,
+        "SectionName": null,
+        "Type": 0,
         "WizardStep": null
       },
       "Height": {
@@ -29,84 +62,18 @@
         "Hidden": false,
         "PropertyGroupName": "Size",
         "PropertyKind": 2,
-        "SectionIndex": 3,
+        "SectionIndex": 4,
         "SectionName": null,
         "Type": 0,
         "WizardStep": null
       },
-      "Indeterminate": {
+      "Text": {
         "EnabledForFlyout": false,
         "HelperUI": null,
         "Hidden": false,
         "PropertyGroupName": "",
         "PropertyKind": 1,
         "SectionIndex": 0,
-        "SectionName": null,
-        "Type": 0,
-        "WizardStep": null
-      },
-      "Max": {
-        "EnabledForFlyout": false,
-        "HelperUI": null,
-        "Hidden": false,
-        "PropertyGroupName": "",
-        "PropertyKind": 1,
-        "SectionIndex": 1,
-        "SectionName": null,
-        "Type": 0,
-        "WizardStep": null
-      },
-      "ProgressColor": {
-        "EnabledForFlyout": false,
-        "HelperUI": null,
-        "Hidden": false,
-        "PropertyGroupName": "",
-        "PropertyKind": 1,
-        "SectionIndex": 0,
-        "SectionName": null,
-        "Type": 0,
-        "WizardStep": null
-      },
-      "Shape": {
-        "EnabledForFlyout": false,
-        "HelperUI": null,
-        "Hidden": false,
-        "PropertyGroupName": "",
-        "PropertyKind": 1,
-        "SectionIndex": 0,
-        "SectionName": null,
-        "Type": 0,
-        "WizardStep": null
-      },
-      "Thickness": {
-        "EnabledForFlyout": false,
-        "HelperUI": null,
-        "Hidden": false,
-        "PropertyGroupName": "",
-        "PropertyKind": 1,
-        "SectionIndex": 0,
-        "SectionName": null,
-        "Type": 0,
-        "WizardStep": null
-      },
-      "Value": {
-        "EnabledForFlyout": false,
-        "HelperUI": null,
-        "Hidden": false,
-        "PropertyGroupName": "",
-        "PropertyKind": 1,
-        "SectionIndex": 1,
-        "SectionName": null,
-        "Type": 0,
-        "WizardStep": null
-      },
-      "Visible": {
-        "EnabledForFlyout": false,
-        "HelperUI": null,
-        "Hidden": false,
-        "PropertyGroupName": "",
-        "PropertyKind": 1,
-        "SectionIndex": 3,
         "SectionName": null,
         "Type": 0,
         "WizardStep": null
@@ -117,7 +84,7 @@
         "Hidden": false,
         "PropertyGroupName": "Size",
         "PropertyKind": 2,
-        "SectionIndex": 3,
+        "SectionIndex": 4,
         "SectionName": null,
         "Type": 0,
         "WizardStep": null
@@ -128,7 +95,7 @@
         "Hidden": false,
         "PropertyGroupName": "Position",
         "PropertyKind": 2,
-        "SectionIndex": 3,
+        "SectionIndex": 4,
         "SectionName": null,
         "Type": 0,
         "WizardStep": null
@@ -139,7 +106,7 @@
         "Hidden": false,
         "PropertyGroupName": "Position",
         "PropertyKind": 2,
-        "SectionIndex": 3,
+        "SectionIndex": 4,
         "SectionName": null,
         "Type": 0,
         "WizardStep": null
@@ -149,15 +116,15 @@
   "CommonEvents": [
     {
       "Description": "",
-      "DisplayName": "OnChange",
+      "DisplayName": "OnSelect",
       "Hidden": false,
       "IsPrimaryInput": false,
-      "Name": "OnChange"
+      "Name": "OnSelect"
     }
   ],
-  "ControlConstructor": "Progress",
+  "ControlConstructor": "ButtonCanvas",
   "ControlNamespace": "PowerApps.CoreControls",
-  "DisplayNameKey": "ProgressBar_Display_Key",
+  "DisplayNameKey": "ButtonCanvas",
   "IncludedProperties": [
     {
       "Category": "design",
@@ -217,7 +184,7 @@
     },
     {
       "Category": "design",
-      "DefaultValue": "450",
+      "DefaultValue": "96",
       "Description": "",
       "DescriptionResourceString": "",
       "DisplayName": "Width",
@@ -236,16 +203,16 @@
       "ParentDataSetName": "",
       "PassThroughProperty": "",
       "PfxDefaultValue": null,
-      "PhoneDefaultValue": "450",
+      "PhoneDefaultValue": "96",
       "Required": false,
       "ShouldAutoBind": false,
       "Type": 2,
       "Usage": 2,
-      "WebDefaultValue": "450"
+      "WebDefaultValue": "96"
     },
     {
       "Category": "design",
-      "DefaultValue": "45",
+      "DefaultValue": "32",
       "Description": "",
       "DescriptionResourceString": "",
       "DisplayName": "Height",
@@ -264,12 +231,12 @@
       "ParentDataSetName": "",
       "PassThroughProperty": "",
       "PfxDefaultValue": null,
-      "PhoneDefaultValue": "45",
+      "PhoneDefaultValue": "32",
       "Required": false,
       "ShouldAutoBind": false,
       "Type": 2,
       "Usage": 2,
-      "WebDefaultValue": "45"
+      "WebDefaultValue": "32"
     },
     {
       "Category": "design",
@@ -328,15 +295,43 @@
       "WebDefaultValue": ""
     }
   ],
-  "Name": "Barra de progreso",
+  "Name": "Knap",
   "Properties": [
     {
       "Category": "data",
+      "DefaultValue": "true",
+      "Description": "Angiver, om dette felt kan nås med Tab-tasten.",
+      "DescriptionResourceString": "ButtonCanvas_AcceptsFocus_Desc",
+      "DisplayName": "Accepterer fokus",
+      "DisplayNameResourceString": "ButtonCanvas_AcceptsFocus",
+      "EnumValues": [],
+      "HelperUI": "",
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "AcceptsFocus",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": "",
+      "PhoneDefaultValue": "",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 20,
+      "Usage": 0,
+      "WebDefaultValue": ""
+    },
+    {
+      "Category": "data",
       "DefaultValue": "",
-      "Description": "Texto de la etiqueta Aria del componente",
-      "DescriptionResourceString": "ProgressBar_AccessibleLabel_Desc_Key",
-      "DisplayName": "Etiqueta de accesibilidad",
-      "DisplayNameResourceString": "ProgressBar_AccessibleLabel_Display_Key",
+      "Description": "Etiket læst højt af skærmlæsere.",
+      "DescriptionResourceString": "ButtonCanvas_AccessibleLabel_Desc",
+      "DisplayName": "Tilgængelig etiket",
+      "DisplayNameResourceString": "ButtonCanvas_AccessibleLabel",
       "EnumValues": [],
       "HelperUI": null,
       "Hidden": false,
@@ -360,12 +355,48 @@
     },
     {
       "Category": "data",
-      "DefaultValue": "50",
-      "Description": "Valor",
-      "DescriptionResourceString": "ProgressBar_Value_Display_Key",
-      "DisplayName": "Valor",
-      "DisplayNameResourceString": "ProgressBar_Value_Display_Key",
-      "EnumValues": [],
+      "DefaultValue": "Primary",
+      "Description": "Vis som en af knaptyperne.",
+      "DescriptionResourceString": "ButtonCanvas_Appearance_Desc",
+      "DisplayName": "Type",
+      "DisplayNameResourceString": "ButtonCanvas_Appearance",
+      "EnumValues": [
+        {
+          "Description": "Primær",
+          "DisplayName": "Primær",
+          "IsDefaultValue": true,
+          "Name": "Primary",
+          "Value": "Primary"
+        },
+        {
+          "Description": "Sekundær",
+          "DisplayName": "Sekundær",
+          "IsDefaultValue": false,
+          "Name": "Secondary",
+          "Value": "Secondary"
+        },
+        {
+          "Description": "Kontur",
+          "DisplayName": "Kontur",
+          "IsDefaultValue": false,
+          "Name": "Outline",
+          "Value": "Outline"
+        },
+        {
+          "Description": "Raffineret",
+          "DisplayName": "Raffineret",
+          "IsDefaultValue": false,
+          "Name": "Subtle",
+          "Value": "Subtle"
+        },
+        {
+          "Description": "Gennemsigtig",
+          "DisplayName": "Gennemsigtig",
+          "IsDefaultValue": false,
+          "Name": "Transparent",
+          "Value": "Transparent"
+        }
+      ],
       "HelperUI": null,
       "Hidden": false,
       "IsDataSourceProperty": false,
@@ -375,35 +406,91 @@
       "IsPrimaryOutput": false,
       "IsResettable": false,
       "IsResettableToManifestDefault": false,
-      "Name": "Value",
+      "Name": "Appearance",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": "",
+      "PhoneDefaultValue": "Primary",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 1,
+      "Usage": 0,
+      "WebDefaultValue": "Primary"
+    },
+    {
+      "Category": "data",
+      "DefaultValue": "Knap",
+      "Description": "Tekst, der skal vises på knappen.",
+      "DescriptionResourceString": "ButtonCanvas_Text_Desc",
+      "DisplayName": "Tekst",
+      "DisplayNameResourceString": "ButtonCanvas_Text",
+      "EnumValues": [],
+      "HelperUI": null,
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": true,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "Text",
       "ParentDataSetName": "",
       "PassThroughProperty": "",
       "PfxDefaultValue": "",
       "PhoneDefaultValue": "",
       "Required": false,
       "ShouldAutoBind": false,
-      "Type": 15,
+      "Type": 6,
       "Usage": 0,
       "WebDefaultValue": ""
     },
     {
       "Category": "data",
-      "DefaultValue": "100",
-      "Description": "Descripción máxima de la barra de progreso",
-      "DescriptionResourceString": "ProgressBar_Max_Desc_Key",
-      "DisplayName": "Máximo",
-      "DisplayNameResourceString": "ProgressBar_Max_Display_Key",
+      "DefaultValue": "",
+      "Description": "Du kan angive en anden farvepalet til det valgte element ved at angive en basispaletfarve. Denne farve genererer et sæt lignende farver, der derefter anvendes på forskellige aspekter af elementet, mest almindeligt: udfyldning, ramme og interaktionstilstande. En tom værdi angiver, at elementet bruger farvepaletten i appens tema.",
+      "DescriptionResourceString": "Base_Palette_Color_description",
+      "DisplayName": "Basispaletfarve",
+      "DisplayNameResourceString": "Base_Palette_Color",
       "EnumValues": [],
-      "HelperUI": null,
+      "HelperUI": "color",
       "Hidden": false,
       "IsDataSourceProperty": false,
-      "IsLinkableToParentTheme": false,
+      "IsLinkableToParentTheme": true,
       "IsPrimaryBehavioral": false,
       "IsPrimaryInput": false,
       "IsPrimaryOutput": false,
       "IsResettable": false,
-      "IsResettableToManifestDefault": false,
-      "Name": "Max",
+      "IsResettableToManifestDefault": true,
+      "Name": "BasePaletteColor",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": "",
+      "PhoneDefaultValue": "",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 6,
+      "Usage": 0,
+      "WebDefaultValue": ""
+    },
+    {
+      "Category": "data",
+      "DefaultValue": "",
+      "Description": "Angiv skrifttypestørrelsen for den viste tekst.",
+      "DescriptionResourceString": "Font_Size_description",
+      "DisplayName": "Skrifttypestørrelse",
+      "DisplayNameResourceString": "Font_Size",
+      "EnumValues": [],
+      "HelperUI": null,
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": true,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": true,
+      "Name": "FontSize",
       "ParentDataSetName": "",
       "PassThroughProperty": "",
       "PfxDefaultValue": "",
@@ -413,177 +500,6 @@
       "Type": 16,
       "Usage": 0,
       "WebDefaultValue": ""
-    },
-    {
-      "Category": "data",
-      "DefaultValue": "Medium",
-      "Description": "Definir el grosor de la barra de progreso",
-      "DescriptionResourceString": "ProgressBar_Thickness_Desc_Key",
-      "DisplayName": "Grosor",
-      "DisplayNameResourceString": "ProgressBar_Thickness_Display_Key",
-      "EnumValues": [
-        {
-          "Description": "Medio",
-          "DisplayName": "Medio",
-          "IsDefaultValue": true,
-          "Name": "Medium",
-          "Value": "Medium"
-        },
-        {
-          "Description": "Grande",
-          "DisplayName": "Grande",
-          "IsDefaultValue": false,
-          "Name": "Large",
-          "Value": "Large"
-        }
-      ],
-      "HelperUI": null,
-      "Hidden": false,
-      "IsDataSourceProperty": false,
-      "IsLinkableToParentTheme": false,
-      "IsPrimaryBehavioral": false,
-      "IsPrimaryInput": false,
-      "IsPrimaryOutput": false,
-      "IsResettable": false,
-      "IsResettableToManifestDefault": false,
-      "Name": "Thickness",
-      "ParentDataSetName": "",
-      "PassThroughProperty": "",
-      "PfxDefaultValue": "",
-      "PhoneDefaultValue": "Medium",
-      "Required": false,
-      "ShouldAutoBind": false,
-      "Type": 1,
-      "Usage": 0,
-      "WebDefaultValue": "Medium"
-    },
-    {
-      "Category": "data",
-      "DefaultValue": "Rounded",
-      "Description": "Forma del componente de barra de progreso",
-      "DescriptionResourceString": "ProgressBar_Shape_Desc_Key",
-      "DisplayName": "Forma",
-      "DisplayNameResourceString": "ProgressBar_Shape_Display_Key",
-      "EnumValues": [
-        {
-          "Description": "Redondeada",
-          "DisplayName": "Redondeada",
-          "IsDefaultValue": true,
-          "Name": "Rounded",
-          "Value": "Rounded"
-        },
-        {
-          "Description": "Cuadrado",
-          "DisplayName": "Cuadrado",
-          "IsDefaultValue": false,
-          "Name": "Square",
-          "Value": "Square"
-        }
-      ],
-      "HelperUI": null,
-      "Hidden": false,
-      "IsDataSourceProperty": false,
-      "IsLinkableToParentTheme": false,
-      "IsPrimaryBehavioral": false,
-      "IsPrimaryInput": false,
-      "IsPrimaryOutput": false,
-      "IsResettable": false,
-      "IsResettableToManifestDefault": false,
-      "Name": "Shape",
-      "ParentDataSetName": "",
-      "PassThroughProperty": "",
-      "PfxDefaultValue": "",
-      "PhoneDefaultValue": "Rounded",
-      "Required": false,
-      "ShouldAutoBind": false,
-      "Type": 1,
-      "Usage": 0,
-      "WebDefaultValue": "Rounded"
-    },
-    {
-      "Category": "data",
-      "DefaultValue": "false",
-      "Description": "Barra de progreso indeterminado",
-      "DescriptionResourceString": "ProgressBar_Indeterminate_Desc_Key",
-      "DisplayName": "Indeterminado",
-      "DisplayNameResourceString": "ProgressBar_Indeterminate_Display_Key",
-      "EnumValues": [],
-      "HelperUI": null,
-      "Hidden": false,
-      "IsDataSourceProperty": false,
-      "IsLinkableToParentTheme": false,
-      "IsPrimaryBehavioral": false,
-      "IsPrimaryInput": false,
-      "IsPrimaryOutput": false,
-      "IsResettable": false,
-      "IsResettableToManifestDefault": false,
-      "Name": "Indeterminate",
-      "ParentDataSetName": "",
-      "PassThroughProperty": "",
-      "PfxDefaultValue": "",
-      "PhoneDefaultValue": "",
-      "Required": false,
-      "ShouldAutoBind": false,
-      "Type": 20,
-      "Usage": 0,
-      "WebDefaultValue": ""
-    },
-    {
-      "Category": "data",
-      "DefaultValue": "Brand",
-      "Description": "Color de la barra de progreso",
-      "DescriptionResourceString": "ProgressBar_ProgressColor_Desc_Key",
-      "DisplayName": "Color",
-      "DisplayNameResourceString": "ProgressBar_ProgressColor_Display_Key",
-      "EnumValues": [
-        {
-          "Description": "Ninguno",
-          "DisplayName": "Ninguno",
-          "IsDefaultValue": true,
-          "Name": "Brand",
-          "Value": "Brand"
-        },
-        {
-          "Description": "Correcto",
-          "DisplayName": "Correcto",
-          "IsDefaultValue": false,
-          "Name": "Success",
-          "Value": "Success"
-        },
-        {
-          "Description": "Advertencia",
-          "DisplayName": "Advertencia",
-          "IsDefaultValue": false,
-          "Name": "Warning",
-          "Value": "Warning"
-        },
-        {
-          "Description": "Error",
-          "DisplayName": "Error",
-          "IsDefaultValue": false,
-          "Name": "Error",
-          "Value": "Error"
-        }
-      ],
-      "HelperUI": null,
-      "Hidden": false,
-      "IsDataSourceProperty": false,
-      "IsLinkableToParentTheme": false,
-      "IsPrimaryBehavioral": false,
-      "IsPrimaryInput": false,
-      "IsPrimaryOutput": false,
-      "IsResettable": false,
-      "IsResettableToManifestDefault": false,
-      "Name": "ProgressColor",
-      "ParentDataSetName": "",
-      "PassThroughProperty": "",
-      "PfxDefaultValue": "",
-      "PhoneDefaultValue": "Brand",
-      "Required": false,
-      "ShouldAutoBind": false,
-      "Type": 1,
-      "Usage": 0,
-      "WebDefaultValue": "Brand"
     },
     {
       "Category": "design",
@@ -631,34 +547,6 @@
       "IsResettable": false,
       "IsResettableToManifestDefault": false,
       "Name": "Tooltip",
-      "ParentDataSetName": "",
-      "PassThroughProperty": "",
-      "PfxDefaultValue": "",
-      "PhoneDefaultValue": "",
-      "Required": false,
-      "ShouldAutoBind": false,
-      "Type": 6,
-      "Usage": 0,
-      "WebDefaultValue": ""
-    },
-    {
-      "Category": "data",
-      "DefaultValue": "",
-      "Description": "You can provide a different color palette for the selected item by specifying a base palette color. This color generates a set of similar colors that are then applied to different aspects of the item, most commonly: fill, border, and interaction states. A blank value indicates the item will use the color palette of the app's theme.",
-      "DescriptionResourceString": "Base_Palette_Color_description",
-      "DisplayName": "Base palette color",
-      "DisplayNameResourceString": "Base_Palette_Color",
-      "EnumValues": [],
-      "HelperUI": "color",
-      "Hidden": false,
-      "IsDataSourceProperty": false,
-      "IsLinkableToParentTheme": true,
-      "IsPrimaryBehavioral": false,
-      "IsPrimaryInput": false,
-      "IsPrimaryOutput": false,
-      "IsResettable": false,
-      "IsResettableToManifestDefault": true,
-      "Name": "BasePaletteColor",
       "ParentDataSetName": "",
       "PassThroughProperty": "",
       "PfxDefaultValue": "",
@@ -745,364 +633,364 @@
       "IsControlSpecific": false,
       "LoadingOrder": 7,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"ManifestTemplate\",\"Data\":{\"ConstructorName\":\"PowerApps.CoreControls.Progress\",\"CustomControlId\":\"PowerApps.CoreControls.Progress\",\"IsVirtual\":true,\"Properties\":{\"Resources\":[{\"Name\":\"/PCF/prop-types.js\",\"LoadOrder\":1,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/react-fela.js\",\"LoadOrder\":2,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela.js\",\"LoadOrder\":3,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela-dom.js\",\"LoadOrder\":4,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PCFControls/js/PCFControlWrapper.js\",\"LoadOrder\":6,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PcfControlProxy/js/PcfControlProxy.js\",\"LoadOrder\":7,\"Type\":0,\"LibraryName\":null}],\"GroupDefinitions\":null,\"DataSetDefinitions\":{},\"Properties\":{\"AccessibleLabel\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Value\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"50\"},\"Max\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"100\"},\"Thickness\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Medium\"},\"Shape\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Rounded\"},\"Indeterminate\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"false\"},\"ProgressColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Brand\"},\"TabIndex\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Tooltip\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"BasePaletteColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"}},\"FeatureUsage\":null},\"Events\":null,\"CommonEvents\":null,\"DesignMap\":null,\"PropertyDependencies\":[],\"Children\":null}}",
+      "Path": "{\"Id\":\"ManifestTemplate\",\"Data\":{\"ConstructorName\":\"PowerApps.CoreControls.ButtonCanvas\",\"CustomControlId\":\"PowerApps.CoreControls.ButtonCanvas\",\"IsVirtual\":true,\"Properties\":{\"Resources\":[{\"Name\":\"/PCF/prop-types.js\",\"LoadOrder\":1,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/react-fela.js\",\"LoadOrder\":2,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela.js\",\"LoadOrder\":3,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela-dom.js\",\"LoadOrder\":4,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PCFControls/js/PCFControlWrapper.js\",\"LoadOrder\":6,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PcfControlProxy/js/PcfControlProxy.js\",\"LoadOrder\":7,\"Type\":0,\"LibraryName\":null}],\"GroupDefinitions\":null,\"DataSetDefinitions\":{},\"Properties\":{\"AcceptsFocus\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"AccessibleLabel\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Appearance\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Primary\"},\"Text\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Knap\"},\"BasePaletteColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"FontSize\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"TabIndex\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Tooltip\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"}},\"FeatureUsage\":[{\"IsRequired\":true,\"Name\":\"ExplicitCommonEvents\"}]},\"Events\":null,\"CommonEvents\":{\"OnSelect\":{\"EventName\":\"OnSelect\"}},\"DesignMap\":null,\"PropertyDependencies\":[],\"Children\":null}}",
       "Type": 3
     },
     {
       "IsControlSpecific": false,
       "LoadingOrder": 8,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"ManifestPropertyTypes\",\"Data\":{\"Properties\":[{\"Name\":\"AccessibleLabel\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Value\",\"Type\":\"FP\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Max\",\"Type\":\"Whole_None\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Thickness\",\"Type\":\"Enum\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Shape\",\"Type\":\"Enum\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Indeterminate\",\"Type\":\"TwoOptions\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ProgressColor\",\"Type\":\"Enum\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"TabIndex\",\"Type\":\"Whole_None\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Tooltip\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"BasePaletteColor\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"FillColor\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"PCFTeamsTheme\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"X\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Y\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Width\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Height\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Visible\",\"Type\":\"Boolean\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"DisplayMode\",\"Type\":\"DisplayMode\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true}]}}",
+      "Path": "{\"Id\":\"ManifestPropertyTypes\",\"Data\":{\"Properties\":[{\"Name\":\"AcceptsFocus\",\"Type\":\"TwoOptions\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"AccessibleLabel\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Appearance\",\"Type\":\"Enum\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Text\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"None\",\"IsPrimary\":true,\"IsIncluded\":false},{\"Name\":\"BasePaletteColor\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"FillColor\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"FontSize\",\"Type\":\"Whole_None\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"TabIndex\",\"Type\":\"Whole_None\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Tooltip\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"PCFTeamsTheme\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"X\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Y\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Width\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Height\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Visible\",\"Type\":\"Boolean\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"DisplayMode\",\"Type\":\"DisplayMode\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true}]}}",
       "Type": 3
     },
     {
       "IsControlSpecific": false,
       "LoadingOrder": 9,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"PowerAppsControlInfo\",\"Data\":{\"TemplateVersion\":1,\"Version\":\"1.1.13\",\"IsFirstParty\":true}}",
+      "Path": "{\"Id\":\"PowerAppsControlInfo\",\"Data\":{\"TemplateVersion\":1,\"Version\":\"0.0.22\",\"IsFirstParty\":true}}",
       "Type": 3
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 10,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/bundle.js",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/ButtonCanvas.js",
       "Type": 0
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 9,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1033.resx",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1033.resx",
       "Type": 2
     },
     {
       "IsControlSpecific": false,
       "LoadingOrder": 12,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd, d' de 'MMMM' de 'yyyy H:mm:ss\",\"LongDatePattern\":\"dddd, d' de 'MMMM' de 'yyyy\",\"LongTimePattern\":\"H:mm:ss\",\"MonthDayPattern\":\"d 'de' MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd/MM/yyyy\",\"ShortTimePattern\":\"H:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM' de 'yyyy\",\"AbbreviatedDayNames\":[\"do.\",\"lu.\",\"ma.\",\"mi.\",\"ju.\",\"vi.\",\"sá.\"],\"ShortestDayNames\":[\"D\",\"L\",\"M\",\"X\",\"J\",\"V\",\"S\"],\"DayNames\":[\"domingo\",\"lunes\",\"martes\",\"miércoles\",\"jueves\",\"viernes\",\"sábado\"],\"AbbreviatedMonthNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"calendario gregoriano\",\"AbbreviatedMonthGenitiveNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthGenitiveNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"es-ES\",\"formatter\":null,\"languagesByCode\":{\"3082\":\"Spanish (Spain, International Sort)\",\"-1\":\"All Languages\"}}}",
+      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"-\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"d. MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"d. MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d. MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd-MM-yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"sø\",\"ma\",\"ti\",\"on\",\"to\",\"fr\",\"lø\"],\"ShortestDayNames\":[\"sø\",\"ma\",\"ti\",\"on\",\"to\",\"fr\",\"lø\"],\"DayNames\":[\"søndag\",\"mandag\",\"tirsdag\",\"onsdag\",\"torsdag\",\"fredag\",\"lørdag\"],\"AbbreviatedMonthNames\":[\"jan\",\"feb\",\"mar\",\"apr\",\"maj\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthNames\":[\"januar\",\"februar\",\"marts\",\"april\",\"maj\",\"juni\",\"juli\",\"august\",\"september\",\"oktober\",\"november\",\"december\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregoriansk kalender\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"feb\",\"mar\",\"apr\",\"maj\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthGenitiveNames\":[\"januar\",\"februar\",\"marts\",\"april\",\"maj\",\"juni\",\"juli\",\"august\",\"september\",\"oktober\",\"november\",\"december\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"kr.\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"da-DK\",\"formatter\":null,\"languagesByCode\":{\"1030\":\"Danish (Denmark)\",\"-1\":\"All Languages\"}}}",
       "Type": 3
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1025.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1025.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1026.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1026.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1027.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1027.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1028.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1028.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1029.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1029.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1030.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1030.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1031.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1031.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1032.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1032.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1033.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1033.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1035.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1035.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1036.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1036.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1037.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1037.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1038.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1038.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1040.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1040.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1041.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1041.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1042.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1042.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1043.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1043.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1044.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1044.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1045.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1045.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1046.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1046.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1048.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1048.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1049.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1049.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1050.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1050.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1051.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1051.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1053.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1053.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1054.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1054.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1055.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1055.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1057.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1057.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1058.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1058.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1060.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1060.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1061.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1061.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1062.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1062.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1063.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1063.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1066.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1066.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1069.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1069.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1081.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1081.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1086.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1086.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1087.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1087.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.1110.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.1110.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.2052.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.2052.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.2070.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.2070.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.2074.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.2074.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.3076.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.3076.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.3082.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.3082.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "/PCFControls/PowerApps_CoreControls_Progress/strings/Progress.3098.json",
+      "Path": "/PCFControls/PowerApps_CoreControls_ButtonCanvas/strings/ButtonCanvas.3098.json",
       "Type": 5
     },
     {
       "IsControlSpecific": false,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"ProgressBar_Display_Key\":\"Barra de progreso\",\"ProgressBar_Desc_Key\":\"Permitir que los usuarios visualicen el efecto de la barra de progreso\",\"ProgressBar_Shape_Display_Key\":\"Forma\",\"ProgressBar_Shape_Desc_Key\":\"Forma del componente de barra de progreso\",\"ProgressBar_AccessibleLabel_Display_Key\":\"Etiqueta de accesibilidad\",\"ProgressBar_AccessibleLabel_Desc_Key\":\"Texto de la etiqueta Aria del componente\",\"ProgressBar_ProgressColor_Display_Key\":\"Color\",\"ProgressBar_ProgressColor_Desc_Key\":\"Color de la barra de progreso\",\"ProgressBar_Thickness_Display_Key\":\"Grosor\",\"ProgressBar_Thickness_Desc_Key\":\"Definir el grosor de la barra de progreso\",\"ProgressBar_Max_Display_Key\":\"Máximo\",\"ProgressBar_Max_Desc_Key\":\"Descripción máxima de la barra de progreso\",\"ProgressBar_Value_Display_Key\":\"Valor\",\"ProgressBar_Value_Desc_Key\":\"Un número decimal entre 0 y 100 (o Máximo si se indica) que especifica qué cantidad de la tarea se ha completado.\",\"ProgressBar_Thickness_Medium\":\"Medio\",\"ProgressBar_Thickness_Large\":\"Grande\",\"ProgressBar_Shape_Square\":\"Cuadrado\",\"ProgressBar_Shape_Rounded\":\"Redondeada\",\"ProgressBar_Rounded_Desc_Key\":\"La forma de la barra de progreso es redondeada\",\"ProgressBar_Color_Success\":\"Correcto\",\"ProgressBar_Color_Brand\":\"Ninguno\",\"ProgressBar_Color_Warning\":\"Advertencia\",\"ProgressBar_Color_Error\":\"Error\",\"ProgressBar_Indeterminate_Display_Key\":\"Indeterminado\",\"ProgressBar_Indeterminate_Desc_Key\":\"Barra de progreso indeterminado\"}}}",
+      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"ButtonCanvas\":\"Knap\",\"ButtonCanvas_Desc\":\"Lad brugerne klikke på eller trykke på for at udføre en handling.\",\"ButtonCanvas_Appearance\":\"Type\",\"ButtonCanvas_Appearance_Desc\":\"Vis som en af knaptyperne.\",\"ButtonCanvas_Appearance_Secondary\":\"Sekundær\",\"ButtonCanvas_Appearance_Primary\":\"Primær\",\"ButtonCanvas_Appearance_Outline\":\"Kontur\",\"ButtonCanvas_Appearance_Subtle\":\"Raffineret\",\"ButtonCanvas_Appearance_Transparent\":\"Gennemsigtig\",\"ButtonCanvas_Text\":\"Tekst\",\"ButtonCanvas_Text_Desc\":\"Tekst, der skal vises på knappen.\",\"ButtonCanvas_AcceptsFocus\":\"Accepterer fokus\",\"ButtonCanvas_AcceptsFocus_Desc\":\"Angiver, om dette felt kan nås med Tab-tasten.\",\"ButtonCanvas_AccessibleLabel\":\"Tilgængelig etiket\",\"ButtonCanvas_AccessibleLabel_Desc\":\"Etiket læst højt af skærmlæsere.\",\"Base_Palette_Color\":\"Basispaletfarve\",\"Base_Palette_Color_description\":\"Du kan angive en anden farvepalet til det valgte element ved at angive en basispaletfarve. Denne farve genererer et sæt lignende farver, der derefter anvendes på forskellige aspekter af elementet, mest almindeligt: udfyldning, ramme og interaktionstilstande. En tom værdi angiver, at elementet bruger farvepaletten i appens tema.\",\"Font_Size\":\"Skrifttypestørrelse\",\"Font_Size_description\":\"Angiv skrifttypestørrelsen for den viste tekst.\"}}}",
       "Type": 3
     },
     {
@@ -1116,16 +1004,13 @@
       "IsControlSpecific": false,
       "LoadingOrder": 0,
       "ModifiedPath": "",
-      "Path": "React/16.8.6/16.8.6",
-      "Type": 4
-    },
-    {
-      "IsControlSpecific": false,
-      "LoadingOrder": 0,
-      "ModifiedPath": "",
       "Path": "Fluent/9.4.0/9.4.0",
       "Type": 4
     }
   ],
-  "Version": "1.1.13"
+  "SubscribedFunctionalities": {
+    "autoDisabledViewState": "true",
+    "supportSetFocus": "true"
+  },
+  "Version": "0.0.22"
 }
