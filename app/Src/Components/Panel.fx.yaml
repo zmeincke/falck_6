@@ -244,7 +244,7 @@ Panel As CanvasComponent:
                     X: =20
                     ZIndex: =1
 
-                    Button1 As Knap:
+                    Button1 As Knop:
                         Alignment: ="center"
                         BorderColor: =
                         BorderRadius: =If(Panel.RoundedButtons, 2, 0)

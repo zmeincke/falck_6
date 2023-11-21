@@ -13,20 +13,20 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
-  "Etiket": {
+  "Datumkiezer": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/Microsoft_CoreControls_Label",
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_DatePickerCanvas",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPcfControl": true,
     "IsPremiumPcfControl": false,
     "IsWidgetTemplate": false,
     "LastModifiedTimestamp": "0",
-    "Name": "Microsoft_CoreControls_Label",
+    "Name": "PowerApps_CoreControls_DatePickerCanvas",
     "OverridableProperties": {},
-    "TemplateDisplayName": "Etiket",
-    "Version": "1.6.0"
+    "TemplateDisplayName": "Datumkiezer",
+    "Version": "0.0.11"
   },
   "gallery": {
     "CustomGroupControlTemplateName": "",
@@ -57,14 +57,18 @@
     "Version": "1.0"
   },
   "groupContainer": {
+    "CustomGroupControlTemplateName": "",
     "FirstParty": true,
     "Id": "http://microsoft.com/appmagic/groupContainer",
     "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
     "IsPcfControl": false,
-    "IsWidgetTemplate": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
     "LastModifiedTimestamp": "0",
     "Name": "groupContainer",
-    "Version": "1.0"
+    "OverridableProperties": {},
+    "Version": "1.3.0"
   },
   "Host": {
     "CustomGroupControlTemplateName": "",
@@ -138,7 +142,7 @@
     "TemplateDisplayName": "In-/uitschakelen",
     "Version": "1.0.18"
   },
-  "Knap": {
+  "Knop": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
     "Id": "http://microsoft.com/appmagic/powercontrol/Microsoft_CoreControls_Button",
@@ -150,7 +154,7 @@
     "LastModifiedTimestamp": "0",
     "Name": "Microsoft_CoreControls_Button",
     "OverridableProperties": {},
-    "TemplateDisplayName": "Knap",
+    "TemplateDisplayName": "Knop",
     "Version": "1.5.2"
   },
   "label": {
@@ -166,6 +170,21 @@
     "Name": "label",
     "OverridableProperties": {},
     "Version": "2.5.1"
+  },
+  "Label": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/Microsoft_CoreControls_Label",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "Microsoft_CoreControls_Label",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Label",
+    "Version": "1.6.0"
   },
   "rectangle": {
     "CustomGroupControlTemplateName": "",

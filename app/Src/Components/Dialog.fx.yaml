@@ -204,7 +204,7 @@ Dialog As CanvasComponent:
                     X: =20
                     ZIndex: =4
 
-                    Button1_1 As Knap:
+                    Button1_1 As Knop:
                         Alignment: ="center"
                         BorderColor: =If(ThisItem.ButtonType = 'Spinner.Appearance'.Primary, ColorValue(Dialog.Theme.palette.themePrimary), ColorValue(Dialog.Theme.palette.neutralSecondary))
                         BorderRadius: =Dialog.BorderRadius
