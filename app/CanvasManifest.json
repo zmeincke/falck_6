@@ -132,11 +132,6 @@
   "ScreenOrder": [
     "Patient list overview",
     "Patient questions form",
-    "Patient adding page",
-    "Screen1 (Lucas)",
-    "Screen2 (Zasia)",
-    "Screen3 (Óscar)",
-    "Screen4 (Mats)",
-    "Screen5 (Andreas)"
+    "Patient adding page"
   ]
 }

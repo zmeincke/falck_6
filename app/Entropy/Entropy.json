@@ -6,16 +6,11 @@
     "Host": 3,
     "Patient adding page": 6,
     "Patient list overview": 5,
-    "Patient questions form": 7,
-    "Screen1 (Lucas)": 8,
-    "Screen2 (Zasia)": 9,
-    "Screen3 (Óscar)": 10,
-    "Screen4 (Mats)": 11,
-    "Screen5 (Andreas)": 4
+    "Patient questions form": 7
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/21/2023 12:05:51",
+  "HeaderLastSavedDateTimeUTC": "11/21/2023 12:06:15",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -33,12 +28,7 @@
     "Host": {},
     "Patient adding page": {},
     "Patient list overview": {},
-    "Patient questions form": {},
-    "Screen1 (Lucas)": {},
-    "Screen2 (Zasia)": {},
-    "Screen3 (Óscar)": {},
-    "Screen4 (Mats)": {},
-    "Screen5 (Andreas)": {}
+    "Patient questions form": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -47,12 +37,7 @@
     "Host": 0,
     "Patient adding page": 4,
     "Patient list overview": 3,
-    "Patient questions form": 5,
-    "Screen1 (Lucas)": 6,
-    "Screen2 (Zasia)": 7,
-    "Screen3 (Óscar)": 8,
-    "Screen4 (Mats)": 9,
-    "Screen5 (Andreas)": 10
+    "Patient questions form": 5
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
