@@ -31,6 +31,7 @@
         ZIndex: =3
 
     Header1 As Encabezado:
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =75
         Title: =App.ActiveScreen.Name
