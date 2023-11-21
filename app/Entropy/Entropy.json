@@ -1,9 +1,18 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Host": 3,
+    "Screen1 (Lucas)": 4,
+    "Screen2 (Zasia)": 5,
+    "Screen3 (Óscar)": 6,
+    "Screen4 (Mats)": 7,
+    "Screen5 (Andreas)": 8
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "11/21/2023 11:00:25",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -16,11 +25,35 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Host": {},
+    "Screen1 (Lucas)": {},
+    "Screen2 (Zasia)": {},
+    "Screen3 (Óscar)": {},
+    "Screen4 (Mats)": {},
+    "Screen5 (Andreas)": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Host": 0,
+    "Screen1 (Lucas)": 3,
+    "Screen2 (Zasia)": 4,
+    "Screen3 (Óscar)": 5,
+    "Screen4 (Mats)": 6,
+    "Screen5 (Andreas)": 7
+  },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0100576,
+    "ControlCount": {
+      "screen": 5
+    },
+    "DeserializationLoadTime": 0.3842482
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }
