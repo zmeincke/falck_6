@@ -1,6 +1,7 @@
 "'Patient questions form' As screen":
 
-    "Toggle1 As 'In-/uitschakelen'":
+    Toggle1 As Toggle:
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =35
         Width: =110

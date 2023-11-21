@@ -1,0 +1,30 @@
+"'Examination questions' As screen":
+
+    "Progress1 As 'Progress Bar'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =61
+        Width: =1078
+        X: =21
+        Y: =705
+        ZIndex: =1
+
+    ButtonCanvas1 As Button:
+        Appearance: ='ButtonCanvas.Appearance'.Secondary
+        BasePaletteColor: =RGBA(39, 113, 194, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =35
+        Text: ="Previous"
+        Width: =96
+        X: =1132
+        Y: =715
+        ZIndex: =2
+
+    ButtonCanvas2 As Button:
+        DisplayMode: =DisplayMode.Edit
+        Height: =35
+        Text: ="Next"
+        Width: =96
+        X: =1228
+        Y: =715
+        ZIndex: =3
+
