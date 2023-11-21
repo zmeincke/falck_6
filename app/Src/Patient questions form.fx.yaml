@@ -12,3 +12,12 @@
         Y: =0
         ZIndex: =1
 
+    Toggle1 As Toggle:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        Height: =35
+        Width: =110
+        X: =703
+        Y: =282
+        ZIndex: =1
+
