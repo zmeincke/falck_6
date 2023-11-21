@@ -4,12 +4,13 @@
   "ControlUniqueIds": {
     "App": 1,
     "Host": 3,
-    "Screen1": 4,
-    "Screen2": 5
+    "Main page": 4,
+    "Patients": 6,
+    "Schedule": 5
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/21/2023 10:36:20",
+  "HeaderLastSavedDateTimeUTC": "11/21/2023 11:00:14",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -25,16 +26,18 @@
   "OverridablePropertiesEntry": {
     "App": {},
     "Host": {},
-    "Screen1": {},
-    "Screen2": {}
+    "Main page": {},
+    "Patients": {},
+    "Schedule": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
     "Host": 0,
-    "Screen1": 3,
-    "Screen2": 4
+    "Main page": 3,
+    "Patients": 0,
+    "Schedule": 4
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},

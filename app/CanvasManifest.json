@@ -130,7 +130,8 @@
     "UserLocale": "nl-NL"
   },
   "ScreenOrder": [
-    "Screen1",
-    "Screen2"
+    "Main page",
+    "Schedule",
+    "Patients"
   ]
 }
