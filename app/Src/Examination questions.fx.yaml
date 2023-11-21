@@ -10,21 +10,42 @@
         ZIndex: =1
 
     ButtonCanvas1 As Botón:
-        Appearance: ='ButtonCanvas.Appearance'.Secondary
-        BasePaletteColor: =RGBA(39, 113, 194, 1)
+        BorderColor: =
+        DisabledBorderColor: =
+        DisabledFillColor: =
+        DisabledTextColor: =
         DisplayMode: =DisplayMode.Edit
+        FillColor: =
         Height: =35
+        HoverBorderColor: =
+        HoverFillColor: =
+        HoverTextColor: =
+        PressedBorderColor: =
+        PressedFillColor: =
+        PressedTextColor: =
         Text: ="Previous"
+        TextColor: =
         Width: =96
         X: =1132
         Y: =715
         ZIndex: =2
 
     ButtonCanvas2 As Botón:
-        BasePaletteColor: =
+        BorderColor: =
+        DisabledBorderColor: =
+        DisabledFillColor: =
+        DisabledTextColor: =
         DisplayMode: =DisplayMode.Edit
+        FillColor: =
         Height: =35
+        HoverBorderColor: =
+        HoverFillColor: =
+        HoverTextColor: =
+        PressedBorderColor: =
+        PressedFillColor: =
+        PressedTextColor: =
         Text: ="Next"
+        TextColor: =
         Width: =96
         X: =1228
         Y: =715

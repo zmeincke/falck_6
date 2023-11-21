@@ -30,11 +30,6 @@
       "Properties": [
         {
           "Category": "Data",
-          "PropertyName": "BasePaletteColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Data",
           "PropertyName": "Title",
           "RuleProviderType": "Unknown"
         },
@@ -51,6 +46,11 @@
         {
           "Category": "Data",
           "PropertyName": "UserEmail",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "BasePaletteColor",
           "RuleProviderType": "Unknown"
         },
         {
