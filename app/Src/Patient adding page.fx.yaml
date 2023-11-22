@@ -33,3 +33,9 @@
         Y: =116
         ZIndex: =3
 
+    Form2 As form.PowerApps_CoreControls_Form:
+        UseFluentV9Cards: =true
+        X: =38
+        Y: =230
+        ZIndex: =4
+
