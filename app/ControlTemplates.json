@@ -13,6 +13,21 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
+  "Badge": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_BadgeCanvas",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerApps_CoreControls_BadgeCanvas",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Badge",
+    "Version": "0.0.11"
+  },
   "Barra de progreso": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -216,6 +231,36 @@
     "OverridableProperties": {},
     "Version": "2.2.2"
   },
+  "Knop": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/Microsoft_CoreControls_Button",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "Microsoft_CoreControls_Button",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Knop",
+    "Version": "1.5.2"
+  },
+  "Koptekst": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/Header",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "Header",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Koptekst",
+    "Version": "0.0.22"
+  },
   "label": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -229,6 +274,21 @@
     "Name": "label",
     "OverridableProperties": {},
     "Version": "2.5.1"
+  },
+  "Label": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/Microsoft_CoreControls_Label",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "Microsoft_CoreControls_Label",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Label",
+    "Version": "1.6.0"
   },
   "rectangle": {
     "CustomGroupControlTemplateName": "",
@@ -257,5 +317,35 @@
     "Name": "screen",
     "OverridableProperties": {},
     "Version": "1.0"
+  },
+  "Tekstinvoer": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_TextInputCanvas",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerApps_CoreControls_TextInputCanvas",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Tekstinvoer",
+    "Version": "0.0.20"
+  },
+  "Voortgangsbalk": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_Progress",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerApps_CoreControls_Progress",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Voortgangsbalk",
+    "Version": "1.1.13"
   }
 }

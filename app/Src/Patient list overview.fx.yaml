@@ -1,6 +1,6 @@
 "'Patient list overview' As screen":
 
-    Header3 As Encabezado:
+    Header3 As Koptekst:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =75

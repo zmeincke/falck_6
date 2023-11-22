@@ -1,1 +1,24 @@
-{}
+{
+  "efff518c-4356-4dcf-a9d3-9554e8cbd7c5": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://powerkea.sharepoint.com": {
+        "dataSources": {
+          "Documents": {
+            "tableName": "747914e1-ba50-4e02-8ecb-d40347715a8a"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Documents"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "efff518c-4356-4dcf-a9d3-9554e8cbd7c5"
+  }
+}

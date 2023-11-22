@@ -1,0 +1,1123 @@
+{
+  "AuthConfigProperties": [
+    {
+      "Appearance": {
+        "EnabledForFlyout": false,
+        "HelperUI": null,
+        "Hidden": false,
+        "PropertyGroupName": "",
+        "PropertyKind": 1,
+        "SectionIndex": 1,
+        "SectionName": null,
+        "Type": 0,
+        "WizardStep": null
+      },
+      "BasePaletteColor": {
+        "EnabledForFlyout": false,
+        "HelperUI": "color",
+        "Hidden": false,
+        "PropertyGroupName": "",
+        "PropertyKind": 1,
+        "SectionIndex": 2,
+        "SectionName": null,
+        "Type": 32,
+        "WizardStep": null
+      },
+      "Content": {
+        "EnabledForFlyout": false,
+        "HelperUI": null,
+        "Hidden": false,
+        "PropertyGroupName": "",
+        "PropertyKind": 1,
+        "SectionIndex": 0,
+        "SectionName": null,
+        "Type": 0,
+        "WizardStep": null
+      },
+      "FontSize": {
+        "EnabledForFlyout": false,
+        "HelperUI": null,
+        "Hidden": false,
+        "PropertyGroupName": "",
+        "PropertyKind": 1,
+        "SectionIndex": 2,
+        "SectionName": null,
+        "Type": 0,
+        "WizardStep": null
+      },
+      "Height": {
+        "EnabledForFlyout": false,
+        "HelperUI": null,
+        "Hidden": false,
+        "PropertyGroupName": "Size",
+        "PropertyKind": 2,
+        "SectionIndex": 3,
+        "SectionName": null,
+        "Type": 0,
+        "WizardStep": null
+      },
+      "Shape": {
+        "EnabledForFlyout": false,
+        "HelperUI": null,
+        "Hidden": false,
+        "PropertyGroupName": "",
+        "PropertyKind": 1,
+        "SectionIndex": 1,
+        "SectionName": null,
+        "Type": 0,
+        "WizardStep": null
+      },
+      "ThemeColor": {
+        "EnabledForFlyout": false,
+        "HelperUI": null,
+        "Hidden": false,
+        "PropertyGroupName": "",
+        "PropertyKind": 1,
+        "SectionIndex": 1,
+        "SectionName": null,
+        "Type": 0,
+        "WizardStep": null
+      },
+      "Visible": {
+        "EnabledForFlyout": false,
+        "HelperUI": null,
+        "Hidden": false,
+        "PropertyGroupName": "",
+        "PropertyKind": 1,
+        "SectionIndex": 3,
+        "SectionName": null,
+        "Type": 0,
+        "WizardStep": null
+      },
+      "Width": {
+        "EnabledForFlyout": false,
+        "HelperUI": null,
+        "Hidden": false,
+        "PropertyGroupName": "Size",
+        "PropertyKind": 2,
+        "SectionIndex": 3,
+        "SectionName": null,
+        "Type": 0,
+        "WizardStep": null
+      },
+      "X": {
+        "EnabledForFlyout": false,
+        "HelperUI": null,
+        "Hidden": false,
+        "PropertyGroupName": "Position",
+        "PropertyKind": 2,
+        "SectionIndex": 3,
+        "SectionName": null,
+        "Type": 0,
+        "WizardStep": null
+      },
+      "Y": {
+        "EnabledForFlyout": false,
+        "HelperUI": null,
+        "Hidden": false,
+        "PropertyGroupName": "Position",
+        "PropertyKind": 2,
+        "SectionIndex": 3,
+        "SectionName": null,
+        "Type": 0,
+        "WizardStep": null
+      }
+    }
+  ],
+  "CommonEvents": [
+    {
+      "Description": "",
+      "DisplayName": "OnSelect",
+      "Hidden": false,
+      "IsPrimaryInput": false,
+      "Name": "OnSelect"
+    }
+  ],
+  "ControlConstructor": "BadgeCanvas",
+  "ControlNamespace": "PowerApps.CoreControls",
+  "DisplayNameKey": "BadgeCanvas",
+  "IncludedProperties": [
+    {
+      "Category": "design",
+      "DefaultValue": "",
+      "Description": "",
+      "DescriptionResourceString": "",
+      "DisplayName": "CC_X",
+      "DisplayNameResourceString": "CC_X",
+      "HelperUI": "",
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "X",
+      "NullDefaultValue": "",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": null,
+      "PhoneDefaultValue": "",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 2,
+      "Usage": 2,
+      "WebDefaultValue": ""
+    },
+    {
+      "Category": "design",
+      "DefaultValue": "",
+      "Description": "",
+      "DescriptionResourceString": "",
+      "DisplayName": "CC_Y",
+      "DisplayNameResourceString": "CC_Y",
+      "HelperUI": "",
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "Y",
+      "NullDefaultValue": "",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": null,
+      "PhoneDefaultValue": "",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 2,
+      "Usage": 2,
+      "WebDefaultValue": ""
+    },
+    {
+      "Category": "design",
+      "DefaultValue": "32",
+      "Description": "",
+      "DescriptionResourceString": "",
+      "DisplayName": "Width",
+      "DisplayNameResourceString": "Width",
+      "HelperUI": "",
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "Width",
+      "NullDefaultValue": "0",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": null,
+      "PhoneDefaultValue": "32",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 2,
+      "Usage": 2,
+      "WebDefaultValue": "32"
+    },
+    {
+      "Category": "design",
+      "DefaultValue": "32",
+      "Description": "",
+      "DescriptionResourceString": "",
+      "DisplayName": "Height",
+      "DisplayNameResourceString": "Height",
+      "HelperUI": "",
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "Height",
+      "NullDefaultValue": "0",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": null,
+      "PhoneDefaultValue": "32",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 2,
+      "Usage": 2,
+      "WebDefaultValue": "32"
+    },
+    {
+      "Category": "design",
+      "DefaultValue": "true",
+      "Description": "",
+      "DescriptionResourceString": "",
+      "DisplayName": "Visible",
+      "DisplayNameResourceString": "Visible",
+      "HelperUI": "",
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "Visible",
+      "NullDefaultValue": "",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": null,
+      "PhoneDefaultValue": "",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 4,
+      "Usage": 2,
+      "WebDefaultValue": ""
+    },
+    {
+      "Category": "design",
+      "DefaultValue": "",
+      "Description": "",
+      "DescriptionResourceString": "",
+      "DisplayName": "DisplayMode",
+      "DisplayNameResourceString": "DisplayMode",
+      "HelperUI": "",
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "DisplayMode",
+      "NullDefaultValue": "",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": null,
+      "PhoneDefaultValue": "",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 27,
+      "Usage": 2,
+      "WebDefaultValue": ""
+    }
+  ],
+  "Name": "Badge",
+  "Properties": [
+    {
+      "Category": "data",
+      "DefaultValue": "",
+      "Description": "Label read out by screen readers.",
+      "DescriptionResourceString": "BadgeCanvas_AccessibleLabel_Desc",
+      "DisplayName": "Accessible label",
+      "DisplayNameResourceString": "BadgeCanvas_AccessibleLabel",
+      "EnumValues": [],
+      "HelperUI": "",
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "AccessibleLabel",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": "",
+      "PhoneDefaultValue": "",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 6,
+      "Usage": 2,
+      "WebDefaultValue": ""
+    },
+    {
+      "Category": "data",
+      "DefaultValue": "Tint",
+      "Description": "Kies een stijl uit een selectie van weergavestijlen.",
+      "DescriptionResourceString": "BadgeCanvas_Appearance_Desc",
+      "DisplayName": "Weergave",
+      "DisplayNameResourceString": "BadgeCanvas_Appearance",
+      "EnumValues": [
+        {
+          "Description": "Gevuld",
+          "DisplayName": "Gevuld",
+          "IsDefaultValue": true,
+          "Name": "Filled",
+          "Value": "Filled"
+        },
+        {
+          "Description": "Ghost",
+          "DisplayName": "Ghost",
+          "IsDefaultValue": false,
+          "Name": "Ghost",
+          "Value": "Ghost"
+        },
+        {
+          "Description": "Contour",
+          "DisplayName": "Contour",
+          "IsDefaultValue": false,
+          "Name": "Outline",
+          "Value": "Outline"
+        },
+        {
+          "Description": "Tint",
+          "DisplayName": "Tint",
+          "IsDefaultValue": false,
+          "Name": "Tint",
+          "Value": "Tint"
+        }
+      ],
+      "HelperUI": null,
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "Appearance",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": "",
+      "PhoneDefaultValue": "Filled",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 1,
+      "Usage": 0,
+      "WebDefaultValue": "Filled"
+    },
+    {
+      "Category": "data",
+      "DefaultValue": "Brand",
+      "Description": "Kies een kleur uit een selectie van kleuren van het thema.",
+      "DescriptionResourceString": "BadgeCanvas_ThemeColor_Desc",
+      "DisplayName": "Kleur",
+      "DisplayNameResourceString": "BadgeCanvas_ThemeColor",
+      "EnumValues": [
+        {
+          "Description": "Merk",
+          "DisplayName": "Merk",
+          "IsDefaultValue": true,
+          "Name": "Brand",
+          "Value": "Brand"
+        },
+        {
+          "Description": "Gevaar",
+          "DisplayName": "Gevaar",
+          "IsDefaultValue": false,
+          "Name": "Danger",
+          "Value": "Danger"
+        },
+        {
+          "Description": "Belangrijk",
+          "DisplayName": "Belangrijk",
+          "IsDefaultValue": false,
+          "Name": "Important",
+          "Value": "Important"
+        },
+        {
+          "Description": "Informatief",
+          "DisplayName": "Informatief",
+          "IsDefaultValue": false,
+          "Name": "Informative",
+          "Value": "Informative"
+        },
+        {
+          "Description": "Ernstig",
+          "DisplayName": "Ernstig",
+          "IsDefaultValue": false,
+          "Name": "Severe",
+          "Value": "Severe"
+        },
+        {
+          "Description": "Subtiel",
+          "DisplayName": "Subtiel",
+          "IsDefaultValue": false,
+          "Name": "Subtle",
+          "Value": "Subtle"
+        },
+        {
+          "Description": "Geslaagd",
+          "DisplayName": "Geslaagd",
+          "IsDefaultValue": false,
+          "Name": "Success",
+          "Value": "Success"
+        },
+        {
+          "Description": "Waarschuwing",
+          "DisplayName": "Waarschuwing",
+          "IsDefaultValue": false,
+          "Name": "Warning",
+          "Value": "Warning"
+        }
+      ],
+      "HelperUI": null,
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "ThemeColor",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": "",
+      "PhoneDefaultValue": "Brand",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 1,
+      "Usage": 0,
+      "WebDefaultValue": "Brand"
+    },
+    {
+      "Category": "data",
+      "DefaultValue": "AB",
+      "Description": "Tekstinhoud die in de pop-up moet worden weergegeven.",
+      "DescriptionResourceString": "BadgeCanvas_Content_Desc",
+      "DisplayName": "Inhoud",
+      "DisplayNameResourceString": "BadgeCanvas_Content",
+      "EnumValues": [],
+      "HelperUI": null,
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": true,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "Content",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": "",
+      "PhoneDefaultValue": "",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 6,
+      "Usage": 0,
+      "WebDefaultValue": ""
+    },
+    {
+      "Category": "data",
+      "DefaultValue": "Circular",
+      "Description": "Kies een vorm uit een selectie van vormen.",
+      "DescriptionResourceString": "BadgeCanvas_Shape_Desc",
+      "DisplayName": "Vorm",
+      "DisplayNameResourceString": "BadgeCanvas_Shape",
+      "EnumValues": [
+        {
+          "Description": "Cirkelvormig",
+          "DisplayName": "Cirkelvormig",
+          "IsDefaultValue": true,
+          "Name": "Circular",
+          "Value": "Circular"
+        },
+        {
+          "Description": "Vierkant",
+          "DisplayName": "Vierkant",
+          "IsDefaultValue": false,
+          "Name": "Square",
+          "Value": "Square"
+        },
+        {
+          "Description": "Afgerond",
+          "DisplayName": "Afgerond",
+          "IsDefaultValue": false,
+          "Name": "Rounded",
+          "Value": "Rounded"
+        }
+      ],
+      "HelperUI": null,
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "Shape",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": "",
+      "PhoneDefaultValue": "Circular",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 1,
+      "Usage": 0,
+      "WebDefaultValue": "Circular"
+    },
+    {
+      "Category": "data",
+      "DefaultValue": "",
+      "Description": "U kunt een ander kleurenpalet voor het geselecteerde item opgeven door een basispaletkleur te kiezen. Deze kleur genereert een set vergelijkbare kleuren die vervolgens worden toegepast op de aspecten van het item, zoals opvulling, randen en interactiefases. Een lege waarde geeft aan dat het item het kleurenpalet gebruikt van het thema van de app.",
+      "DescriptionResourceString": "Base_Palette_Color_description",
+      "DisplayName": "Kleur basispalet",
+      "DisplayNameResourceString": "Base_Palette_Color",
+      "EnumValues": [],
+      "HelperUI": "color",
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": true,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": true,
+      "Name": "BasePaletteColor",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": "",
+      "PhoneDefaultValue": "",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 6,
+      "Usage": 0,
+      "WebDefaultValue": ""
+    },
+    {
+      "Category": "data",
+      "DefaultValue": "",
+      "Description": "De tekengrootte instellen voor weergegeven tekst.",
+      "DescriptionResourceString": "Font_Size_description",
+      "DisplayName": "Tekengrootte",
+      "DisplayNameResourceString": "Font_Size",
+      "EnumValues": [],
+      "HelperUI": null,
+      "Hidden": false,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": true,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": true,
+      "Name": "FontSize",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": "",
+      "PhoneDefaultValue": "",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 16,
+      "Usage": 0,
+      "WebDefaultValue": ""
+    },
+    {
+      "Category": "design",
+      "DefaultValue": "",
+      "Description": "NA",
+      "DescriptionResourceString": "NA",
+      "DisplayName": "NA",
+      "DisplayNameResourceString": "NA",
+      "EnumValues": [],
+      "HelperUI": "",
+      "Hidden": true,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "TabIndex",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": "",
+      "PhoneDefaultValue": "",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 16,
+      "Usage": 0,
+      "WebDefaultValue": ""
+    },
+    {
+      "Category": "design",
+      "DefaultValue": "",
+      "Description": "NA",
+      "DescriptionResourceString": "NA",
+      "DisplayName": "NA",
+      "DisplayNameResourceString": "NA",
+      "EnumValues": [],
+      "HelperUI": "",
+      "Hidden": true,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "Tooltip",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": "",
+      "PhoneDefaultValue": "",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 6,
+      "Usage": 0,
+      "WebDefaultValue": ""
+    },
+    {
+      "Category": "design",
+      "DefaultValue": "",
+      "Description": "",
+      "DescriptionResourceString": "",
+      "DisplayName": "PCFTeamsTheme",
+      "DisplayNameResourceString": "",
+      "HelperUI": "",
+      "Hidden": true,
+      "IsDataSourceProperty": false,
+      "IsLinkableToParentTheme": false,
+      "IsPrimaryBehavioral": false,
+      "IsPrimaryInput": false,
+      "IsPrimaryOutput": false,
+      "IsResettable": false,
+      "IsResettableToManifestDefault": false,
+      "Name": "PCFTeamsTheme",
+      "NullDefaultValue": "",
+      "ParentDataSetName": "",
+      "PassThroughProperty": "",
+      "PfxDefaultValue": "",
+      "PhoneDefaultValue": "",
+      "Required": false,
+      "ShouldAutoBind": false,
+      "Type": 3,
+      "Usage": 0,
+      "WebDefaultValue": ""
+    }
+  ],
+  "Resources": [
+    {
+      "IsControlSpecific": false,
+      "LoadingOrder": 1,
+      "ModifiedPath": "",
+      "Path": "/PCF/prop-types.js",
+      "Type": 0
+    },
+    {
+      "IsControlSpecific": false,
+      "LoadingOrder": 2,
+      "ModifiedPath": "",
+      "Path": "/PCF/react-fela.js",
+      "Type": 0
+    },
+    {
+      "IsControlSpecific": false,
+      "LoadingOrder": 3,
+      "ModifiedPath": "",
+      "Path": "/PCF/fela.js",
+      "Type": 0
+    },
+    {
+      "IsControlSpecific": false,
+      "LoadingOrder": 4,
+      "ModifiedPath": "",
+      "Path": "/PCF/fela-dom.js",
+      "Type": 0
+    },
+    {
+      "IsControlSpecific": false,
+      "LoadingOrder": 6,
+      "ModifiedPath": "",
+      "Path": "/ctrllib/PCFControls/js/PCFControlWrapper.js",
+      "Type": 0
+    },
+    {
+      "IsControlSpecific": false,
+      "LoadingOrder": 7,
+      "ModifiedPath": "",
+      "Path": "/ctrllib/PcfControlProxy/js/PcfControlProxy.js",
+      "Type": 0
+    },
+    {
+      "IsControlSpecific": false,
+      "LoadingOrder": 7,
+      "ModifiedPath": "",
+      "Path": "{\"Id\":\"ManifestTemplate\",\"Data\":{\"ConstructorName\":\"PowerApps.CoreControls.BadgeCanvas\",\"CustomControlId\":\"PowerApps.CoreControls.BadgeCanvas\",\"IsVirtual\":true,\"Properties\":{\"Resources\":[{\"Name\":\"/PCF/prop-types.js\",\"LoadOrder\":1,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/react-fela.js\",\"LoadOrder\":2,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela.js\",\"LoadOrder\":3,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela-dom.js\",\"LoadOrder\":4,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PCFControls/js/PCFControlWrapper.js\",\"LoadOrder\":6,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PcfControlProxy/js/PcfControlProxy.js\",\"LoadOrder\":7,\"Type\":0,\"LibraryName\":null}],\"GroupDefinitions\":null,\"DataSetDefinitions\":{},\"Properties\":{\"AccessibleLabel\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"Appearance\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Tint\"},\"ThemeColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Brand\"},\"Content\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"AB\"},\"Shape\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Circular\"},\"BasePaletteColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"FontSize\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"TabIndex\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Tooltip\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"}},\"FeatureUsage\":[{\"IsRequired\":true,\"Name\":\"ExplicitCommonEvents\"}]},\"Events\":null,\"CommonEvents\":{\"OnSelect\":{\"EventName\":\"OnSelect\"}},\"DesignMap\":null,\"PropertyDependencies\":[],\"Children\":null}}",
+      "Type": 3
+    },
+    {
+      "IsControlSpecific": false,
+      "LoadingOrder": 8,
+      "ModifiedPath": "",
+      "Path": "{\"Id\":\"ManifestPropertyTypes\",\"Data\":{\"Properties\":[{\"Name\":\"AccessibleLabel\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Appearance\",\"Type\":\"Enum\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"ThemeColor\",\"Type\":\"Enum\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Content\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"None\",\"IsPrimary\":true,\"IsIncluded\":false},{\"Name\":\"Shape\",\"Type\":\"Enum\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"BasePaletteColor\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"FillColor\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"FontSize\",\"Type\":\"Whole_None\",\"ComplexType\":\"None\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"TabIndex\",\"Type\":\"Whole_None\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"Tooltip\",\"Type\":\"SingleLine_Text\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":false},{\"Name\":\"PCFTeamsTheme\",\"Type\":\"String\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"X\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Y\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Width\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Height\",\"Type\":\"Number\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"Visible\",\"Type\":\"Boolean\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true},{\"Name\":\"DisplayMode\",\"Type\":\"DisplayMode\",\"ComplexType\":\"\",\"IsPrimary\":false,\"IsIncluded\":true}]}}",
+      "Type": 3
+    },
+    {
+      "IsControlSpecific": false,
+      "LoadingOrder": 9,
+      "ModifiedPath": "",
+      "Path": "{\"Id\":\"PowerAppsControlInfo\",\"Data\":{\"TemplateVersion\":1,\"Version\":\"0.0.11\",\"IsFirstParty\":true}}",
+      "Type": 3
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 10,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/BadgeCanvas.js",
+      "Type": 0
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 9,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1033.resx",
+      "Type": 2
+    },
+    {
+      "IsControlSpecific": false,
+      "LoadingOrder": 12,
+      "ModifiedPath": "",
+      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"-\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd d MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"dddd d MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"d-M-yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"ShortestDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"DayNames\":[\"zondag\",\"maandag\",\"dinsdag\",\"woensdag\",\"donderdag\",\"vrijdag\",\"zaterdag\"],\"AbbreviatedMonthNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregoriaanse kalender\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthGenitiveNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":12,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":2,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"nl-NL\",\"formatter\":null,\"languagesByCode\":{\"1043\":\"Dutch (Netherlands)\",\"-1\":\"All Languages\"}}}",
+      "Type": 3
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1025.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1026.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1027.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1028.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1029.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1030.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1031.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1032.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1033.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1035.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1036.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1037.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1038.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1040.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1041.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1042.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1043.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1044.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1045.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1046.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1048.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1049.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1050.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1051.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1053.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1054.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1055.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1057.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1058.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1060.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1061.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1062.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1063.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1066.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1069.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1081.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1086.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1087.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.1110.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.2052.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.2070.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.2074.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.3076.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.3082.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": true,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "/PCFControls/PowerApps_CoreControls_BadgeCanvas/strings/BadgeCanvas.3098.json",
+      "Type": 5
+    },
+    {
+      "IsControlSpecific": false,
+      "LoadingOrder": 13,
+      "ModifiedPath": "",
+      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"BadgeCanvas\":\"Badge\",\"BadgeCanvas_AccessibleLabel\":\"Accessible label\",\"BadgeCanvas_AccessibleLabel_Desc\":\"Label read out by screen readers.\",\"BadgeCanvas_Default_Content\":\"AB\",\"BadgeCanvas_Desc\":\"Een visuele decoratie voor UI-elementen.\",\"BadgeCanvas_Appearance\":\"Weergave\",\"BadgeCanvas_Appearance_Desc\":\"Kies een stijl uit een selectie van weergavestijlen.\",\"BadgeCanvas_Appearance_Filled\":\"Gevuld\",\"BadgeCanvas_Appearance_Ghost\":\"Ghost\",\"BadgeCanvas_Appearance_Outline\":\"Contour\",\"BadgeCanvas_Appearance_Tint\":\"Tint\",\"BadgeCanvas_ThemeColor\":\"Kleur\",\"BadgeCanvas_ThemeColor_Desc\":\"Kies een kleur uit een selectie van kleuren van het thema.\",\"BadgeCanvas_ThemeColor_Brand\":\"Merk\",\"BadgeCanvas_ThemeColor_Danger\":\"Gevaar\",\"BadgeCanvas_ThemeColor_Important\":\"Belangrijk\",\"BadgeCanvas_ThemeColor_Informative\":\"Informatief\",\"BadgeCanvas_ThemeColor_Severe\":\"Ernstig\",\"BadgeCanvas_ThemeColor_Subtle\":\"Subtiel\",\"BadgeCanvas_ThemeColor_Success\":\"Geslaagd\",\"BadgeCanvas_ThemeColor_Warning\":\"Waarschuwing\",\"BadgeCanvas_Content\":\"Inhoud\",\"BadgeCanvas_Content_Desc\":\"Tekstinhoud die in de pop-up moet worden weergegeven.\",\"BadgeCanvas_Shape\":\"Vorm\",\"BadgeCanvas_Shape_Desc\":\"Kies een vorm uit een selectie van vormen.\",\"BadgeCanvas_Shape_Circular\":\"Cirkelvormig\",\"BadgeCanvas_Shape_Square\":\"Vierkant\",\"BadgeCanvas_Shape_Rounded\":\"Afgerond\",\"Base_Palette_Color\":\"Kleur basispalet\",\"Base_Palette_Color_description\":\"U kunt een ander kleurenpalet voor het geselecteerde item opgeven door een basispaletkleur te kiezen. Deze kleur genereert een set vergelijkbare kleuren die vervolgens worden toegepast op de aspecten van het item, zoals opvulling, randen en interactiefases. Een lege waarde geeft aan dat het item het kleurenpalet gebruikt van het thema van de app.\",\"Font_Size\":\"Tekengrootte\",\"Font_Size_description\":\"De tekengrootte instellen voor weergegeven tekst.\"}}}",
+      "Type": 3
+    },
+    {
+      "IsControlSpecific": false,
+      "LoadingOrder": 5,
+      "ModifiedPath": "",
+      "Path": "/PCF/fluentui-react.js",
+      "Type": 0
+    },
+    {
+      "IsControlSpecific": false,
+      "LoadingOrder": 0,
+      "ModifiedPath": "",
+      "Path": "Fluent/9.4.0/9.4.0",
+      "Type": 4
+    }
+  ],
+  "Version": "0.0.11"
+}
