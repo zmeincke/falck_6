@@ -387,14 +387,14 @@
       "WebDefaultValue": ""
     }
   ],
-  "Name": "Encabezado",
+  "Name": "Koptekst",
   "Properties": [
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Puede proporcionar una paleta de colores diferente para el elemento seleccionado si especifica un color base de la paleta. Este color genera un conjunto de colores similares que se aplicarán después a diferentes aspectos del elemento, siendo los más habituales: relleno, borde y estados de interacción. Un valor en blanco indica que el elemento usará la paleta de colores del tema de la aplicación.",
+      "Description": "U kunt een ander kleurenpalet voor het geselecteerde item opgeven door een basispaletkleur te kiezen. Deze kleur genereert een set vergelijkbare kleuren die vervolgens worden toegepast op de aspecten van het item, zoals opvulling, randen en interactiefases. Een lege waarde geeft aan dat het item het kleurenpalet gebruikt van het thema van de app.",
       "DescriptionResourceString": "Base_Palette_Color_description",
-      "DisplayName": "Color base de la paleta",
+      "DisplayName": "Kleur basispalet",
       "DisplayNameResourceString": "Base_Palette_Color",
       "EnumValues": [],
       "HelperUI": "color",
@@ -420,28 +420,28 @@
     {
       "Category": "data",
       "DefaultValue": "Primary",
-      "Description": "El estilo de fondo del encabezado",
+      "Description": "De achtergrondstijl van de koptekst",
       "DescriptionResourceString": "Style_Desc_Key",
-      "DisplayName": "Estilo",
+      "DisplayName": "Stijl",
       "DisplayNameResourceString": "Style_Display_Key",
       "EnumValues": [
         {
-          "Description": "Neutro",
-          "DisplayName": "Neutro",
+          "Description": "Neutraal",
+          "DisplayName": "Neutraal",
           "IsDefaultValue": false,
           "Name": "Neutral",
           "Value": "Neutral"
         },
         {
-          "Description": "Principal",
-          "DisplayName": "Principal",
+          "Description": "Primair",
+          "DisplayName": "Primair",
           "IsDefaultValue": true,
           "Name": "Primary",
           "Value": "Primary"
         },
         {
-          "Description": "Claro",
-          "DisplayName": "Claro",
+          "Description": "Licht",
+          "DisplayName": "Licht",
           "IsDefaultValue": false,
           "Name": "Light",
           "Value": "Light"
@@ -470,9 +470,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "La imagen del logotipo del control",
+      "Description": "De logo-afbeelding van het besturingselement",
       "DescriptionResourceString": "Logo_Desc_Key",
-      "DisplayName": "Logotipo",
+      "DisplayName": "Logo",
       "DisplayNameResourceString": "Logo_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -498,9 +498,9 @@
     {
       "Category": "data",
       "DefaultValue": "true",
-      "Description": "Alterna la visualización del logotipo",
+      "Description": "Wisselknoppen voor het weergeven van het logo",
       "DescriptionResourceString": "IsLogoVisible_Desc_Key",
-      "DisplayName": "Visible",
+      "DisplayName": "Zichtbaar",
       "DisplayNameResourceString": "IsLogoVisible_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -525,10 +525,10 @@
     },
     {
       "Category": "data",
-      "DefaultValue": "La imagen del logotipo",
-      "Description": "La información sobre herramientas de la imagen del logotipo",
+      "DefaultValue": "De logo-afbeelding",
+      "Description": "Knopinfo voor logo-afbeelding",
       "DescriptionResourceString": "LogoTooltip_Desc_Key",
-      "DisplayName": "Información sobre herramientas",
+      "DisplayName": "Knopinfo",
       "DisplayNameResourceString": "LogoTooltip_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -554,9 +554,9 @@
     {
       "Category": "data",
       "DefaultValue": "70",
-      "Description": "La imagen del logotipo",
+      "Description": "De logo-afbeelding",
       "DescriptionResourceString": "LogoMaxHeight_Desc_Key",
-      "DisplayName": "Altura máxima del logotipo",
+      "DisplayName": "Maximumhoogte van logo",
       "DisplayNameResourceString": "LogoMaxHeight_Display_Key",
       "EnumValues": [],
       "HelperUI": "",
@@ -581,10 +581,10 @@
     },
     {
       "Category": "data",
-      "DefaultValue": "Título de encabezado",
-      "Description": "El texto del título del encabezado",
+      "DefaultValue": "Titel koptekst",
+      "Description": "De titeltekst van de koptekst",
       "DescriptionResourceString": "Title_Desc_Key",
-      "DisplayName": "Título",
+      "DisplayName": "Titel",
       "DisplayNameResourceString": "Title_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -610,9 +610,9 @@
     {
       "Category": "data",
       "DefaultValue": "true",
-      "Description": "Alterna la visualización del título",
+      "Description": "Wisselknoppen voor het weergeven van de titel",
       "DescriptionResourceString": "IsTitleVisible_Desc_Key",
-      "DisplayName": "Visible",
+      "DisplayName": "Zichtbaar",
       "DisplayNameResourceString": "IsTitleVisible_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -638,9 +638,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "El tamaño de fuente del título",
+      "Description": "De tekengrootte van de titel",
       "DescriptionResourceString": "TitleFontSize_Desc_Key",
-      "DisplayName": "Tamaño de fuente",
+      "DisplayName": "Tekengrootte",
       "DisplayNameResourceString": "TitleFontSize_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -666,9 +666,9 @@
     {
       "Category": "data",
       "DefaultValue": "true",
-      "Description": "Alterna la visualización de la imagen del perfil",
+      "Description": "Wisselknoppen voor het weergeven van de profielfoto",
       "DescriptionResourceString": "IsProfilePictureVisible_Desc_Key",
-      "DisplayName": "Imagen de perfil",
+      "DisplayName": "Profielafbeelding",
       "DisplayNameResourceString": "IsProfilePictureVisible_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -694,9 +694,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "La imagen del perfil del usuario",
+      "Description": "De afbeelding met de profielfoto van de gebruiker",
       "DescriptionResourceString": "UserImage_Desc_Key",
-      "DisplayName": "Imagen de usuario",
+      "DisplayName": "Afbeelding van gebruiker",
       "DisplayNameResourceString": "UserImage_Display_Key",
       "EnumValues": [],
       "HelperUI": "",
@@ -722,9 +722,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "El nombre completo del usuario",
+      "Description": "De volledige naam van de gebruiker",
       "DescriptionResourceString": "UserName_Desc_Key",
-      "DisplayName": "Nombre de usuario",
+      "DisplayName": "Gebruikersnaam",
       "DisplayNameResourceString": "UserName_Display_Key",
       "EnumValues": [],
       "HelperUI": "",
@@ -750,9 +750,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "La dirección de correo electrónico del usuario",
+      "Description": "Het e-mailadres van de gebruiker",
       "DescriptionResourceString": "UserEmail_Desc_Key",
-      "DisplayName": "Correo electrónico del usuario",
+      "DisplayName": "E-mailadres van gebruiker",
       "DisplayNameResourceString": "UserEmail_Display_Key",
       "EnumValues": [],
       "HelperUI": "",
@@ -907,7 +907,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 7,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"ManifestTemplate\",\"Data\":{\"ConstructorName\":\"PowerApps.Header\",\"CustomControlId\":\"PowerApps.Header\",\"IsVirtual\":true,\"Properties\":{\"Resources\":[{\"Name\":\"/PCF/prop-types.js\",\"LoadOrder\":1,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/react-fela.js\",\"LoadOrder\":2,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela.js\",\"LoadOrder\":3,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela-dom.js\",\"LoadOrder\":4,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PCFControls/js/PCFControlWrapper.js\",\"LoadOrder\":6,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PcfControlProxy/js/PcfControlProxy.js\",\"LoadOrder\":7,\"Type\":0,\"LibraryName\":null}],\"GroupDefinitions\":null,\"DataSetDefinitions\":{},\"Properties\":{\"BasePaletteColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Style\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Primary\"},\"Logo\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"IsLogoVisible\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"LogoTooltip\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"La imagen del logotipo\"},\"LogoMaxHeight\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"70\"},\"Title\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Título de encabezado\"},\"IsTitleVisible\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"TitleFontSize\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"IsProfilePictureVisible\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"UserImage\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"UserName\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"UserEmail\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"TabIndex\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Tooltip\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"}},\"FeatureUsage\":[{\"IsRequired\":true,\"Name\":\"ExplicitCommonEvents\"}]},\"Events\":null,\"CommonEvents\":null,\"DesignMap\":null,\"PropertyDependencies\":[],\"Children\":null}}",
+      "Path": "{\"Id\":\"ManifestTemplate\",\"Data\":{\"ConstructorName\":\"PowerApps.Header\",\"CustomControlId\":\"PowerApps.Header\",\"IsVirtual\":true,\"Properties\":{\"Resources\":[{\"Name\":\"/PCF/prop-types.js\",\"LoadOrder\":1,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/react-fela.js\",\"LoadOrder\":2,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela.js\",\"LoadOrder\":3,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela-dom.js\",\"LoadOrder\":4,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PCFControls/js/PCFControlWrapper.js\",\"LoadOrder\":6,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PcfControlProxy/js/PcfControlProxy.js\",\"LoadOrder\":7,\"Type\":0,\"LibraryName\":null}],\"GroupDefinitions\":null,\"DataSetDefinitions\":{},\"Properties\":{\"BasePaletteColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Style\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Primary\"},\"Logo\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"IsLogoVisible\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"LogoTooltip\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"De logo-afbeelding\"},\"LogoMaxHeight\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"70\"},\"Title\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Titel koptekst\"},\"IsTitleVisible\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"TitleFontSize\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"IsProfilePictureVisible\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"UserImage\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"UserName\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"UserEmail\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"TabIndex\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Tooltip\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"}},\"FeatureUsage\":[{\"IsRequired\":true,\"Name\":\"ExplicitCommonEvents\"}]},\"Events\":null,\"CommonEvents\":null,\"DesignMap\":null,\"PropertyDependencies\":[],\"Children\":null}}",
       "Type": 3
     },
     {
@@ -942,7 +942,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 12,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd, d' de 'MMMM' de 'yyyy H:mm:ss\",\"LongDatePattern\":\"dddd, d' de 'MMMM' de 'yyyy\",\"LongTimePattern\":\"H:mm:ss\",\"MonthDayPattern\":\"d 'de' MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd/MM/yyyy\",\"ShortTimePattern\":\"H:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM' de 'yyyy\",\"AbbreviatedDayNames\":[\"do.\",\"lu.\",\"ma.\",\"mi.\",\"ju.\",\"vi.\",\"sá.\"],\"ShortestDayNames\":[\"D\",\"L\",\"M\",\"X\",\"J\",\"V\",\"S\"],\"DayNames\":[\"domingo\",\"lunes\",\"martes\",\"miércoles\",\"jueves\",\"viernes\",\"sábado\"],\"AbbreviatedMonthNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"calendario gregoriano\",\"AbbreviatedMonthGenitiveNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthGenitiveNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"es-ES\",\"formatter\":null,\"languagesByCode\":{\"3082\":\"Spanish (Spain, International Sort)\",\"-1\":\"All Languages\"}}}",
+      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"-\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd d MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"dddd d MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"d-M-yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"ShortestDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"DayNames\":[\"zondag\",\"maandag\",\"dinsdag\",\"woensdag\",\"donderdag\",\"vrijdag\",\"zaterdag\"],\"AbbreviatedMonthNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregoriaanse kalender\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthGenitiveNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":12,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":2,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"nl-NL\",\"formatter\":null,\"languagesByCode\":{\"1043\":\"Dutch (Netherlands)\",\"-1\":\"All Languages\"}}}",
       "Type": 3
     },
     {
@@ -1264,7 +1264,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"Header_Display_Key\":\"Encabezado\",\"Header_Desc_Key\":\"Los controles que componen el encabezado\",\"BackgroundColor_Display_Key\":\"Color de fondo del encabezado\",\"BackgroundColor_Desc_Key\":\"El color de relleno del encabezado\",\"Title_Display_Key\":\"Título\",\"Title_Desc_Key\":\"El texto del título del encabezado\",\"Default_Title\":\"Título de encabezado\",\"IsTitleVisible_Display_Key\":\"Visible\",\"IsTitleVisible_Desc_Key\":\"Alterna la visualización del título\",\"TitleFontSize_Display_Key\":\"Tamaño de fuente\",\"TitleFontSize_Desc_Key\":\"El tamaño de fuente del título\",\"Logo_Display_Key\":\"Logotipo\",\"Logo_Desc_Key\":\"La imagen del logotipo del control\",\"IsLogoVisible_Display_Key\":\"Visible\",\"IsLogoVisible_Desc_Key\":\"Alterna la visualización del logotipo\",\"LogoTooltip_Display_Key\":\"Información sobre herramientas\",\"LogoTooltip_Desc_Key\":\"La información sobre herramientas de la imagen del logotipo\",\"Default_LogoTooltip\":\"La imagen del logotipo\",\"LogoMaxHeight_Display_Key\":\"Altura máxima del logotipo\",\"LogoMaxHeight_Desc_Key\":\"La imagen del logotipo\",\"UserName_Display_Key\":\"Nombre de usuario\",\"UserName_Desc_Key\":\"El nombre completo del usuario\",\"UserEmail_Display_Key\":\"Correo electrónico del usuario\",\"UserEmail_Desc_Key\":\"La dirección de correo electrónico del usuario\",\"IsProfilePictureVisible_Display_Key\":\"Imagen de perfil\",\"IsProfilePictureVisible_Desc_Key\":\"Alterna la visualización de la imagen del perfil\",\"UserImage_Display_Key\":\"Imagen de usuario\",\"UserImage_Desc_Key\":\"La imagen del perfil del usuario\",\"Style_Display_Key\":\"Estilo\",\"Style_Desc_Key\":\"El estilo de fondo del encabezado\",\"Style_Neutral\":\"Neutro\",\"Style_Primary\":\"Principal\",\"Style_Light\":\"Claro\",\"Base_Palette_Color\":\"Color base de la paleta\",\"Base_Palette_Color_description\":\"Puede proporcionar una paleta de colores diferente para el elemento seleccionado si especifica un color base de la paleta. Este color genera un conjunto de colores similares que se aplicarán después a diferentes aspectos del elemento, siendo los más habituales: relleno, borde y estados de interacción. Un valor en blanco indica que el elemento usará la paleta de colores del tema de la aplicación.\"}}}",
+      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"Header_Display_Key\":\"Koptekst\",\"Header_Desc_Key\":\"De besturingselementen waaruit de koptekst bestaat\",\"BackgroundColor_Display_Key\":\"Achtergrondkleur koptekst\",\"BackgroundColor_Desc_Key\":\"De vulkleur van de koptekst\",\"Title_Display_Key\":\"Titel\",\"Title_Desc_Key\":\"De titeltekst van de koptekst\",\"Default_Title\":\"Titel koptekst\",\"IsTitleVisible_Display_Key\":\"Zichtbaar\",\"IsTitleVisible_Desc_Key\":\"Wisselknoppen voor het weergeven van de titel\",\"TitleFontSize_Display_Key\":\"Tekengrootte\",\"TitleFontSize_Desc_Key\":\"De tekengrootte van de titel\",\"Logo_Display_Key\":\"Logo\",\"Logo_Desc_Key\":\"De logo-afbeelding van het besturingselement\",\"IsLogoVisible_Display_Key\":\"Zichtbaar\",\"IsLogoVisible_Desc_Key\":\"Wisselknoppen voor het weergeven van het logo\",\"LogoTooltip_Display_Key\":\"Knopinfo\",\"LogoTooltip_Desc_Key\":\"Knopinfo voor logo-afbeelding\",\"Default_LogoTooltip\":\"De logo-afbeelding\",\"LogoMaxHeight_Display_Key\":\"Maximumhoogte van logo\",\"LogoMaxHeight_Desc_Key\":\"De logo-afbeelding\",\"UserName_Display_Key\":\"Gebruikersnaam\",\"UserName_Desc_Key\":\"De volledige naam van de gebruiker\",\"UserEmail_Display_Key\":\"E-mailadres van gebruiker\",\"UserEmail_Desc_Key\":\"Het e-mailadres van de gebruiker\",\"IsProfilePictureVisible_Display_Key\":\"Profielafbeelding\",\"IsProfilePictureVisible_Desc_Key\":\"Wisselknoppen voor het weergeven van de profielfoto\",\"UserImage_Display_Key\":\"Afbeelding van gebruiker\",\"UserImage_Desc_Key\":\"De afbeelding met de profielfoto van de gebruiker\",\"Style_Display_Key\":\"Stijl\",\"Style_Desc_Key\":\"De achtergrondstijl van de koptekst\",\"Style_Neutral\":\"Neutraal\",\"Style_Primary\":\"Primair\",\"Style_Light\":\"Licht\",\"Base_Palette_Color\":\"Kleur basispalet\",\"Base_Palette_Color_description\":\"U kunt een ander kleurenpalet voor het geselecteerde item opgeven door een basispaletkleur te kiezen. Deze kleur genereert een set vergelijkbare kleuren die vervolgens worden toegepast op de aspecten van het item, zoals opvulling, randen en interactiefases. Een lege waarde geeft aan dat het item het kleurenpalet gebruikt van het thema van de app.\"}}}",
       "Type": 3
     },
     {

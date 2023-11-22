@@ -127,7 +127,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "es-ES"
+    "UserLocale": "nl-NL"
   },
   "ScreenOrder": [
     "Patient list overview",

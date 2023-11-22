@@ -398,14 +398,14 @@
       "WebDefaultValue": ""
     }
   ],
-  "Name": "Etiqueta",
+  "Name": "Label",
   "Properties": [
     {
       "Category": "data",
       "DefaultValue": "Label",
-      "Description": "Texto de la etiqueta.",
+      "Description": "Tekst voor de label.",
       "DescriptionResourceString": "Label_Text_Desc_Key",
-      "DisplayName": "Texto",
+      "DisplayName": "Tekst",
       "DisplayNameResourceString": "Label_Text_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -431,9 +431,9 @@
     {
       "Category": "data",
       "DefaultValue": "10.5",
-      "Description": "Tamaño de fuente (en puntos) que se usará para el texto de la etiqueta.",
+      "Description": "Tekengrootte (in punten) die moet worden gebruikt voor labeltekst.",
       "DescriptionResourceString": "Label_FontSize_Desc_Key",
-      "DisplayName": "Tamaño de fuente",
+      "DisplayName": "Tekengrootte",
       "DisplayNameResourceString": "Label_FontSize_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -459,9 +459,9 @@
     {
       "Category": "data",
       "DefaultValue": "normal",
-      "Description": "Espesor de fuente que se usará para el texto de la etiqueta.",
+      "Description": "Tekengewicht dat moet worden gebruikt voor labeltekst.",
       "DescriptionResourceString": "Label_FontWeight_Desc_Key",
-      "DisplayName": "Espesor de fuente",
+      "DisplayName": "Tekengewicht",
       "DisplayNameResourceString": "Label_FontWeight_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -487,9 +487,9 @@
     {
       "Category": "data",
       "DefaultValue": "'Segoe UI', 'Open Sans', sans-serif",
-      "Description": "Fuente que se usará para la etiqueta.",
+      "Description": "Het lettertype dat moet worden gebruikt voor het label.",
       "DescriptionResourceString": "Label_Font_Desc_Key",
-      "DisplayName": "Fuente",
+      "DisplayName": "Lettertype",
       "DisplayNameResourceString": "Label_Font_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -515,9 +515,9 @@
     {
       "Category": "data",
       "DefaultValue": "left",
-      "Description": "Alineación horizontal de la etiqueta de texto.",
+      "Description": "Horizontale uitlijning van labeltekst",
       "DescriptionResourceString": "Label_Alignment_Desc_Key",
-      "DisplayName": "Alineación",
+      "DisplayName": "Uitlijning",
       "DisplayNameResourceString": "Label_Alignment_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -543,9 +543,9 @@
     {
       "Category": "data",
       "DefaultValue": "middle",
-      "Description": "Alineación vertical de la etiqueta de texto.",
+      "Description": "Verticale uitlijning van labeltekst.",
       "DescriptionResourceString": "Label_VerticalAlignment_Desc_Key",
-      "DisplayName": "Alineación vertical",
+      "DisplayName": "Verticale uitlijning",
       "DisplayNameResourceString": "Label_VerticalAlignment_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -571,9 +571,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Color que se usará para el texto de la etiqueta.",
+      "Description": "Kleur die moet worden gebruikt voor labeltekst.",
       "DescriptionResourceString": "Label_Color_Desc_Key",
-      "DisplayName": "Color",
+      "DisplayName": "Kleur",
       "DisplayNameResourceString": "Label_Color_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -599,9 +599,9 @@
     {
       "Category": "data",
       "DefaultValue": "true",
-      "Description": "Si el texto debe ajustarse a varias líneas.",
+      "Description": "Of terugloop van de tekst moet plaatsvinden over meerdere regels.",
       "DescriptionResourceString": "Label_Wrap_Desc_Key",
-      "DisplayName": "Ajuste",
+      "DisplayName": "Terugloop",
       "DisplayNameResourceString": "Label_Wrap_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -627,9 +627,9 @@
     {
       "Category": "data",
       "DefaultValue": "false",
-      "Description": "Indica si se debe ajustar la altura a las dimensiones del contenedor",
+      "Description": "Of de hoogte moet worden aangepast aan de containerafmetingen",
       "DescriptionResourceString": "Label_AutoHeight_Desc_Key",
-      "DisplayName": "Altura automática",
+      "DisplayName": "Automatische hoogte",
       "DisplayNameResourceString": "Label_AutoHeight_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -655,9 +655,9 @@
     {
       "Category": "design",
       "DefaultValue": "32",
-      "Description": "Altura del elemento; se puede establecer automáticamente si Altura automática se establece en verdadero.",
+      "Description": "Hoogte van het element kan automatisch worden ingesteld als Automatische hoogte is ingesteld op waar.",
       "DescriptionResourceString": "Label_Height_Desc_Key",
-      "DisplayName": "Altura",
+      "DisplayName": "Hoogte",
       "DisplayNameResourceString": "Label_Height_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -683,21 +683,21 @@
     {
       "Category": "data",
       "DefaultValue": "Hidden",
-      "Description": "Configuración del desbordamiento de Etiqueta.",
+      "Description": "Overloopinstelling van het label.",
       "DescriptionResourceString": "Label_Overflow_Desc_Key",
-      "DisplayName": "Desbordamiento",
+      "DisplayName": "Overloop",
       "DisplayNameResourceString": "Label_Overflow_Display_Key",
       "EnumValues": [
         {
-          "Description": "Oculto",
-          "DisplayName": "Oculto",
+          "Description": "Verborgen",
+          "DisplayName": "Verborgen",
           "IsDefaultValue": true,
           "Name": "Hidden",
           "Value": "Hidden"
         },
         {
-          "Description": "Desplazar",
-          "DisplayName": "Desplazar",
+          "Description": "Scrollen",
+          "DisplayName": "Scrollen",
           "IsDefaultValue": false,
           "Name": "Scroll",
           "Value": "Scroll"
@@ -726,42 +726,42 @@
     {
       "Category": "data",
       "DefaultValue": "Default",
-      "Description": "Cambiar el rol del texto de la etiqueta.",
+      "Description": "Wijzig rol van labeltekst.",
       "DescriptionResourceString": "Label_TextRole_Desc_Key",
-      "DisplayName": "Rol de texto",
+      "DisplayName": "Tekstrol",
       "DisplayNameResourceString": "Label_TextRole_Display_Key",
       "EnumValues": [
         {
-          "Description": "Valor predeterminado",
-          "DisplayName": "Valor predeterminado",
+          "Description": "Standaardinstelling",
+          "DisplayName": "Standaardinstelling",
           "IsDefaultValue": true,
           "Name": "Default",
           "Value": "Default"
         },
         {
-          "Description": "Encabezado 1",
-          "DisplayName": "Encabezado 1",
+          "Description": "Kop 1",
+          "DisplayName": "Kop 1",
           "IsDefaultValue": false,
           "Name": "Heading1",
           "Value": "Heading1"
         },
         {
-          "Description": "Encabezado 2",
-          "DisplayName": "Encabezado 2",
+          "Description": "Kop 2",
+          "DisplayName": "Kop 2",
           "IsDefaultValue": false,
           "Name": "Heading2",
           "Value": "Heading2"
         },
         {
-          "Description": "Encabezado 3",
-          "DisplayName": "Encabezado 3",
+          "Description": "Kop 3",
+          "DisplayName": "Kop 3",
           "IsDefaultValue": false,
           "Name": "Heading3",
           "Value": "Heading3"
         },
         {
-          "Description": "Encabezado 4",
-          "DisplayName": "Encabezado 4",
+          "Description": "Kop 4",
+          "DisplayName": "Kop 4",
           "IsDefaultValue": false,
           "Name": "Heading4",
           "Value": "Heading4"
@@ -790,9 +790,9 @@
     {
       "Category": "data",
       "DefaultValue": "0",
-      "Description": "Valor en píxeles del relleno superior del texto de la etiqueta.",
+      "Description": "De waarde in pixels van de opvulling boven van de labeltekst.",
       "DescriptionResourceString": "Label_PaddingTop_Desc_Key",
-      "DisplayName": "Relleno superior",
+      "DisplayName": "Opvulling boven",
       "DisplayNameResourceString": "Label_PaddingTop_Display_Key",
       "EnumValues": [],
       "HelperUI": "",
@@ -818,9 +818,9 @@
     {
       "Category": "data",
       "DefaultValue": "0",
-      "Description": "Valor en píxeles del relleno final del texto de la etiqueta.",
+      "Description": "De waarde in pixels van de eindopvulling van de labeltekst.",
       "DescriptionResourceString": "Label_PaddingEnd_Desc_Key",
-      "DisplayName": "Relleno final",
+      "DisplayName": "Eindopvulling",
       "DisplayNameResourceString": "Label_PaddingEnd_Display_Key",
       "EnumValues": [],
       "HelperUI": "",
@@ -846,9 +846,9 @@
     {
       "Category": "data",
       "DefaultValue": "0",
-      "Description": "Valor en píxeles del relleno inferior del texto de la etiqueta.",
+      "Description": "De waarde in pixels van de opvulling onder van de labeltekst.",
       "DescriptionResourceString": "Label_PaddingBottom_Desc_Key",
-      "DisplayName": "Relleno inferior",
+      "DisplayName": "Opvulling onder",
       "DisplayNameResourceString": "Label_PaddingBottom_Display_Key",
       "EnumValues": [],
       "HelperUI": "",
@@ -874,9 +874,9 @@
     {
       "Category": "data",
       "DefaultValue": "0",
-      "Description": "Valor en píxeles del relleno inicial del texto de la etiqueta.",
+      "Description": "De waarde in pixels van de beginopvulling van de labeltekst.",
       "DescriptionResourceString": "Label_PaddingStart_Desc_Key",
-      "DisplayName": "Relleno inicial",
+      "DisplayName": "Beginopvulling",
       "DisplayNameResourceString": "Label_PaddingStart_Display_Key",
       "EnumValues": [],
       "HelperUI": "",
@@ -1010,7 +1010,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 12,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd, d' de 'MMMM' de 'yyyy H:mm:ss\",\"LongDatePattern\":\"dddd, d' de 'MMMM' de 'yyyy\",\"LongTimePattern\":\"H:mm:ss\",\"MonthDayPattern\":\"d 'de' MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd/MM/yyyy\",\"ShortTimePattern\":\"H:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM' de 'yyyy\",\"AbbreviatedDayNames\":[\"do.\",\"lu.\",\"ma.\",\"mi.\",\"ju.\",\"vi.\",\"sá.\"],\"ShortestDayNames\":[\"D\",\"L\",\"M\",\"X\",\"J\",\"V\",\"S\"],\"DayNames\":[\"domingo\",\"lunes\",\"martes\",\"miércoles\",\"jueves\",\"viernes\",\"sábado\"],\"AbbreviatedMonthNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"calendario gregoriano\",\"AbbreviatedMonthGenitiveNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthGenitiveNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"es-ES\",\"formatter\":null,\"languagesByCode\":{\"3082\":\"Spanish (Spain, International Sort)\",\"-1\":\"All Languages\"}}}",
+      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"-\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd d MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"dddd d MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"d-M-yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"ShortestDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"DayNames\":[\"zondag\",\"maandag\",\"dinsdag\",\"woensdag\",\"donderdag\",\"vrijdag\",\"zaterdag\"],\"AbbreviatedMonthNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregoriaanse kalender\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthGenitiveNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":12,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":2,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"nl-NL\",\"formatter\":null,\"languagesByCode\":{\"1043\":\"Dutch (Netherlands)\",\"-1\":\"All Languages\"}}}",
       "Type": 3
     },
     {
@@ -1332,7 +1332,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"Label_Desc_Key\":\"Control de etiqueta.\",\"Label_Display_Key\":\"Etiqueta\",\"Label_Text_Display_Key\":\"Texto\",\"Label_Text_Desc_Key\":\"Texto de la etiqueta.\",\"Label_TextRole_Display_Key\":\"Rol de texto\",\"Label_TextRole_Desc_Key\":\"Cambiar el rol del texto de la etiqueta.\",\"Label_TextRole_Default_Display_Key\":\"Valor predeterminado\",\"Label_TextRole_Heading1_Display_Key\":\"Encabezado 1\",\"Label_TextRole_Heading2_Display_Key\":\"Encabezado 2\",\"Label_TextRole_Heading3_Display_Key\":\"Encabezado 3\",\"Label_TextRole_Heading4_Display_Key\":\"Encabezado 4\",\"Label_FontSize_Display_Key\":\"Tamaño de fuente\",\"Label_FontSize_Desc_Key\":\"Tamaño de fuente (en puntos) que se usará para el texto de la etiqueta.\",\"Label_FontWeight_Display_Key\":\"Espesor de fuente\",\"Label_FontWeight_Desc_Key\":\"Espesor de fuente que se usará para el texto de la etiqueta.\",\"Label_Alignment_Display_Key\":\"Alineación\",\"Label_Alignment_Desc_Key\":\"Alineación horizontal de la etiqueta de texto.\",\"Label_Color_Display_Key\":\"Color\",\"Label_Color_Desc_Key\":\"Color que se usará para el texto de la etiqueta.\",\"Label_VerticalAlignment_Display_Key\":\"Alineación vertical\",\"Label_VerticalAlignment_Desc_Key\":\"Alineación vertical de la etiqueta de texto.\",\"Label_Font_Display_Key\":\"Fuente\",\"Label_Font_Desc_Key\":\"Fuente que se usará para la etiqueta.\",\"Label_Wrap_Display_Key\":\"Ajuste\",\"Label_Wrap_Desc_Key\":\"Si el texto debe ajustarse a varias líneas.\",\"Label_PaddingTop_Display_Key\":\"Relleno superior\",\"Label_PaddingTop_Desc_Key\":\"Valor en píxeles del relleno superior del texto de la etiqueta.\",\"Label_PaddingEnd_Display_Key\":\"Relleno final\",\"Label_PaddingEnd_Desc_Key\":\"Valor en píxeles del relleno final del texto de la etiqueta.\",\"Label_PaddingBottom_Display_Key\":\"Relleno inferior\",\"Label_PaddingBottom_Desc_Key\":\"Valor en píxeles del relleno inferior del texto de la etiqueta.\",\"Label_PaddingStart_Display_Key\":\"Relleno inicial\",\"Label_PaddingStart_Desc_Key\":\"Valor en píxeles del relleno inicial del texto de la etiqueta.\",\"Label_AutoHeight_Display_Key\":\"Altura automática\",\"Label_AutoHeight_Desc_Key\":\"Indica si se debe ajustar la altura a las dimensiones del contenedor\",\"Label_Height_Display_Key\":\"Altura\",\"Label_Height_Desc_Key\":\"Altura del elemento; se puede establecer automáticamente si Altura automática se establece en verdadero.\",\"Label_Overflow_Display_Key\":\"Desbordamiento\",\"Label_Overflow_Desc_Key\":\"Configuración del desbordamiento de Etiqueta.\",\"Label_Overflow_Hidden_Display_Key\":\"Oculto\",\"Label_Overflow_Scroll_Display_Key\":\"Desplazar\"}}}",
+      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"Label_Desc_Key\":\"Labelbesturingselement.\",\"Label_Display_Key\":\"Label\",\"Label_Text_Display_Key\":\"Tekst\",\"Label_Text_Desc_Key\":\"Tekst voor de label.\",\"Label_TextRole_Display_Key\":\"Tekstrol\",\"Label_TextRole_Desc_Key\":\"Wijzig rol van labeltekst.\",\"Label_TextRole_Default_Display_Key\":\"Standaardinstelling\",\"Label_TextRole_Heading1_Display_Key\":\"Kop 1\",\"Label_TextRole_Heading2_Display_Key\":\"Kop 2\",\"Label_TextRole_Heading3_Display_Key\":\"Kop 3\",\"Label_TextRole_Heading4_Display_Key\":\"Kop 4\",\"Label_FontSize_Display_Key\":\"Tekengrootte\",\"Label_FontSize_Desc_Key\":\"Tekengrootte (in punten) die moet worden gebruikt voor labeltekst.\",\"Label_FontWeight_Display_Key\":\"Tekengewicht\",\"Label_FontWeight_Desc_Key\":\"Tekengewicht dat moet worden gebruikt voor labeltekst.\",\"Label_Alignment_Display_Key\":\"Uitlijning\",\"Label_Alignment_Desc_Key\":\"Horizontale uitlijning van labeltekst\",\"Label_Color_Display_Key\":\"Kleur\",\"Label_Color_Desc_Key\":\"Kleur die moet worden gebruikt voor labeltekst.\",\"Label_VerticalAlignment_Display_Key\":\"Verticale uitlijning\",\"Label_VerticalAlignment_Desc_Key\":\"Verticale uitlijning van labeltekst.\",\"Label_Font_Display_Key\":\"Lettertype\",\"Label_Font_Desc_Key\":\"Het lettertype dat moet worden gebruikt voor het label.\",\"Label_Wrap_Display_Key\":\"Terugloop\",\"Label_Wrap_Desc_Key\":\"Of terugloop van de tekst moet plaatsvinden over meerdere regels.\",\"Label_PaddingTop_Display_Key\":\"Opvulling boven\",\"Label_PaddingTop_Desc_Key\":\"De waarde in pixels van de opvulling boven van de labeltekst.\",\"Label_PaddingEnd_Display_Key\":\"Eindopvulling\",\"Label_PaddingEnd_Desc_Key\":\"De waarde in pixels van de eindopvulling van de labeltekst.\",\"Label_PaddingBottom_Display_Key\":\"Opvulling onder\",\"Label_PaddingBottom_Desc_Key\":\"De waarde in pixels van de opvulling onder van de labeltekst.\",\"Label_PaddingStart_Display_Key\":\"Beginopvulling\",\"Label_PaddingStart_Desc_Key\":\"De waarde in pixels van de beginopvulling van de labeltekst.\",\"Label_AutoHeight_Display_Key\":\"Automatische hoogte\",\"Label_AutoHeight_Desc_Key\":\"Of de hoogte moet worden aangepast aan de containerafmetingen\",\"Label_Height_Display_Key\":\"Hoogte\",\"Label_Height_Desc_Key\":\"Hoogte van het element kan automatisch worden ingesteld als Automatische hoogte is ingesteld op waar.\",\"Label_Overflow_Display_Key\":\"Overloop\",\"Label_Overflow_Desc_Key\":\"Overloopinstelling van het label.\",\"Label_Overflow_Hidden_Display_Key\":\"Verborgen\",\"Label_Overflow_Scroll_Display_Key\":\"Scrollen\"}}}",
       "Type": 3
     },
     {
