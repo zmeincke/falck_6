@@ -302,14 +302,14 @@
       "WebDefaultValue": ""
     }
   ],
-  "Name": "Tekst",
+  "Name": "Text",
   "Properties": [
     {
       "Category": "data",
       "DefaultValue": "Text",
-      "Description": "Tekst die wordt weergegeven op een besturingselement.",
+      "Description": "Text that appears on a control.",
       "DescriptionResourceString": "TextCanvas_Text_Desc",
-      "DisplayName": "Tekst",
+      "DisplayName": "Text",
       "DisplayNameResourceString": "TextCanvas_Text",
       "EnumValues": [],
       "HelperUI": null,
@@ -335,9 +335,9 @@
     {
       "Category": "data",
       "DefaultValue": "14",
-      "Description": "Geef tekst weer met de geselecteerde tekengrootten.",
+      "Description": "Display text using the selected font sizes.",
       "DescriptionResourceString": "TextCanvas_Size_Desc",
-      "DisplayName": "Tekengrootte",
+      "DisplayName": "Font size",
       "DisplayNameResourceString": "TextCanvas_Size",
       "EnumValues": [],
       "HelperUI": null,
@@ -363,35 +363,35 @@
     {
       "Category": "data",
       "DefaultValue": "Regular",
-      "Description": "Geef tekst weer met de geselecteerde tekengewichten.",
+      "Description": "Display text using the selected font weights.",
       "DescriptionResourceString": "TextCanvas_Weight_Desc",
-      "DisplayName": "Tekengewicht",
+      "DisplayName": "Font weight",
       "DisplayNameResourceString": "TextCanvas_Weight",
       "EnumValues": [
         {
-          "Description": "Gemiddeld",
-          "DisplayName": "Gemiddeld",
+          "Description": "Medium",
+          "DisplayName": "Medium",
           "IsDefaultValue": false,
           "Name": "Medium",
           "Value": "Medium"
         },
         {
-          "Description": "Normaal",
-          "DisplayName": "Normaal",
+          "Description": "Regular",
+          "DisplayName": "Regular",
           "IsDefaultValue": true,
           "Name": "Regular",
           "Value": "Regular"
         },
         {
-          "Description": "Halfvet",
-          "DisplayName": "Halfvet",
+          "Description": "Semibold",
+          "DisplayName": "Semibold",
           "IsDefaultValue": false,
           "Name": "Semibold",
           "Value": "Semibold"
         },
         {
-          "Description": "Vet",
-          "DisplayName": "Vet",
+          "Description": "Bold",
+          "DisplayName": "Bold",
           "IsDefaultValue": false,
           "Name": "Bold",
           "Value": "Bold"
@@ -420,35 +420,35 @@
     {
       "Category": "data",
       "DefaultValue": "Start",
-      "Description": "Geef tekst weer met de geselecteerde tekstuitlijning.",
+      "Description": "Display text using the selected text alignment.",
       "DescriptionResourceString": "TextCanvas_Align_Desc",
-      "DisplayName": "Uitlijnen",
+      "DisplayName": "Align",
       "DisplayNameResourceString": "TextCanvas_Align",
       "EnumValues": [
         {
-          "Description": "Begin",
-          "DisplayName": "Begin",
+          "Description": "Start",
+          "DisplayName": "Start",
           "IsDefaultValue": true,
           "Name": "Start",
           "Value": "Start"
         },
         {
-          "Description": "Einde",
-          "DisplayName": "Einde",
+          "Description": "End",
+          "DisplayName": "End",
           "IsDefaultValue": false,
           "Name": "End",
           "Value": "End"
         },
         {
-          "Description": "Centreren",
-          "DisplayName": "Centreren",
+          "Description": "Center",
+          "DisplayName": "Center",
           "IsDefaultValue": false,
           "Name": "Center",
           "Value": "Center"
         },
         {
-          "Description": "Uitvullen",
-          "DisplayName": "Uitvullen",
+          "Description": "Justify",
+          "DisplayName": "Justify",
           "IsDefaultValue": false,
           "Name": "Justify",
           "Value": "Justify"
@@ -477,28 +477,28 @@
     {
       "Category": "data",
       "DefaultValue": "Middle",
-      "Description": "Geef tekst weer met de geselecteerde verticale tekstuitlijning.",
+      "Description": "Display text using the selected text verlitcal alignment.",
       "DescriptionResourceString": "TextCanvas_VerticalAlign_Desc",
-      "DisplayName": "Verticaal uitlijnen",
+      "DisplayName": "Vertical align",
       "DisplayNameResourceString": "TextCanvas_VerticalAlign",
       "EnumValues": [
         {
-          "Description": "Boven",
-          "DisplayName": "Boven",
+          "Description": "Top",
+          "DisplayName": "Top",
           "IsDefaultValue": false,
           "Name": "Top",
           "Value": "Top"
         },
         {
-          "Description": "Midden",
-          "DisplayName": "Midden",
+          "Description": "Middle",
+          "DisplayName": "Middle",
           "IsDefaultValue": true,
           "Name": "Middle",
           "Value": "Middle"
         },
         {
-          "Description": "Onder",
-          "DisplayName": "Onder",
+          "Description": "Bottom",
+          "DisplayName": "Bottom",
           "IsDefaultValue": false,
           "Name": "Bottom",
           "Value": "Bottom"
@@ -527,9 +527,9 @@
     {
       "Category": "data",
       "DefaultValue": "false",
-      "Description": "Containerhoogte wordt aangepast aan tekstinhoud.",
+      "Description": "Container height will adjust to text content.",
       "DescriptionResourceString": "TextCanvas_AutoHeight_Desc",
-      "DisplayName": "Automatische hoogte",
+      "DisplayName": "Auto height",
       "DisplayNameResourceString": "TextCanvas_AutoHeight",
       "EnumValues": [],
       "HelperUI": null,
@@ -555,9 +555,9 @@
     {
       "Category": "design",
       "DefaultValue": "32",
-      "Description": "De hoogte van het besturingselement.",
+      "Description": "The height of the control.",
       "DescriptionResourceString": "TextCanvas_Height_Desc",
-      "DisplayName": "Teksthoogte",
+      "DisplayName": "Text height",
       "DisplayNameResourceString": "TextCanvas_Height",
       "EnumValues": [],
       "HelperUI": null,
@@ -583,9 +583,9 @@
     {
       "Category": "data",
       "DefaultValue": "false",
-      "Description": "Geef tekst cursief weer.",
+      "Description": "Display text using the italic font style.",
       "DescriptionResourceString": "TextCanvas_Italic_Desc",
-      "DisplayName": "Cursief",
+      "DisplayName": "Italic",
       "DisplayNameResourceString": "TextCanvas_Italic",
       "EnumValues": [],
       "HelperUI": null,
@@ -611,9 +611,9 @@
     {
       "Category": "data",
       "DefaultValue": "false",
-      "Description": "Geef tekst doorgehaald weer.",
+      "Description": "Display text using the strikethrough font style.",
       "DescriptionResourceString": "TextCanvas_Strikethrough_Desc",
-      "DisplayName": "Doorhalen",
+      "DisplayName": "Strikethrough",
       "DisplayNameResourceString": "TextCanvas_Strikethrough",
       "EnumValues": [],
       "HelperUI": null,
@@ -639,9 +639,9 @@
     {
       "Category": "data",
       "DefaultValue": "false",
-      "Description": "Geef tekst onderstreept weer.",
+      "Description": "Display text using the underline font style.",
       "DescriptionResourceString": "TextCanvas_Underline_Desc",
-      "DisplayName": "Onderstrepen",
+      "DisplayName": "Underline",
       "DisplayNameResourceString": "TextCanvas_Underline",
       "EnumValues": [],
       "HelperUI": null,
@@ -667,9 +667,9 @@
     {
       "Category": "data",
       "DefaultValue": "true",
-      "Description": "Geef overlooptekst met terugloop weer.",
+      "Description": "Display overflow text as wrapped.",
       "DescriptionResourceString": "TextCanvas_Wrap_Desc",
-      "DisplayName": "Terugloop",
+      "DisplayName": "Wrap",
       "DisplayNameResourceString": "TextCanvas_Wrap",
       "EnumValues": [],
       "HelperUI": null,
@@ -859,7 +859,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 12,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"-\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd d MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"dddd d MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"d-M-yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"ShortestDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"DayNames\":[\"zondag\",\"maandag\",\"dinsdag\",\"woensdag\",\"donderdag\",\"vrijdag\",\"zaterdag\"],\"AbbreviatedMonthNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregoriaanse kalender\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthGenitiveNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":12,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":2,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"nl-NL\",\"formatter\":null,\"languagesByCode\":{\"1043\":\"Dutch (Netherlands)\",\"-1\":\"All Languages\"}}}",
+      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"AM\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":0,\"CalendarWeekRule\":0,\"FullDateTimePattern\":\"dddd, MMMM d, yyyy h:mm:ss tt\",\"LongDatePattern\":\"dddd, MMMM d, yyyy\",\"LongTimePattern\":\"h:mm:ss tt\",\"MonthDayPattern\":\"MMMM d\",\"PMDesignator\":\"PM\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"M/d/yyyy\",\"ShortTimePattern\":\"h:mm tt\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"],\"ShortestDayNames\":[\"Su\",\"Mo\",\"Tu\",\"We\",\"Th\",\"Fr\",\"Sa\"],\"DayNames\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"],\"AbbreviatedMonthNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"MonthNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregorian Calendar\",\"AbbreviatedMonthGenitiveNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"MonthGenitiveNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\".\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\",\",\"CurrencySymbol\":\"$\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":0,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\".\",\"NumberGroupSeparator\":\",\",\"CurrencyPositivePattern\":0,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\".\",\"PercentGroupSeparator\":\",\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"en-US\",\"formatter\":null,\"languagesByCode\":{\"1033\":\"English (United States)\",\"-1\":\"All Languages\"}}}",
       "Type": 3
     },
     {
@@ -1181,7 +1181,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"TextCanvas\":\"Tekst\",\"TextCanvas_VerticalAlign\":\"Verticaal uitlijnen\",\"TextCanvas_VerticalAlign_Desc\":\"Geef tekst weer met de geselecteerde verticale tekstuitlijning.\",\"TextCanvas_VerticalAlign_Top\":\"Boven\",\"TextCanvas_VerticalAlign_Middle\":\"Midden\",\"TextCanvas_VerticalAlign_Bottom\":\"Onder\",\"TextCanvas_Height\":\"Teksthoogte\",\"TextCanvas_Height_Desc\":\"De hoogte van het besturingselement.\",\"TextCanvas_Align\":\"Uitlijnen\",\"TextCanvas_Align_Desc\":\"Geef tekst weer met de geselecteerde tekstuitlijning.\",\"TextCanvas_Align_Start\":\"Begin\",\"TextCanvas_Align_End\":\"Einde\",\"TextCanvas_Align_Center\":\"Centreren\",\"TextCanvas_Align_Justify\":\"Uitvullen\",\"TextCanvas_Desc\":\"Weergavetekst\",\"TextCanvas_AutoHeight\":\"Automatische hoogte\",\"TextCanvas_AutoHeight_Desc\":\"Containerhoogte wordt aangepast aan tekstinhoud.\",\"TextCanvas_Italic\":\"Cursief\",\"TextCanvas_Italic_Desc\":\"Geef tekst cursief weer.\",\"TextCanvas_Size\":\"Tekengrootte\",\"TextCanvas_Size_Desc\":\"Geef tekst weer met de geselecteerde tekengrootten.\",\"TextCanvas_Strikethrough\":\"Doorhalen\",\"TextCanvas_Strikethrough_Desc\":\"Geef tekst doorgehaald weer.\",\"TextCanvas_Text\":\"Tekst\",\"TextCanvas_Text_Desc\":\"Tekst die wordt weergegeven op een besturingselement.\",\"TextCanvas_Underline\":\"Onderstrepen\",\"TextCanvas_Underline_Desc\":\"Geef tekst onderstreept weer.\",\"TextCanvas_Weight\":\"Tekengewicht\",\"TextCanvas_Weight_Desc\":\"Geef tekst weer met de geselecteerde tekengewichten.\",\"TextCanvas_Weight_Medium\":\"Gemiddeld\",\"TextCanvas_Weight_Regular\":\"Normaal\",\"TextCanvas_Weight_Semibold\":\"Halfvet\",\"TextCanvas_Weight_Bold\":\"Vet\",\"TextCanvas_Wrap\":\"Terugloop\",\"TextCanvas_Wrap_Desc\":\"Geef overlooptekst met terugloop weer.\"}}}",
+      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"TextCanvas\":\"Text\",\"TextCanvas_VerticalAlign\":\"Vertical align\",\"TextCanvas_VerticalAlign_Desc\":\"Display text using the selected text verlitcal alignment.\",\"TextCanvas_VerticalAlign_Top\":\"Top\",\"TextCanvas_VerticalAlign_Middle\":\"Middle\",\"TextCanvas_VerticalAlign_Bottom\":\"Bottom\",\"TextCanvas_Height\":\"Text height\",\"TextCanvas_Height_Desc\":\"The height of the control.\",\"TextCanvas_Align\":\"Align\",\"TextCanvas_Align_Desc\":\"Display text using the selected text alignment.\",\"TextCanvas_Align_Start\":\"Start\",\"TextCanvas_Align_End\":\"End\",\"TextCanvas_Align_Center\":\"Center\",\"TextCanvas_Align_Justify\":\"Justify\",\"TextCanvas_Desc\":\"Display text\",\"TextCanvas_AutoHeight\":\"Auto height\",\"TextCanvas_AutoHeight_Desc\":\"Container height will adjust to text content.\",\"TextCanvas_Italic\":\"Italic\",\"TextCanvas_Italic_Desc\":\"Display text using the italic font style.\",\"TextCanvas_Size\":\"Font size\",\"TextCanvas_Size_Desc\":\"Display text using the selected font sizes.\",\"TextCanvas_Strikethrough\":\"Strikethrough\",\"TextCanvas_Strikethrough_Desc\":\"Display text using the strikethrough font style.\",\"TextCanvas_Text\":\"Text\",\"TextCanvas_Text_Desc\":\"Text that appears on a control.\",\"TextCanvas_Underline\":\"Underline\",\"TextCanvas_Underline_Desc\":\"Display text using the underline font style.\",\"TextCanvas_Weight\":\"Font weight\",\"TextCanvas_Weight_Desc\":\"Display text using the selected font weights.\",\"TextCanvas_Weight_Medium\":\"Medium\",\"TextCanvas_Weight_Regular\":\"Regular\",\"TextCanvas_Weight_Semibold\":\"Semibold\",\"TextCanvas_Weight_Bold\":\"Bold\",\"TextCanvas_Wrap\":\"Wrap\",\"TextCanvas_Wrap_Desc\":\"Display overflow text as wrapped.\"}}}",
       "Type": 3
     },
     {

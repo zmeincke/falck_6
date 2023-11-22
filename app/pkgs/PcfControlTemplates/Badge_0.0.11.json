@@ -339,14 +339,14 @@
     {
       "Category": "data",
       "DefaultValue": "Tint",
-      "Description": "Kies een stijl uit een selectie van weergavestijlen.",
+      "Description": "Choose one of a selection of apperance styles.",
       "DescriptionResourceString": "BadgeCanvas_Appearance_Desc",
-      "DisplayName": "Weergave",
+      "DisplayName": "Appearance",
       "DisplayNameResourceString": "BadgeCanvas_Appearance",
       "EnumValues": [
         {
-          "Description": "Gevuld",
-          "DisplayName": "Gevuld",
+          "Description": "Filled",
+          "DisplayName": "Filled",
           "IsDefaultValue": true,
           "Name": "Filled",
           "Value": "Filled"
@@ -359,8 +359,8 @@
           "Value": "Ghost"
         },
         {
-          "Description": "Contour",
-          "DisplayName": "Contour",
+          "Description": "Outline",
+          "DisplayName": "Outline",
           "IsDefaultValue": false,
           "Name": "Outline",
           "Value": "Outline"
@@ -396,63 +396,63 @@
     {
       "Category": "data",
       "DefaultValue": "Brand",
-      "Description": "Kies een kleur uit een selectie van kleuren van het thema.",
+      "Description": "Choose one of a selection of colors from the theme.",
       "DescriptionResourceString": "BadgeCanvas_ThemeColor_Desc",
-      "DisplayName": "Kleur",
+      "DisplayName": "Color",
       "DisplayNameResourceString": "BadgeCanvas_ThemeColor",
       "EnumValues": [
         {
-          "Description": "Merk",
-          "DisplayName": "Merk",
+          "Description": "Brand",
+          "DisplayName": "Brand",
           "IsDefaultValue": true,
           "Name": "Brand",
           "Value": "Brand"
         },
         {
-          "Description": "Gevaar",
-          "DisplayName": "Gevaar",
+          "Description": "Danger",
+          "DisplayName": "Danger",
           "IsDefaultValue": false,
           "Name": "Danger",
           "Value": "Danger"
         },
         {
-          "Description": "Belangrijk",
-          "DisplayName": "Belangrijk",
+          "Description": "Important",
+          "DisplayName": "Important",
           "IsDefaultValue": false,
           "Name": "Important",
           "Value": "Important"
         },
         {
-          "Description": "Informatief",
-          "DisplayName": "Informatief",
+          "Description": "Informative",
+          "DisplayName": "Informative",
           "IsDefaultValue": false,
           "Name": "Informative",
           "Value": "Informative"
         },
         {
-          "Description": "Ernstig",
-          "DisplayName": "Ernstig",
+          "Description": "Severe",
+          "DisplayName": "Severe",
           "IsDefaultValue": false,
           "Name": "Severe",
           "Value": "Severe"
         },
         {
-          "Description": "Subtiel",
-          "DisplayName": "Subtiel",
+          "Description": "Subtle",
+          "DisplayName": "Subtle",
           "IsDefaultValue": false,
           "Name": "Subtle",
           "Value": "Subtle"
         },
         {
-          "Description": "Geslaagd",
-          "DisplayName": "Geslaagd",
+          "Description": "Success",
+          "DisplayName": "Success",
           "IsDefaultValue": false,
           "Name": "Success",
           "Value": "Success"
         },
         {
-          "Description": "Waarschuwing",
-          "DisplayName": "Waarschuwing",
+          "Description": "Warning",
+          "DisplayName": "Warning",
           "IsDefaultValue": false,
           "Name": "Warning",
           "Value": "Warning"
@@ -481,9 +481,9 @@
     {
       "Category": "data",
       "DefaultValue": "AB",
-      "Description": "Tekstinhoud die in de pop-up moet worden weergegeven.",
+      "Description": "Text content to display in the popup.",
       "DescriptionResourceString": "BadgeCanvas_Content_Desc",
-      "DisplayName": "Inhoud",
+      "DisplayName": "Content",
       "DisplayNameResourceString": "BadgeCanvas_Content",
       "EnumValues": [],
       "HelperUI": null,
@@ -509,28 +509,28 @@
     {
       "Category": "data",
       "DefaultValue": "Circular",
-      "Description": "Kies een vorm uit een selectie van vormen.",
+      "Description": "Choose one of a selection of shapes.",
       "DescriptionResourceString": "BadgeCanvas_Shape_Desc",
-      "DisplayName": "Vorm",
+      "DisplayName": "Shape",
       "DisplayNameResourceString": "BadgeCanvas_Shape",
       "EnumValues": [
         {
-          "Description": "Cirkelvormig",
-          "DisplayName": "Cirkelvormig",
+          "Description": "Circular",
+          "DisplayName": "Circular",
           "IsDefaultValue": true,
           "Name": "Circular",
           "Value": "Circular"
         },
         {
-          "Description": "Vierkant",
-          "DisplayName": "Vierkant",
+          "Description": "Square",
+          "DisplayName": "Square",
           "IsDefaultValue": false,
           "Name": "Square",
           "Value": "Square"
         },
         {
-          "Description": "Afgerond",
-          "DisplayName": "Afgerond",
+          "Description": "Rounded",
+          "DisplayName": "Rounded",
           "IsDefaultValue": false,
           "Name": "Rounded",
           "Value": "Rounded"
@@ -559,9 +559,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "U kunt een ander kleurenpalet voor het geselecteerde item opgeven door een basispaletkleur te kiezen. Deze kleur genereert een set vergelijkbare kleuren die vervolgens worden toegepast op de aspecten van het item, zoals opvulling, randen en interactiefases. Een lege waarde geeft aan dat het item het kleurenpalet gebruikt van het thema van de app.",
+      "Description": "You can provide a different color palette for the selected item by specifying a base palette color. This color generates a set of similar colors that are then applied to different aspects of the item, most commonly: fill, border, and interaction states. A blank value indicates the item will use the color palette of the app's theme.",
       "DescriptionResourceString": "Base_Palette_Color_description",
-      "DisplayName": "Kleur basispalet",
+      "DisplayName": "Base palette color",
       "DisplayNameResourceString": "Base_Palette_Color",
       "EnumValues": [],
       "HelperUI": "color",
@@ -587,9 +587,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "De tekengrootte instellen voor weergegeven tekst.",
+      "Description": "Set the font size for displayed text.",
       "DescriptionResourceString": "Font_Size_description",
-      "DisplayName": "Tekengrootte",
+      "DisplayName": "Font size",
       "DisplayNameResourceString": "Font_Size",
       "EnumValues": [],
       "HelperUI": null,
@@ -779,7 +779,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 12,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"-\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd d MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"dddd d MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"d-M-yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"ShortestDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"DayNames\":[\"zondag\",\"maandag\",\"dinsdag\",\"woensdag\",\"donderdag\",\"vrijdag\",\"zaterdag\"],\"AbbreviatedMonthNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregoriaanse kalender\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthGenitiveNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":12,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":2,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"nl-NL\",\"formatter\":null,\"languagesByCode\":{\"1043\":\"Dutch (Netherlands)\",\"-1\":\"All Languages\"}}}",
+      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"AM\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":0,\"CalendarWeekRule\":0,\"FullDateTimePattern\":\"dddd, MMMM d, yyyy h:mm:ss tt\",\"LongDatePattern\":\"dddd, MMMM d, yyyy\",\"LongTimePattern\":\"h:mm:ss tt\",\"MonthDayPattern\":\"MMMM d\",\"PMDesignator\":\"PM\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"M/d/yyyy\",\"ShortTimePattern\":\"h:mm tt\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"],\"ShortestDayNames\":[\"Su\",\"Mo\",\"Tu\",\"We\",\"Th\",\"Fr\",\"Sa\"],\"DayNames\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"],\"AbbreviatedMonthNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"MonthNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregorian Calendar\",\"AbbreviatedMonthGenitiveNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"MonthGenitiveNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\".\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\",\",\"CurrencySymbol\":\"$\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":0,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\".\",\"NumberGroupSeparator\":\",\",\"CurrencyPositivePattern\":0,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\".\",\"PercentGroupSeparator\":\",\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"en-US\",\"formatter\":null,\"languagesByCode\":{\"1033\":\"English (United States)\",\"-1\":\"All Languages\"}}}",
       "Type": 3
     },
     {
@@ -1101,7 +1101,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"BadgeCanvas\":\"Badge\",\"BadgeCanvas_AccessibleLabel\":\"Accessible label\",\"BadgeCanvas_AccessibleLabel_Desc\":\"Label read out by screen readers.\",\"BadgeCanvas_Default_Content\":\"AB\",\"BadgeCanvas_Desc\":\"Een visuele decoratie voor UI-elementen.\",\"BadgeCanvas_Appearance\":\"Weergave\",\"BadgeCanvas_Appearance_Desc\":\"Kies een stijl uit een selectie van weergavestijlen.\",\"BadgeCanvas_Appearance_Filled\":\"Gevuld\",\"BadgeCanvas_Appearance_Ghost\":\"Ghost\",\"BadgeCanvas_Appearance_Outline\":\"Contour\",\"BadgeCanvas_Appearance_Tint\":\"Tint\",\"BadgeCanvas_ThemeColor\":\"Kleur\",\"BadgeCanvas_ThemeColor_Desc\":\"Kies een kleur uit een selectie van kleuren van het thema.\",\"BadgeCanvas_ThemeColor_Brand\":\"Merk\",\"BadgeCanvas_ThemeColor_Danger\":\"Gevaar\",\"BadgeCanvas_ThemeColor_Important\":\"Belangrijk\",\"BadgeCanvas_ThemeColor_Informative\":\"Informatief\",\"BadgeCanvas_ThemeColor_Severe\":\"Ernstig\",\"BadgeCanvas_ThemeColor_Subtle\":\"Subtiel\",\"BadgeCanvas_ThemeColor_Success\":\"Geslaagd\",\"BadgeCanvas_ThemeColor_Warning\":\"Waarschuwing\",\"BadgeCanvas_Content\":\"Inhoud\",\"BadgeCanvas_Content_Desc\":\"Tekstinhoud die in de pop-up moet worden weergegeven.\",\"BadgeCanvas_Shape\":\"Vorm\",\"BadgeCanvas_Shape_Desc\":\"Kies een vorm uit een selectie van vormen.\",\"BadgeCanvas_Shape_Circular\":\"Cirkelvormig\",\"BadgeCanvas_Shape_Square\":\"Vierkant\",\"BadgeCanvas_Shape_Rounded\":\"Afgerond\",\"Base_Palette_Color\":\"Kleur basispalet\",\"Base_Palette_Color_description\":\"U kunt een ander kleurenpalet voor het geselecteerde item opgeven door een basispaletkleur te kiezen. Deze kleur genereert een set vergelijkbare kleuren die vervolgens worden toegepast op de aspecten van het item, zoals opvulling, randen en interactiefases. Een lege waarde geeft aan dat het item het kleurenpalet gebruikt van het thema van de app.\",\"Font_Size\":\"Tekengrootte\",\"Font_Size_description\":\"De tekengrootte instellen voor weergegeven tekst.\"}}}",
+      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"BadgeCanvas\":\"Badge\",\"BadgeCanvas_AccessibleLabel\":\"Accessible label\",\"BadgeCanvas_AccessibleLabel_Desc\":\"Label read out by screen readers.\",\"BadgeCanvas_Default_Content\":\"AB\",\"BadgeCanvas_Desc\":\"A visual decoration for UI elements.\",\"BadgeCanvas_Appearance\":\"Appearance\",\"BadgeCanvas_Appearance_Desc\":\"Choose one of a selection of apperance styles.\",\"BadgeCanvas_Appearance_Filled\":\"Filled\",\"BadgeCanvas_Appearance_Ghost\":\"Ghost\",\"BadgeCanvas_Appearance_Outline\":\"Outline\",\"BadgeCanvas_Appearance_Tint\":\"Tint\",\"BadgeCanvas_ThemeColor\":\"Color\",\"BadgeCanvas_ThemeColor_Desc\":\"Choose one of a selection of colors from the theme.\",\"BadgeCanvas_ThemeColor_Brand\":\"Brand\",\"BadgeCanvas_ThemeColor_Danger\":\"Danger\",\"BadgeCanvas_ThemeColor_Important\":\"Important\",\"BadgeCanvas_ThemeColor_Informative\":\"Informative\",\"BadgeCanvas_ThemeColor_Severe\":\"Severe\",\"BadgeCanvas_ThemeColor_Subtle\":\"Subtle\",\"BadgeCanvas_ThemeColor_Success\":\"Success\",\"BadgeCanvas_ThemeColor_Warning\":\"Warning\",\"BadgeCanvas_Content\":\"Content\",\"BadgeCanvas_Content_Desc\":\"Text content to display in the popup.\",\"BadgeCanvas_Shape\":\"Shape\",\"BadgeCanvas_Shape_Desc\":\"Choose one of a selection of shapes.\",\"BadgeCanvas_Shape_Circular\":\"Circular\",\"BadgeCanvas_Shape_Square\":\"Square\",\"BadgeCanvas_Shape_Rounded\":\"Rounded\",\"Base_Palette_Color\":\"Base palette color\",\"Base_Palette_Color_description\":\"You can provide a different color palette for the selected item by specifying a base palette color. This color generates a set of similar colors that are then applied to different aspects of the item, most commonly: fill, border, and interaction states. A blank value indicates the item will use the color palette of the app's theme.\",\"Font_Size\":\"Font size\",\"Font_Size_description\":\"Set the font size for displayed text.\"}}}",
       "Type": 3
     },
     {

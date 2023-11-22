@@ -1,6 +1,6 @@
 "'Examination questions' As screen":
 
-    Progress1 As Voortgangsbalk:
+    "Progress1 As 'Progress Bar'":
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =61
@@ -9,7 +9,7 @@
         Y: =705
         ZIndex: =1
 
-    ButtonCanvas1 As Knop:
+    ButtonCanvas1 As Button:
         BorderColor: =
         DisabledBorderColor: =
         DisabledFillColor: =
@@ -30,7 +30,7 @@
         Y: =715
         ZIndex: =2
 
-    ButtonCanvas2 As Knop:
+    ButtonCanvas2 As Button:
         BorderColor: =
         DisabledBorderColor: =
         DisabledFillColor: =
@@ -51,7 +51,7 @@
         Y: =715
         ZIndex: =3
 
-    Header1 As Koptekst:
+    Header1 As Header:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =75

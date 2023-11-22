@@ -306,14 +306,14 @@
       "WebDefaultValue": ""
     }
   ],
-  "Name": "Tekstinvoer",
+  "Name": "Text input",
   "Properties": [
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Label voor schermlezers.",
+      "Description": "Label for screen readers.",
       "DescriptionResourceString": "TextInputCanvas_AccessibleLabel_Desc",
-      "DisplayName": "Toegankelijk label",
+      "DisplayName": "Accessible label",
       "DisplayNameResourceString": "TextInputCanvas_AccessibleLabel",
       "EnumValues": [],
       "HelperUI": null,
@@ -339,9 +339,9 @@
     {
       "Category": "data",
       "DefaultValue": "false",
-      "Description": "Wanneer dit is ingesteld op waar, wordt de gebruikersinvoer met een vertraging van een halve seconde geregistreerd. Nuttig voor het uitstellen van kostbare bewerkingen tot de gebruiker het invoeren van tekst heeft voltooid (d.w.z. voor filtering wanneer invoer in andere formules wordt gebruikt).",
+      "Description": "When set to true, user input is registered after half a second delay. Useful for delaying expensive operations until user completes inputting text (i.e. for filtering when input is used in other formulas).",
       "DescriptionResourceString": "TextInputCanvas_DelayOutput_Desc",
-      "DisplayName": "Uitvoer vertragen",
+      "DisplayName": "Delay output",
       "DisplayNameResourceString": "TextInputCanvas_DelayOutput",
       "EnumValues": [],
       "HelperUI": "",
@@ -367,9 +367,9 @@
     {
       "Category": "data",
       "DefaultValue": "-1",
-      "Description": "De maximale inhoudslengte van de tekstinvoer.",
+      "Description": "The maximum content length of the Text input.",
       "DescriptionResourceString": "TextInputCanvas_MaxLength_Desc",
-      "DisplayName": "Maximale lengte",
+      "DisplayName": "Maximum length",
       "DisplayNameResourceString": "TextInputCanvas_MaxLength",
       "EnumValues": [],
       "HelperUI": "",
@@ -395,21 +395,21 @@
     {
       "Category": "data",
       "DefaultValue": "SingleLine",
-      "Description": "Type tekstinvoer: enkele regel of meerdere regels.",
+      "Description": "Type of text input: single line or multiline.",
       "DescriptionResourceString": "TextInputCanvas_Mode_Desc",
-      "DisplayName": "Modus",
+      "DisplayName": "Mode",
       "DisplayNameResourceString": "TextInputCanvas_Mode",
       "EnumValues": [
         {
-          "Description": "Enkele regel",
-          "DisplayName": "Enkele regel",
+          "Description": "Single line",
+          "DisplayName": "Single line",
           "IsDefaultValue": true,
           "Name": "SingleLine",
           "Value": "SingleLine"
         },
         {
-          "Description": "Meerdere regels",
-          "DisplayName": "Meerdere regels",
+          "Description": "Multiline",
+          "DisplayName": "Multiline",
           "IsDefaultValue": false,
           "Name": "Multiline",
           "Value": "Multiline"
@@ -438,9 +438,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "De tekst van de tijdelijke aanduiding van de tekstinvoer.",
+      "Description": "The placeholder text of the text input.",
       "DescriptionResourceString": "TextInputCanvas_Placeholder_Desc",
-      "DisplayName": "Tekst van tijdelijke aanduiding",
+      "DisplayName": "Placeholder text",
       "DisplayNameResourceString": "TextInputCanvas_Placeholder",
       "EnumValues": [],
       "HelperUI": null,
@@ -466,9 +466,9 @@
     {
       "Category": "data",
       "DefaultValue": "false",
-      "Description": "Of dit besturingselement tekst moet bevatten.",
+      "Description": "Whether this control must contain text.",
       "DescriptionResourceString": "TextInputCanvas_Required_Desc",
-      "DisplayName": "Vereist",
+      "DisplayName": "Required",
       "DisplayNameResourceString": "TextInputCanvas_Required",
       "EnumValues": [],
       "HelperUI": "",
@@ -494,28 +494,28 @@
     {
       "Category": "data",
       "DefaultValue": "Text",
-      "Description": "Inhoudstype van tekstinvoer: tekst zonder opmaak, wachtwoord of zoekactie.",
+      "Description": "Content type of text input: plain text, password, or search.",
       "DescriptionResourceString": "TextInputCanvas_Type_Desc",
       "DisplayName": "Type",
       "DisplayNameResourceString": "TextInputCanvas_Type",
       "EnumValues": [
         {
-          "Description": "Wachtwoord",
-          "DisplayName": "Wachtwoord",
+          "Description": "Password",
+          "DisplayName": "Password",
           "IsDefaultValue": false,
           "Name": "Password",
           "Value": "Password"
         },
         {
-          "Description": "Zoekactie",
-          "DisplayName": "Zoekactie",
+          "Description": "Search",
+          "DisplayName": "Search",
           "IsDefaultValue": false,
           "Name": "Search",
           "Value": "Search"
         },
         {
-          "Description": "Tekst",
-          "DisplayName": "Tekst",
+          "Description": "Text",
+          "DisplayName": "Text",
           "IsDefaultValue": true,
           "Name": "Text",
           "Value": "Text"
@@ -544,21 +544,21 @@
     {
       "Category": "data",
       "DefaultValue": "None",
-      "Description": "De huidige status van de Tekstinvoer, met betrekking tot validatie.",
+      "Description": "The current status of the Text input, with regard to validation.",
       "DescriptionResourceString": "TextInputCanvas_ValidationState_Desc",
-      "DisplayName": "Validatiestatus",
+      "DisplayName": "Validation state",
       "DisplayNameResourceString": "TextInputCanvas_ValidationState",
       "EnumValues": [
         {
-          "Description": "Fout",
-          "DisplayName": "Fout",
+          "Description": "Error",
+          "DisplayName": "Error",
           "IsDefaultValue": false,
           "Name": "Error",
           "Value": "Error"
         },
         {
-          "Description": "Geen",
-          "DisplayName": "Geen",
+          "Description": "None",
+          "DisplayName": "None",
           "IsDefaultValue": true,
           "Name": "None",
           "Value": "None"
@@ -587,9 +587,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Tekst die wordt weergegeven op een besturingselement of die door de gebruiker wordt getypt in een besturingselement.",
+      "Description": "Text that appears on a control or that the user types into a control.",
       "DescriptionResourceString": "TextInputCanvas_Value_Desc",
-      "DisplayName": "Waarde",
+      "DisplayName": "Value",
       "DisplayNameResourceString": "TextInputCanvas_Value",
       "EnumValues": [],
       "HelperUI": "",
@@ -615,9 +615,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "U kunt een ander kleurenpalet voor het geselecteerde item opgeven door een basispaletkleur te kiezen. Deze kleur genereert een set vergelijkbare kleuren die vervolgens worden toegepast op de aspecten van het item, zoals opvulling, randen en interactiefases. Een lege waarde geeft aan dat het item het kleurenpalet gebruikt van het thema van de app.",
+      "Description": "You can provide a different color palette for the selected item by specifying a base palette color. This color generates a set of similar colors that are then applied to different aspects of the item, most commonly: fill, border, and interaction states. A blank value indicates the item will use the color palette of the app's theme.",
       "DescriptionResourceString": "Base_Palette_Color_description",
-      "DisplayName": "Kleur basispalet",
+      "DisplayName": "Base palette color",
       "DisplayNameResourceString": "Base_Palette_Color",
       "EnumValues": [],
       "HelperUI": "color",
@@ -643,9 +643,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "De tekengrootte instellen voor weergegeven tekst.",
+      "Description": "Set the font size for displayed text.",
       "DescriptionResourceString": "Font_Size_description",
-      "DisplayName": "Tekengrootte",
+      "DisplayName": "Font size",
       "DisplayNameResourceString": "Font_Size",
       "EnumValues": [],
       "HelperUI": null,
@@ -835,7 +835,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 12,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"-\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd d MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"dddd d MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"d-M-yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"ShortestDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"DayNames\":[\"zondag\",\"maandag\",\"dinsdag\",\"woensdag\",\"donderdag\",\"vrijdag\",\"zaterdag\"],\"AbbreviatedMonthNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregoriaanse kalender\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthGenitiveNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":12,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":2,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"nl-NL\",\"formatter\":null,\"languagesByCode\":{\"1043\":\"Dutch (Netherlands)\",\"-1\":\"All Languages\"}}}",
+      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"AM\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":0,\"CalendarWeekRule\":0,\"FullDateTimePattern\":\"dddd, MMMM d, yyyy h:mm:ss tt\",\"LongDatePattern\":\"dddd, MMMM d, yyyy\",\"LongTimePattern\":\"h:mm:ss tt\",\"MonthDayPattern\":\"MMMM d\",\"PMDesignator\":\"PM\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"M/d/yyyy\",\"ShortTimePattern\":\"h:mm tt\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"],\"ShortestDayNames\":[\"Su\",\"Mo\",\"Tu\",\"We\",\"Th\",\"Fr\",\"Sa\"],\"DayNames\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"],\"AbbreviatedMonthNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"MonthNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregorian Calendar\",\"AbbreviatedMonthGenitiveNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"MonthGenitiveNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\".\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\",\",\"CurrencySymbol\":\"$\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":0,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\".\",\"NumberGroupSeparator\":\",\",\"CurrencyPositivePattern\":0,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\".\",\"PercentGroupSeparator\":\",\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"en-US\",\"formatter\":null,\"languagesByCode\":{\"1033\":\"English (United States)\",\"-1\":\"All Languages\"}}}",
       "Type": 3
     },
     {
@@ -1157,7 +1157,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"TextInputCanvas\":\"Tekstinvoer\",\"TextInputCanvas_AccessibleLabel\":\"Toegankelijk label\",\"TextInputCanvas_AccessibleLabel_Desc\":\"Label voor schermlezers.\",\"TextInputCanvas_DelayOutput\":\"Uitvoer vertragen\",\"TextInputCanvas_DelayOutput_Desc\":\"Wanneer dit is ingesteld op waar, wordt de gebruikersinvoer met een vertraging van een halve seconde geregistreerd. Nuttig voor het uitstellen van kostbare bewerkingen tot de gebruiker het invoeren van tekst heeft voltooid (d.w.z. voor filtering wanneer invoer in andere formules wordt gebruikt).\",\"TextInputCanvas_Mode\":\"Modus\",\"TextInputCanvas_Mode_Desc\":\"Type tekstinvoer: enkele regel of meerdere regels.\",\"TextInputCanvas_Mode_SingleLine\":\"Enkele regel\",\"TextInputCanvas_Mode_Multiline\":\"Meerdere regels\",\"TextInputCanvas_Required\":\"Vereist\",\"TextInputCanvas_Required_Desc\":\"Of dit besturingselement tekst moet bevatten.\",\"TextInputCanvas_Value\":\"Waarde\",\"TextInputCanvas_Value_Desc\":\"Tekst die wordt weergegeven op een besturingselement of die door de gebruiker wordt getypt in een besturingselement.\",\"TextInputCanvas_Placeholder\":\"Tekst van tijdelijke aanduiding\",\"TextInputCanvas_Placeholder_Desc\":\"De tekst van de tijdelijke aanduiding van de tekstinvoer.\",\"TextInputCanvas_Type\":\"Type\",\"TextInputCanvas_Type_Desc\":\"Inhoudstype van tekstinvoer: tekst zonder opmaak, wachtwoord of zoekactie.\",\"TextInputCanvas_Type_Text\":\"Tekst\",\"TextInputCanvas_Type_Password\":\"Wachtwoord\",\"TextInputCanvas_Type_Search\":\"Zoekactie\",\"TextInputCanvas_MaxLength\":\"Maximale lengte\",\"TextInputCanvas_MaxLength_Desc\":\"De maximale inhoudslengte van de tekstinvoer.\",\"Base_Palette_Color\":\"Kleur basispalet\",\"Base_Palette_Color_description\":\"U kunt een ander kleurenpalet voor het geselecteerde item opgeven door een basispaletkleur te kiezen. Deze kleur genereert een set vergelijkbare kleuren die vervolgens worden toegepast op de aspecten van het item, zoals opvulling, randen en interactiefases. Een lege waarde geeft aan dat het item het kleurenpalet gebruikt van het thema van de app.\",\"TextInputCanvas_ValidationState\":\"Validatiestatus\",\"TextInputCanvas_ValidationState_Desc\":\"De huidige status van de Tekstinvoer, met betrekking tot validatie.\",\"TextInputCanvas_ValidationState_None\":\"Geen\",\"TextInputCanvas_ValidationState_Error\":\"Fout\",\"Font_Size\":\"Tekengrootte\",\"Font_Size_description\":\"De tekengrootte instellen voor weergegeven tekst.\"}}}",
+      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"TextInputCanvas\":\"Text input\",\"TextInputCanvas_AccessibleLabel\":\"Accessible label\",\"TextInputCanvas_AccessibleLabel_Desc\":\"Label for screen readers.\",\"TextInputCanvas_DelayOutput\":\"Delay output\",\"TextInputCanvas_DelayOutput_Desc\":\"When set to true, user input is registered after half a second delay. Useful for delaying expensive operations until user completes inputting text (i.e. for filtering when input is used in other formulas).\",\"TextInputCanvas_Mode\":\"Mode\",\"TextInputCanvas_Mode_Desc\":\"Type of text input: single line or multiline.\",\"TextInputCanvas_Mode_SingleLine\":\"Single line\",\"TextInputCanvas_Mode_Multiline\":\"Multiline\",\"TextInputCanvas_Required\":\"Required\",\"TextInputCanvas_Required_Desc\":\"Whether this control must contain text.\",\"TextInputCanvas_Value\":\"Value\",\"TextInputCanvas_Value_Desc\":\"Text that appears on a control or that the user types into a control.\",\"TextInputCanvas_Placeholder\":\"Placeholder text\",\"TextInputCanvas_Placeholder_Desc\":\"The placeholder text of the text input.\",\"TextInputCanvas_Type\":\"Type\",\"TextInputCanvas_Type_Desc\":\"Content type of text input: plain text, password, or search.\",\"TextInputCanvas_Type_Text\":\"Text\",\"TextInputCanvas_Type_Password\":\"Password\",\"TextInputCanvas_Type_Search\":\"Search\",\"TextInputCanvas_MaxLength\":\"Maximum length\",\"TextInputCanvas_MaxLength_Desc\":\"The maximum content length of the Text input.\",\"Base_Palette_Color\":\"Base palette color\",\"Base_Palette_Color_description\":\"You can provide a different color palette for the selected item by specifying a base palette color. This color generates a set of similar colors that are then applied to different aspects of the item, most commonly: fill, border, and interaction states. A blank value indicates the item will use the color palette of the app's theme.\",\"TextInputCanvas_ValidationState\":\"Validation state\",\"TextInputCanvas_ValidationState_Desc\":\"The current status of the Text input, with regard to validation.\",\"TextInputCanvas_ValidationState_None\":\"None\",\"TextInputCanvas_ValidationState_Error\":\"Error\",\"Font_Size\":\"Font size\",\"Font_Size_description\":\"Set the font size for displayed text.\"}}}",
       "Type": 3
     },
     {

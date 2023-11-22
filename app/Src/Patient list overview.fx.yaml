@@ -1,6 +1,6 @@
 "'Patient list overview' As screen":
 
-    Header3 As Koptekst:
+    Header3 As Header:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =75
@@ -36,7 +36,7 @@
             Y: =0
             ZIndex: =3
 
-            DataCardKey1 As Tekst:
+            DataCardKey1 As Text:
                 DisplayMode: =DisplayMode.Edit
                 Height: =22
                 Text: =Parent.DisplayName
@@ -47,7 +47,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue1 As Tekstinvoer:
+            "DataCardValue1 As 'Text input'":
                 AccessibleLabel: =Parent.DisplayName
                 BasePaletteColor: =
                 DisplayMode: =Parent.DisplayMode
@@ -61,7 +61,7 @@
                 Y: =DataCardKey1.Y + DataCardKey1.Height + 4
                 ZIndex: =2
 
-            ErrorMessage1 As Tekst:
+            ErrorMessage1 As Text:
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
                 Text: =Parent.Error
@@ -72,7 +72,7 @@
                 Y: =DataCardValue1.Y + DataCardValue1.Height
                 ZIndex: =3
 
-            StarVisible1 As Tekst:
+            StarVisible1 As Text:
                 Align: ='TextCanvas.Align'.Center
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
