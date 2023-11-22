@@ -228,6 +228,21 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
+  "Tekst": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_TextCanvas",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerApps_CoreControls_TextCanvas",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Tekst",
+    "Version": "0.0.16"
+  },
   "Tekstinvoer": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -242,6 +257,20 @@
     "OverridableProperties": {},
     "TemplateDisplayName": "Tekstinvoer",
     "Version": "0.0.20"
+  },
+  "typedDataCard": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/card",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "typedDataCard",
+    "OverridableProperties": {},
+    "Version": "1.0.6"
   },
   "Voortgangsbalk": {
     "CustomGroupControlTemplateName": "",
