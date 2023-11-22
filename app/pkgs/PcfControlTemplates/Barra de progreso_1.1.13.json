@@ -328,14 +328,14 @@
       "WebDefaultValue": ""
     }
   ],
-  "Name": "Statuslinje",
+  "Name": "Barra de progreso",
   "Properties": [
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Komponentens ariaetikettekst",
+      "Description": "Texto de la etiqueta Aria del componente",
       "DescriptionResourceString": "ProgressBar_AccessibleLabel_Desc_Key",
-      "DisplayName": "Tilgængelighedsetiket",
+      "DisplayName": "Etiqueta de accesibilidad",
       "DisplayNameResourceString": "ProgressBar_AccessibleLabel_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -361,9 +361,9 @@
     {
       "Category": "data",
       "DefaultValue": "50",
-      "Description": "Værdi",
+      "Description": "Valor",
       "DescriptionResourceString": "ProgressBar_Value_Display_Key",
-      "DisplayName": "Værdi",
+      "DisplayName": "Valor",
       "DisplayNameResourceString": "ProgressBar_Value_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -389,9 +389,9 @@
     {
       "Category": "data",
       "DefaultValue": "100",
-      "Description": "Maks. beskrivelse af statuslinjen",
+      "Description": "Descripción máxima de la barra de progreso",
       "DescriptionResourceString": "ProgressBar_Max_Desc_Key",
-      "DisplayName": "Maks.",
+      "DisplayName": "Máximo",
       "DisplayNameResourceString": "ProgressBar_Max_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -417,21 +417,21 @@
     {
       "Category": "data",
       "DefaultValue": "Medium",
-      "Description": "Definer tykkelsen af statuslinjen",
+      "Description": "Definir el grosor de la barra de progreso",
       "DescriptionResourceString": "ProgressBar_Thickness_Desc_Key",
-      "DisplayName": "Tykkelse",
+      "DisplayName": "Grosor",
       "DisplayNameResourceString": "ProgressBar_Thickness_Display_Key",
       "EnumValues": [
         {
-          "Description": "Mellem",
-          "DisplayName": "Mellem",
+          "Description": "Medio",
+          "DisplayName": "Medio",
           "IsDefaultValue": true,
           "Name": "Medium",
           "Value": "Medium"
         },
         {
-          "Description": "Stor",
-          "DisplayName": "Stor",
+          "Description": "Grande",
+          "DisplayName": "Grande",
           "IsDefaultValue": false,
           "Name": "Large",
           "Value": "Large"
@@ -460,21 +460,21 @@
     {
       "Category": "data",
       "DefaultValue": "Rounded",
-      "Description": "Statuslinjekomponentens form",
+      "Description": "Forma del componente de barra de progreso",
       "DescriptionResourceString": "ProgressBar_Shape_Desc_Key",
-      "DisplayName": "Form",
+      "DisplayName": "Forma",
       "DisplayNameResourceString": "ProgressBar_Shape_Display_Key",
       "EnumValues": [
         {
-          "Description": "Afrundet",
-          "DisplayName": "Afrundet",
+          "Description": "Redondeada",
+          "DisplayName": "Redondeada",
           "IsDefaultValue": true,
           "Name": "Rounded",
           "Value": "Rounded"
         },
         {
-          "Description": "Firkant",
-          "DisplayName": "Firkant",
+          "Description": "Cuadrado",
+          "DisplayName": "Cuadrado",
           "IsDefaultValue": false,
           "Name": "Square",
           "Value": "Square"
@@ -503,9 +503,9 @@
     {
       "Category": "data",
       "DefaultValue": "false",
-      "Description": "Ubestemt statuslinje",
+      "Description": "Barra de progreso indeterminado",
       "DescriptionResourceString": "ProgressBar_Indeterminate_Desc_Key",
-      "DisplayName": "Ubestemt",
+      "DisplayName": "Indeterminado",
       "DisplayNameResourceString": "ProgressBar_Indeterminate_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -531,35 +531,35 @@
     {
       "Category": "data",
       "DefaultValue": "Brand",
-      "Description": "Farve på statuslinje",
+      "Description": "Color de la barra de progreso",
       "DescriptionResourceString": "ProgressBar_ProgressColor_Desc_Key",
-      "DisplayName": "Farve",
+      "DisplayName": "Color",
       "DisplayNameResourceString": "ProgressBar_ProgressColor_Display_Key",
       "EnumValues": [
         {
-          "Description": "Ingen",
-          "DisplayName": "Ingen",
+          "Description": "Ninguno",
+          "DisplayName": "Ninguno",
           "IsDefaultValue": true,
           "Name": "Brand",
           "Value": "Brand"
         },
         {
-          "Description": "Fuldført",
-          "DisplayName": "Fuldført",
+          "Description": "Correcto",
+          "DisplayName": "Correcto",
           "IsDefaultValue": false,
           "Name": "Success",
           "Value": "Success"
         },
         {
-          "Description": "Advarsel",
-          "DisplayName": "Advarsel",
+          "Description": "Advertencia",
+          "DisplayName": "Advertencia",
           "IsDefaultValue": false,
           "Name": "Warning",
           "Value": "Warning"
         },
         {
-          "Description": "Fejl",
-          "DisplayName": "Fejl",
+          "Description": "Error",
+          "DisplayName": "Error",
           "IsDefaultValue": false,
           "Name": "Error",
           "Value": "Error"
@@ -780,7 +780,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 12,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"-\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"d. MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"d. MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d. MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd-MM-yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"sø\",\"ma\",\"ti\",\"on\",\"to\",\"fr\",\"lø\"],\"ShortestDayNames\":[\"sø\",\"ma\",\"ti\",\"on\",\"to\",\"fr\",\"lø\"],\"DayNames\":[\"søndag\",\"mandag\",\"tirsdag\",\"onsdag\",\"torsdag\",\"fredag\",\"lørdag\"],\"AbbreviatedMonthNames\":[\"jan\",\"feb\",\"mar\",\"apr\",\"maj\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthNames\":[\"januar\",\"februar\",\"marts\",\"april\",\"maj\",\"juni\",\"juli\",\"august\",\"september\",\"oktober\",\"november\",\"december\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregoriansk kalender\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"feb\",\"mar\",\"apr\",\"maj\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthGenitiveNames\":[\"januar\",\"februar\",\"marts\",\"april\",\"maj\",\"juni\",\"juli\",\"august\",\"september\",\"oktober\",\"november\",\"december\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"kr.\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"da-DK\",\"formatter\":null,\"languagesByCode\":{\"1030\":\"Danish (Denmark)\",\"-1\":\"All Languages\"}}}",
+      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd, d' de 'MMMM' de 'yyyy H:mm:ss\",\"LongDatePattern\":\"dddd, d' de 'MMMM' de 'yyyy\",\"LongTimePattern\":\"H:mm:ss\",\"MonthDayPattern\":\"d 'de' MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd/MM/yyyy\",\"ShortTimePattern\":\"H:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM' de 'yyyy\",\"AbbreviatedDayNames\":[\"do.\",\"lu.\",\"ma.\",\"mi.\",\"ju.\",\"vi.\",\"sá.\"],\"ShortestDayNames\":[\"D\",\"L\",\"M\",\"X\",\"J\",\"V\",\"S\"],\"DayNames\":[\"domingo\",\"lunes\",\"martes\",\"miércoles\",\"jueves\",\"viernes\",\"sábado\"],\"AbbreviatedMonthNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"calendario gregoriano\",\"AbbreviatedMonthGenitiveNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthGenitiveNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"es-ES\",\"formatter\":null,\"languagesByCode\":{\"3082\":\"Spanish (Spain, International Sort)\",\"-1\":\"All Languages\"}}}",
       "Type": 3
     },
     {
@@ -1102,7 +1102,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"ProgressBar_Display_Key\":\"Statuslinje\",\"ProgressBar_Desc_Key\":\"Lad brugerne visualisere Statuslinjeeffekt\",\"ProgressBar_Shape_Display_Key\":\"Form\",\"ProgressBar_Shape_Desc_Key\":\"Statuslinjekomponentens form\",\"ProgressBar_AccessibleLabel_Display_Key\":\"Tilgængelighedsetiket\",\"ProgressBar_AccessibleLabel_Desc_Key\":\"Komponentens ariaetikettekst\",\"ProgressBar_ProgressColor_Display_Key\":\"Farve\",\"ProgressBar_ProgressColor_Desc_Key\":\"Farve på statuslinje\",\"ProgressBar_Thickness_Display_Key\":\"Tykkelse\",\"ProgressBar_Thickness_Desc_Key\":\"Definer tykkelsen af statuslinjen\",\"ProgressBar_Max_Display_Key\":\"Maks.\",\"ProgressBar_Max_Desc_Key\":\"Maks. beskrivelse af statuslinjen\",\"ProgressBar_Value_Display_Key\":\"Værdi\",\"ProgressBar_Value_Desc_Key\":\"Et decimaltal mellem 0 og 100 (eller maksimum, hvis det er angivet), som angiver, hvor stor en del af opgaven der er blevet fuldført.\",\"ProgressBar_Thickness_Medium\":\"Mellem\",\"ProgressBar_Thickness_Large\":\"Stor\",\"ProgressBar_Shape_Square\":\"Firkant\",\"ProgressBar_Shape_Rounded\":\"Afrundet\",\"ProgressBar_Rounded_Desc_Key\":\"Formen på statuslinjen skal være afrundet\",\"ProgressBar_Color_Success\":\"Fuldført\",\"ProgressBar_Color_Brand\":\"Ingen\",\"ProgressBar_Color_Warning\":\"Advarsel\",\"ProgressBar_Color_Error\":\"Fejl\",\"ProgressBar_Indeterminate_Display_Key\":\"Ubestemt\",\"ProgressBar_Indeterminate_Desc_Key\":\"Ubestemt statuslinje\"}}}",
+      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"ProgressBar_Display_Key\":\"Barra de progreso\",\"ProgressBar_Desc_Key\":\"Permitir que los usuarios visualicen el efecto de la barra de progreso\",\"ProgressBar_Shape_Display_Key\":\"Forma\",\"ProgressBar_Shape_Desc_Key\":\"Forma del componente de barra de progreso\",\"ProgressBar_AccessibleLabel_Display_Key\":\"Etiqueta de accesibilidad\",\"ProgressBar_AccessibleLabel_Desc_Key\":\"Texto de la etiqueta Aria del componente\",\"ProgressBar_ProgressColor_Display_Key\":\"Color\",\"ProgressBar_ProgressColor_Desc_Key\":\"Color de la barra de progreso\",\"ProgressBar_Thickness_Display_Key\":\"Grosor\",\"ProgressBar_Thickness_Desc_Key\":\"Definir el grosor de la barra de progreso\",\"ProgressBar_Max_Display_Key\":\"Máximo\",\"ProgressBar_Max_Desc_Key\":\"Descripción máxima de la barra de progreso\",\"ProgressBar_Value_Display_Key\":\"Valor\",\"ProgressBar_Value_Desc_Key\":\"Un número decimal entre 0 y 100 (o Máximo si se indica) que especifica qué cantidad de la tarea se ha completado.\",\"ProgressBar_Thickness_Medium\":\"Medio\",\"ProgressBar_Thickness_Large\":\"Grande\",\"ProgressBar_Shape_Square\":\"Cuadrado\",\"ProgressBar_Shape_Rounded\":\"Redondeada\",\"ProgressBar_Rounded_Desc_Key\":\"La forma de la barra de progreso es redondeada\",\"ProgressBar_Color_Success\":\"Correcto\",\"ProgressBar_Color_Brand\":\"Ninguno\",\"ProgressBar_Color_Warning\":\"Advertencia\",\"ProgressBar_Color_Error\":\"Error\",\"ProgressBar_Indeterminate_Display_Key\":\"Indeterminado\",\"ProgressBar_Indeterminate_Desc_Key\":\"Barra de progreso indeterminado\"}}}",
       "Type": 3
     },
     {

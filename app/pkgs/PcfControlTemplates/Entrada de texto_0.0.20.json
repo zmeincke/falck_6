@@ -306,14 +306,14 @@
       "WebDefaultValue": ""
     }
   ],
-  "Name": "Tekstinput",
+  "Name": "Entrada de texto",
   "Properties": [
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Etiket til skærmlæsere.",
+      "Description": "Etiqueta para los lectores de pantalla.",
       "DescriptionResourceString": "TextInputCanvas_AccessibleLabel_Desc",
-      "DisplayName": "Tilgængelig etiket",
+      "DisplayName": "Etiqueta accesible",
       "DisplayNameResourceString": "TextInputCanvas_AccessibleLabel",
       "EnumValues": [],
       "HelperUI": null,
@@ -339,9 +339,9 @@
     {
       "Category": "data",
       "DefaultValue": "false",
-      "Description": "Når dette er angivet til sand, registreres brugerinput efter en halv sekunds forsinkelse. Dette er velegnet til forsinkelse af kostbare handlinger, indtil brugeren fuldfører indtastning af tekst (dvs. til filtrering, når input bruges i andre formler).",
+      "Description": "Cuando se establece en true, la entrada del usuario se registra tras un retraso de medio segundo. Es útil para retrasar operaciones costosas hasta que el usuario termine de escribir texto (es decir, para filtrar cuándo se utiliza la entrada en otras fórmulas).",
       "DescriptionResourceString": "TextInputCanvas_DelayOutput_Desc",
-      "DisplayName": "Forsink output",
+      "DisplayName": "Retrasar salida",
       "DisplayNameResourceString": "TextInputCanvas_DelayOutput",
       "EnumValues": [],
       "HelperUI": "",
@@ -367,9 +367,9 @@
     {
       "Category": "data",
       "DefaultValue": "-1",
-      "Description": "Maksimumlængden for indhold af tekstinput.",
+      "Description": "La longitud máxima del contenido de la entrada de texto.",
       "DescriptionResourceString": "TextInputCanvas_MaxLength_Desc",
-      "DisplayName": "Maksimumlængde",
+      "DisplayName": "Longitud máxima",
       "DisplayNameResourceString": "TextInputCanvas_MaxLength",
       "EnumValues": [],
       "HelperUI": "",
@@ -395,21 +395,21 @@
     {
       "Category": "data",
       "DefaultValue": "SingleLine",
-      "Description": "Tekstinputtype: enkelt linje eller flere linjer.",
+      "Description": "Tipo de entrada de texto: línea única o multilínea.",
       "DescriptionResourceString": "TextInputCanvas_Mode_Desc",
-      "DisplayName": "Tilstand",
+      "DisplayName": "Modo",
       "DisplayNameResourceString": "TextInputCanvas_Mode",
       "EnumValues": [
         {
-          "Description": "Enkelt linje",
-          "DisplayName": "Enkelt linje",
+          "Description": "Línea única",
+          "DisplayName": "Línea única",
           "IsDefaultValue": true,
           "Name": "SingleLine",
           "Value": "SingleLine"
         },
         {
-          "Description": "Flere linjer",
-          "DisplayName": "Flere linjer",
+          "Description": "Multilínea",
+          "DisplayName": "Multilínea",
           "IsDefaultValue": false,
           "Name": "Multiline",
           "Value": "Multiline"
@@ -438,9 +438,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Pladsholderteksten i tekstinput.",
+      "Description": "El texto de marcador de posición de la entrada de texto.",
       "DescriptionResourceString": "TextInputCanvas_Placeholder_Desc",
-      "DisplayName": "Pladsholdertekst",
+      "DisplayName": "Texto de marcador de posición",
       "DisplayNameResourceString": "TextInputCanvas_Placeholder",
       "EnumValues": [],
       "HelperUI": null,
@@ -466,9 +466,9 @@
     {
       "Category": "data",
       "DefaultValue": "false",
-      "Description": "Angiver, om dette kontrolelement skal indeholde tekst.",
+      "Description": "Indica si este control debe contener texto.",
       "DescriptionResourceString": "TextInputCanvas_Required_Desc",
-      "DisplayName": "Påkrævet",
+      "DisplayName": "Obligatorio",
       "DisplayNameResourceString": "TextInputCanvas_Required",
       "EnumValues": [],
       "HelperUI": "",
@@ -494,28 +494,28 @@
     {
       "Category": "data",
       "DefaultValue": "Text",
-      "Description": "Tekstinputs for indholdstype: almindelig tekst, adgangskode eller søgning.",
+      "Description": "Tipo de contenido de la entrada de texto: texto sin formato, contraseña o búsqueda.",
       "DescriptionResourceString": "TextInputCanvas_Type_Desc",
-      "DisplayName": "Type",
+      "DisplayName": "Tipo",
       "DisplayNameResourceString": "TextInputCanvas_Type",
       "EnumValues": [
         {
-          "Description": "Adgangskode",
-          "DisplayName": "Adgangskode",
+          "Description": "Contraseña",
+          "DisplayName": "Contraseña",
           "IsDefaultValue": false,
           "Name": "Password",
           "Value": "Password"
         },
         {
-          "Description": "Søg efter",
-          "DisplayName": "Søg efter",
+          "Description": "Búsqueda",
+          "DisplayName": "Búsqueda",
           "IsDefaultValue": false,
           "Name": "Search",
           "Value": "Search"
         },
         {
-          "Description": "Tekst",
-          "DisplayName": "Tekst",
+          "Description": "Texto",
+          "DisplayName": "Texto",
           "IsDefaultValue": true,
           "Name": "Text",
           "Value": "Text"
@@ -544,21 +544,21 @@
     {
       "Category": "data",
       "DefaultValue": "None",
-      "Description": "Den aktuelle status for tekstinput med hensyn til validering.",
+      "Description": "El estado actual de la entrada de texto, con respecto a la validación.",
       "DescriptionResourceString": "TextInputCanvas_ValidationState_Desc",
-      "DisplayName": "Valideringstilstand",
+      "DisplayName": "Estado de validación",
       "DisplayNameResourceString": "TextInputCanvas_ValidationState",
       "EnumValues": [
         {
-          "Description": "Fejl",
-          "DisplayName": "Fejl",
+          "Description": "Error",
+          "DisplayName": "Error",
           "IsDefaultValue": false,
           "Name": "Error",
           "Value": "Error"
         },
         {
-          "Description": "Ingen",
-          "DisplayName": "Ingen",
+          "Description": "Ninguno",
+          "DisplayName": "Ninguno",
           "IsDefaultValue": true,
           "Name": "None",
           "Value": "None"
@@ -587,9 +587,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Tekst, der vises på et kontrolelement, eller som brugeren indtaster i et kontrolelement.",
+      "Description": "Texto que aparece en un control o que el usuario escribe en un control.",
       "DescriptionResourceString": "TextInputCanvas_Value_Desc",
-      "DisplayName": "Værdi",
+      "DisplayName": "Valor",
       "DisplayNameResourceString": "TextInputCanvas_Value",
       "EnumValues": [],
       "HelperUI": "",
@@ -615,9 +615,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Du kan angive en anden farvepalet til det valgte element ved at angive en basispaletfarve. Denne farve genererer et sæt lignende farver, der derefter anvendes på forskellige aspekter af elementet, mest almindeligt: udfyldning, ramme og interaktionstilstande. En tom værdi angiver, at elementet bruger farvepaletten i appens tema.",
+      "Description": "Puede proporcionar una paleta de colores diferente para el elemento seleccionado si especifica un color base de la paleta. Este color genera un conjunto de colores similares que se aplicarán después a diferentes aspectos del elemento, siendo los más habituales: relleno, borde y estados de interacción. Un valor en blanco indica que el elemento usará la paleta de colores del tema de la aplicación.",
       "DescriptionResourceString": "Base_Palette_Color_description",
-      "DisplayName": "Basispaletfarve",
+      "DisplayName": "Color base de la paleta",
       "DisplayNameResourceString": "Base_Palette_Color",
       "EnumValues": [],
       "HelperUI": "color",
@@ -643,9 +643,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Angiv skrifttypestørrelsen for den viste tekst.",
+      "Description": "Establezca el tamaño de fuente para el texto mostrado.",
       "DescriptionResourceString": "Font_Size_description",
-      "DisplayName": "Skrifttypestørrelse",
+      "DisplayName": "Tamaño de fuente",
       "DisplayNameResourceString": "Font_Size",
       "EnumValues": [],
       "HelperUI": null,
@@ -835,7 +835,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 12,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"-\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"d. MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"d. MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d. MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd-MM-yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"sø\",\"ma\",\"ti\",\"on\",\"to\",\"fr\",\"lø\"],\"ShortestDayNames\":[\"sø\",\"ma\",\"ti\",\"on\",\"to\",\"fr\",\"lø\"],\"DayNames\":[\"søndag\",\"mandag\",\"tirsdag\",\"onsdag\",\"torsdag\",\"fredag\",\"lørdag\"],\"AbbreviatedMonthNames\":[\"jan\",\"feb\",\"mar\",\"apr\",\"maj\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthNames\":[\"januar\",\"februar\",\"marts\",\"april\",\"maj\",\"juni\",\"juli\",\"august\",\"september\",\"oktober\",\"november\",\"december\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregoriansk kalender\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"feb\",\"mar\",\"apr\",\"maj\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthGenitiveNames\":[\"januar\",\"februar\",\"marts\",\"april\",\"maj\",\"juni\",\"juli\",\"august\",\"september\",\"oktober\",\"november\",\"december\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"kr.\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"da-DK\",\"formatter\":null,\"languagesByCode\":{\"1030\":\"Danish (Denmark)\",\"-1\":\"All Languages\"}}}",
+      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd, d' de 'MMMM' de 'yyyy H:mm:ss\",\"LongDatePattern\":\"dddd, d' de 'MMMM' de 'yyyy\",\"LongTimePattern\":\"H:mm:ss\",\"MonthDayPattern\":\"d 'de' MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd/MM/yyyy\",\"ShortTimePattern\":\"H:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM' de 'yyyy\",\"AbbreviatedDayNames\":[\"do.\",\"lu.\",\"ma.\",\"mi.\",\"ju.\",\"vi.\",\"sá.\"],\"ShortestDayNames\":[\"D\",\"L\",\"M\",\"X\",\"J\",\"V\",\"S\"],\"DayNames\":[\"domingo\",\"lunes\",\"martes\",\"miércoles\",\"jueves\",\"viernes\",\"sábado\"],\"AbbreviatedMonthNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"calendario gregoriano\",\"AbbreviatedMonthGenitiveNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthGenitiveNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"es-ES\",\"formatter\":null,\"languagesByCode\":{\"3082\":\"Spanish (Spain, International Sort)\",\"-1\":\"All Languages\"}}}",
       "Type": 3
     },
     {
@@ -1157,7 +1157,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"TextInputCanvas\":\"Tekstinput\",\"TextInputCanvas_AccessibleLabel\":\"Tilgængelig etiket\",\"TextInputCanvas_AccessibleLabel_Desc\":\"Etiket til skærmlæsere.\",\"TextInputCanvas_DelayOutput\":\"Forsink output\",\"TextInputCanvas_DelayOutput_Desc\":\"Når dette er angivet til sand, registreres brugerinput efter en halv sekunds forsinkelse. Dette er velegnet til forsinkelse af kostbare handlinger, indtil brugeren fuldfører indtastning af tekst (dvs. til filtrering, når input bruges i andre formler).\",\"TextInputCanvas_Mode\":\"Tilstand\",\"TextInputCanvas_Mode_Desc\":\"Tekstinputtype: enkelt linje eller flere linjer.\",\"TextInputCanvas_Mode_SingleLine\":\"Enkelt linje\",\"TextInputCanvas_Mode_Multiline\":\"Flere linjer\",\"TextInputCanvas_Required\":\"Påkrævet\",\"TextInputCanvas_Required_Desc\":\"Angiver, om dette kontrolelement skal indeholde tekst.\",\"TextInputCanvas_Value\":\"Værdi\",\"TextInputCanvas_Value_Desc\":\"Tekst, der vises på et kontrolelement, eller som brugeren indtaster i et kontrolelement.\",\"TextInputCanvas_Placeholder\":\"Pladsholdertekst\",\"TextInputCanvas_Placeholder_Desc\":\"Pladsholderteksten i tekstinput.\",\"TextInputCanvas_Type\":\"Type\",\"TextInputCanvas_Type_Desc\":\"Tekstinputs for indholdstype: almindelig tekst, adgangskode eller søgning.\",\"TextInputCanvas_Type_Text\":\"Tekst\",\"TextInputCanvas_Type_Password\":\"Adgangskode\",\"TextInputCanvas_Type_Search\":\"Søg efter\",\"TextInputCanvas_MaxLength\":\"Maksimumlængde\",\"TextInputCanvas_MaxLength_Desc\":\"Maksimumlængden for indhold af tekstinput.\",\"Base_Palette_Color\":\"Basispaletfarve\",\"Base_Palette_Color_description\":\"Du kan angive en anden farvepalet til det valgte element ved at angive en basispaletfarve. Denne farve genererer et sæt lignende farver, der derefter anvendes på forskellige aspekter af elementet, mest almindeligt: udfyldning, ramme og interaktionstilstande. En tom værdi angiver, at elementet bruger farvepaletten i appens tema.\",\"TextInputCanvas_ValidationState\":\"Valideringstilstand\",\"TextInputCanvas_ValidationState_Desc\":\"Den aktuelle status for tekstinput med hensyn til validering.\",\"TextInputCanvas_ValidationState_None\":\"Ingen\",\"TextInputCanvas_ValidationState_Error\":\"Fejl\",\"Font_Size\":\"Skrifttypestørrelse\",\"Font_Size_description\":\"Angiv skrifttypestørrelsen for den viste tekst.\"}}}",
+      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"TextInputCanvas\":\"Entrada de texto\",\"TextInputCanvas_AccessibleLabel\":\"Etiqueta accesible\",\"TextInputCanvas_AccessibleLabel_Desc\":\"Etiqueta para los lectores de pantalla.\",\"TextInputCanvas_DelayOutput\":\"Retrasar salida\",\"TextInputCanvas_DelayOutput_Desc\":\"Cuando se establece en true, la entrada del usuario se registra tras un retraso de medio segundo. Es útil para retrasar operaciones costosas hasta que el usuario termine de escribir texto (es decir, para filtrar cuándo se utiliza la entrada en otras fórmulas).\",\"TextInputCanvas_Mode\":\"Modo\",\"TextInputCanvas_Mode_Desc\":\"Tipo de entrada de texto: línea única o multilínea.\",\"TextInputCanvas_Mode_SingleLine\":\"Línea única\",\"TextInputCanvas_Mode_Multiline\":\"Multilínea\",\"TextInputCanvas_Required\":\"Obligatorio\",\"TextInputCanvas_Required_Desc\":\"Indica si este control debe contener texto.\",\"TextInputCanvas_Value\":\"Valor\",\"TextInputCanvas_Value_Desc\":\"Texto que aparece en un control o que el usuario escribe en un control.\",\"TextInputCanvas_Placeholder\":\"Texto de marcador de posición\",\"TextInputCanvas_Placeholder_Desc\":\"El texto de marcador de posición de la entrada de texto.\",\"TextInputCanvas_Type\":\"Tipo\",\"TextInputCanvas_Type_Desc\":\"Tipo de contenido de la entrada de texto: texto sin formato, contraseña o búsqueda.\",\"TextInputCanvas_Type_Text\":\"Texto\",\"TextInputCanvas_Type_Password\":\"Contraseña\",\"TextInputCanvas_Type_Search\":\"Búsqueda\",\"TextInputCanvas_MaxLength\":\"Longitud máxima\",\"TextInputCanvas_MaxLength_Desc\":\"La longitud máxima del contenido de la entrada de texto.\",\"Base_Palette_Color\":\"Color base de la paleta\",\"Base_Palette_Color_description\":\"Puede proporcionar una paleta de colores diferente para el elemento seleccionado si especifica un color base de la paleta. Este color genera un conjunto de colores similares que se aplicarán después a diferentes aspectos del elemento, siendo los más habituales: relleno, borde y estados de interacción. Un valor en blanco indica que el elemento usará la paleta de colores del tema de la aplicación.\",\"TextInputCanvas_ValidationState\":\"Estado de validación\",\"TextInputCanvas_ValidationState_Desc\":\"El estado actual de la entrada de texto, con respecto a la validación.\",\"TextInputCanvas_ValidationState_None\":\"Ninguno\",\"TextInputCanvas_ValidationState_Error\":\"Error\",\"Font_Size\":\"Tamaño de fuente\",\"Font_Size_description\":\"Establezca el tamaño de fuente para el texto mostrado.\"}}}",
       "Type": 3
     },
     {

@@ -387,14 +387,14 @@
       "WebDefaultValue": ""
     }
   ],
-  "Name": "Sidehoved",
+  "Name": "Encabezado",
   "Properties": [
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Du kan angive en anden farvepalet til det valgte element ved at angive en basispaletfarve. Denne farve genererer et sæt lignende farver, der derefter anvendes på forskellige aspekter af elementet, mest almindeligt: udfyldning, ramme og interaktionstilstande. En tom værdi angiver, at elementet bruger farvepaletten i appens tema.",
+      "Description": "Puede proporcionar una paleta de colores diferente para el elemento seleccionado si especifica un color base de la paleta. Este color genera un conjunto de colores similares que se aplicarán después a diferentes aspectos del elemento, siendo los más habituales: relleno, borde y estados de interacción. Un valor en blanco indica que el elemento usará la paleta de colores del tema de la aplicación.",
       "DescriptionResourceString": "Base_Palette_Color_description",
-      "DisplayName": "Basispaletfarve",
+      "DisplayName": "Color base de la paleta",
       "DisplayNameResourceString": "Base_Palette_Color",
       "EnumValues": [],
       "HelperUI": "color",
@@ -420,28 +420,28 @@
     {
       "Category": "data",
       "DefaultValue": "Primary",
-      "Description": "Baggrundstypografien for sidehovedet",
+      "Description": "El estilo de fondo del encabezado",
       "DescriptionResourceString": "Style_Desc_Key",
-      "DisplayName": "Typografi",
+      "DisplayName": "Estilo",
       "DisplayNameResourceString": "Style_Display_Key",
       "EnumValues": [
         {
-          "Description": "Neutral",
-          "DisplayName": "Neutral",
+          "Description": "Neutro",
+          "DisplayName": "Neutro",
           "IsDefaultValue": false,
           "Name": "Neutral",
           "Value": "Neutral"
         },
         {
-          "Description": "Primær",
-          "DisplayName": "Primær",
+          "Description": "Principal",
+          "DisplayName": "Principal",
           "IsDefaultValue": true,
           "Name": "Primary",
           "Value": "Primary"
         },
         {
-          "Description": "Lys",
-          "DisplayName": "Lys",
+          "Description": "Claro",
+          "DisplayName": "Claro",
           "IsDefaultValue": false,
           "Name": "Light",
           "Value": "Light"
@@ -470,9 +470,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Kontrolelementet logobillede",
+      "Description": "La imagen del logotipo del control",
       "DescriptionResourceString": "Logo_Desc_Key",
-      "DisplayName": "Logo",
+      "DisplayName": "Logotipo",
       "DisplayNameResourceString": "Logo_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -498,9 +498,9 @@
     {
       "Category": "data",
       "DefaultValue": "true",
-      "Description": "Slår visning af logoet til/fra",
+      "Description": "Alterna la visualización del logotipo",
       "DescriptionResourceString": "IsLogoVisible_Desc_Key",
-      "DisplayName": "Synlig",
+      "DisplayName": "Visible",
       "DisplayNameResourceString": "IsLogoVisible_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -525,10 +525,10 @@
     },
     {
       "Category": "data",
-      "DefaultValue": "Logobilledet",
-      "Description": "Værktøjstip til logobilledet",
+      "DefaultValue": "La imagen del logotipo",
+      "Description": "La información sobre herramientas de la imagen del logotipo",
       "DescriptionResourceString": "LogoTooltip_Desc_Key",
-      "DisplayName": "Værktøjstip",
+      "DisplayName": "Información sobre herramientas",
       "DisplayNameResourceString": "LogoTooltip_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -554,9 +554,9 @@
     {
       "Category": "data",
       "DefaultValue": "70",
-      "Description": "Logobilledet",
+      "Description": "La imagen del logotipo",
       "DescriptionResourceString": "LogoMaxHeight_Desc_Key",
-      "DisplayName": "Maks. højde for logo",
+      "DisplayName": "Altura máxima del logotipo",
       "DisplayNameResourceString": "LogoMaxHeight_Display_Key",
       "EnumValues": [],
       "HelperUI": "",
@@ -581,10 +581,10 @@
     },
     {
       "Category": "data",
-      "DefaultValue": "Overskriftstitel",
-      "Description": "Titelteksten på sidehovedet",
+      "DefaultValue": "Título de encabezado",
+      "Description": "El texto del título del encabezado",
       "DescriptionResourceString": "Title_Desc_Key",
-      "DisplayName": "Titel",
+      "DisplayName": "Título",
       "DisplayNameResourceString": "Title_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -610,9 +610,9 @@
     {
       "Category": "data",
       "DefaultValue": "true",
-      "Description": "Slår visning af titlen til/fra",
+      "Description": "Alterna la visualización del título",
       "DescriptionResourceString": "IsTitleVisible_Desc_Key",
-      "DisplayName": "Synlig",
+      "DisplayName": "Visible",
       "DisplayNameResourceString": "IsTitleVisible_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -638,9 +638,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Titlens skriftstørrelse",
+      "Description": "El tamaño de fuente del título",
       "DescriptionResourceString": "TitleFontSize_Desc_Key",
-      "DisplayName": "Skrifttypestørrelse",
+      "DisplayName": "Tamaño de fuente",
       "DisplayNameResourceString": "TitleFontSize_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -666,9 +666,9 @@
     {
       "Category": "data",
       "DefaultValue": "true",
-      "Description": "Slår visning af profilbilledet til/fra",
+      "Description": "Alterna la visualización de la imagen del perfil",
       "DescriptionResourceString": "IsProfilePictureVisible_Desc_Key",
-      "DisplayName": "Profilbillede",
+      "DisplayName": "Imagen de perfil",
       "DisplayNameResourceString": "IsProfilePictureVisible_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -694,9 +694,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Brugerens profilbillede",
+      "Description": "La imagen del perfil del usuario",
       "DescriptionResourceString": "UserImage_Desc_Key",
-      "DisplayName": "Billede af bruger",
+      "DisplayName": "Imagen de usuario",
       "DisplayNameResourceString": "UserImage_Display_Key",
       "EnumValues": [],
       "HelperUI": "",
@@ -722,9 +722,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Brugerens fulde navn",
+      "Description": "El nombre completo del usuario",
       "DescriptionResourceString": "UserName_Desc_Key",
-      "DisplayName": "Brugernavn",
+      "DisplayName": "Nombre de usuario",
       "DisplayNameResourceString": "UserName_Display_Key",
       "EnumValues": [],
       "HelperUI": "",
@@ -750,9 +750,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Brugerens mailadresse",
+      "Description": "La dirección de correo electrónico del usuario",
       "DescriptionResourceString": "UserEmail_Desc_Key",
-      "DisplayName": "Brugermail",
+      "DisplayName": "Correo electrónico del usuario",
       "DisplayNameResourceString": "UserEmail_Display_Key",
       "EnumValues": [],
       "HelperUI": "",
@@ -907,7 +907,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 7,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"ManifestTemplate\",\"Data\":{\"ConstructorName\":\"PowerApps.Header\",\"CustomControlId\":\"PowerApps.Header\",\"IsVirtual\":true,\"Properties\":{\"Resources\":[{\"Name\":\"/PCF/prop-types.js\",\"LoadOrder\":1,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/react-fela.js\",\"LoadOrder\":2,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela.js\",\"LoadOrder\":3,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela-dom.js\",\"LoadOrder\":4,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PCFControls/js/PCFControlWrapper.js\",\"LoadOrder\":6,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PcfControlProxy/js/PcfControlProxy.js\",\"LoadOrder\":7,\"Type\":0,\"LibraryName\":null}],\"GroupDefinitions\":null,\"DataSetDefinitions\":{},\"Properties\":{\"BasePaletteColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Style\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Primary\"},\"Logo\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"IsLogoVisible\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"LogoTooltip\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Logobilledet\"},\"LogoMaxHeight\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"70\"},\"Title\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Overskriftstitel\"},\"IsTitleVisible\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"TitleFontSize\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"IsProfilePictureVisible\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"UserImage\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"UserName\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"UserEmail\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"TabIndex\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Tooltip\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"}},\"FeatureUsage\":[{\"IsRequired\":true,\"Name\":\"ExplicitCommonEvents\"}]},\"Events\":null,\"CommonEvents\":null,\"DesignMap\":null,\"PropertyDependencies\":[],\"Children\":null}}",
+      "Path": "{\"Id\":\"ManifestTemplate\",\"Data\":{\"ConstructorName\":\"PowerApps.Header\",\"CustomControlId\":\"PowerApps.Header\",\"IsVirtual\":true,\"Properties\":{\"Resources\":[{\"Name\":\"/PCF/prop-types.js\",\"LoadOrder\":1,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/react-fela.js\",\"LoadOrder\":2,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela.js\",\"LoadOrder\":3,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/PCF/fela-dom.js\",\"LoadOrder\":4,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PCFControls/js/PCFControlWrapper.js\",\"LoadOrder\":6,\"Type\":0,\"LibraryName\":null},{\"Name\":\"/ctrllib/PcfControlProxy/js/PcfControlProxy.js\",\"LoadOrder\":7,\"Type\":0,\"LibraryName\":null}],\"GroupDefinitions\":null,\"DataSetDefinitions\":{},\"Properties\":{\"BasePaletteColor\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Style\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Primary\"},\"Logo\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"IsLogoVisible\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"LogoTooltip\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"La imagen del logotipo\"},\"LogoMaxHeight\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"70\"},\"Title\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"Título de encabezado\"},\"IsTitleVisible\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"TitleFontSize\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"IsProfilePictureVisible\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"true\"},\"UserImage\":{\"Required\":true,\"Usage\":0,\"DefaultValue\":\"\"},\"UserName\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"UserEmail\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"TabIndex\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"},\"Tooltip\":{\"Required\":true,\"Usage\":1,\"DefaultValue\":\"\"}},\"FeatureUsage\":[{\"IsRequired\":true,\"Name\":\"ExplicitCommonEvents\"}]},\"Events\":null,\"CommonEvents\":null,\"DesignMap\":null,\"PropertyDependencies\":[],\"Children\":null}}",
       "Type": 3
     },
     {
@@ -942,7 +942,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 12,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"-\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"d. MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"d. MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d. MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd-MM-yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"sø\",\"ma\",\"ti\",\"on\",\"to\",\"fr\",\"lø\"],\"ShortestDayNames\":[\"sø\",\"ma\",\"ti\",\"on\",\"to\",\"fr\",\"lø\"],\"DayNames\":[\"søndag\",\"mandag\",\"tirsdag\",\"onsdag\",\"torsdag\",\"fredag\",\"lørdag\"],\"AbbreviatedMonthNames\":[\"jan\",\"feb\",\"mar\",\"apr\",\"maj\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthNames\":[\"januar\",\"februar\",\"marts\",\"april\",\"maj\",\"juni\",\"juli\",\"august\",\"september\",\"oktober\",\"november\",\"december\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregoriansk kalender\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"feb\",\"mar\",\"apr\",\"maj\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthGenitiveNames\":[\"januar\",\"februar\",\"marts\",\"april\",\"maj\",\"juni\",\"juli\",\"august\",\"september\",\"oktober\",\"november\",\"december\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"kr.\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"da-DK\",\"formatter\":null,\"languagesByCode\":{\"1030\":\"Danish (Denmark)\",\"-1\":\"All Languages\"}}}",
+      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd, d' de 'MMMM' de 'yyyy H:mm:ss\",\"LongDatePattern\":\"dddd, d' de 'MMMM' de 'yyyy\",\"LongTimePattern\":\"H:mm:ss\",\"MonthDayPattern\":\"d 'de' MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd/MM/yyyy\",\"ShortTimePattern\":\"H:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM' de 'yyyy\",\"AbbreviatedDayNames\":[\"do.\",\"lu.\",\"ma.\",\"mi.\",\"ju.\",\"vi.\",\"sá.\"],\"ShortestDayNames\":[\"D\",\"L\",\"M\",\"X\",\"J\",\"V\",\"S\"],\"DayNames\":[\"domingo\",\"lunes\",\"martes\",\"miércoles\",\"jueves\",\"viernes\",\"sábado\"],\"AbbreviatedMonthNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"calendario gregoriano\",\"AbbreviatedMonthGenitiveNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthGenitiveNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"es-ES\",\"formatter\":null,\"languagesByCode\":{\"3082\":\"Spanish (Spain, International Sort)\",\"-1\":\"All Languages\"}}}",
       "Type": 3
     },
     {
@@ -1264,7 +1264,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"Header_Display_Key\":\"Sidehoved\",\"Header_Desc_Key\":\"De kontrolelementer, der opretter sidehovedet\",\"BackgroundColor_Display_Key\":\"Baggrundsfarve for overskrift\",\"BackgroundColor_Desc_Key\":\"Udfyldningsfarven i overskriften\",\"Title_Display_Key\":\"Titel\",\"Title_Desc_Key\":\"Titelteksten på sidehovedet\",\"Default_Title\":\"Overskriftstitel\",\"IsTitleVisible_Display_Key\":\"Synlig\",\"IsTitleVisible_Desc_Key\":\"Slår visning af titlen til/fra\",\"TitleFontSize_Display_Key\":\"Skrifttypestørrelse\",\"TitleFontSize_Desc_Key\":\"Titlens skriftstørrelse\",\"Logo_Display_Key\":\"Logo\",\"Logo_Desc_Key\":\"Kontrolelementet logobillede\",\"IsLogoVisible_Display_Key\":\"Synlig\",\"IsLogoVisible_Desc_Key\":\"Slår visning af logoet til/fra\",\"LogoTooltip_Display_Key\":\"Værktøjstip\",\"LogoTooltip_Desc_Key\":\"Værktøjstip til logobilledet\",\"Default_LogoTooltip\":\"Logobilledet\",\"LogoMaxHeight_Display_Key\":\"Maks. højde for logo\",\"LogoMaxHeight_Desc_Key\":\"Logobilledet\",\"UserName_Display_Key\":\"Brugernavn\",\"UserName_Desc_Key\":\"Brugerens fulde navn\",\"UserEmail_Display_Key\":\"Brugermail\",\"UserEmail_Desc_Key\":\"Brugerens mailadresse\",\"IsProfilePictureVisible_Display_Key\":\"Profilbillede\",\"IsProfilePictureVisible_Desc_Key\":\"Slår visning af profilbilledet til/fra\",\"UserImage_Display_Key\":\"Billede af bruger\",\"UserImage_Desc_Key\":\"Brugerens profilbillede\",\"Style_Display_Key\":\"Typografi\",\"Style_Desc_Key\":\"Baggrundstypografien for sidehovedet\",\"Style_Neutral\":\"Neutral\",\"Style_Primary\":\"Primær\",\"Style_Light\":\"Lys\",\"Base_Palette_Color\":\"Basispaletfarve\",\"Base_Palette_Color_description\":\"Du kan angive en anden farvepalet til det valgte element ved at angive en basispaletfarve. Denne farve genererer et sæt lignende farver, der derefter anvendes på forskellige aspekter af elementet, mest almindeligt: udfyldning, ramme og interaktionstilstande. En tom værdi angiver, at elementet bruger farvepaletten i appens tema.\"}}}",
+      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"Header_Display_Key\":\"Encabezado\",\"Header_Desc_Key\":\"Los controles que componen el encabezado\",\"BackgroundColor_Display_Key\":\"Color de fondo del encabezado\",\"BackgroundColor_Desc_Key\":\"El color de relleno del encabezado\",\"Title_Display_Key\":\"Título\",\"Title_Desc_Key\":\"El texto del título del encabezado\",\"Default_Title\":\"Título de encabezado\",\"IsTitleVisible_Display_Key\":\"Visible\",\"IsTitleVisible_Desc_Key\":\"Alterna la visualización del título\",\"TitleFontSize_Display_Key\":\"Tamaño de fuente\",\"TitleFontSize_Desc_Key\":\"El tamaño de fuente del título\",\"Logo_Display_Key\":\"Logotipo\",\"Logo_Desc_Key\":\"La imagen del logotipo del control\",\"IsLogoVisible_Display_Key\":\"Visible\",\"IsLogoVisible_Desc_Key\":\"Alterna la visualización del logotipo\",\"LogoTooltip_Display_Key\":\"Información sobre herramientas\",\"LogoTooltip_Desc_Key\":\"La información sobre herramientas de la imagen del logotipo\",\"Default_LogoTooltip\":\"La imagen del logotipo\",\"LogoMaxHeight_Display_Key\":\"Altura máxima del logotipo\",\"LogoMaxHeight_Desc_Key\":\"La imagen del logotipo\",\"UserName_Display_Key\":\"Nombre de usuario\",\"UserName_Desc_Key\":\"El nombre completo del usuario\",\"UserEmail_Display_Key\":\"Correo electrónico del usuario\",\"UserEmail_Desc_Key\":\"La dirección de correo electrónico del usuario\",\"IsProfilePictureVisible_Display_Key\":\"Imagen de perfil\",\"IsProfilePictureVisible_Desc_Key\":\"Alterna la visualización de la imagen del perfil\",\"UserImage_Display_Key\":\"Imagen de usuario\",\"UserImage_Desc_Key\":\"La imagen del perfil del usuario\",\"Style_Display_Key\":\"Estilo\",\"Style_Desc_Key\":\"El estilo de fondo del encabezado\",\"Style_Neutral\":\"Neutro\",\"Style_Primary\":\"Principal\",\"Style_Light\":\"Claro\",\"Base_Palette_Color\":\"Color base de la paleta\",\"Base_Palette_Color_description\":\"Puede proporcionar una paleta de colores diferente para el elemento seleccionado si especifica un color base de la paleta. Este color genera un conjunto de colores similares que se aplicarán después a diferentes aspectos del elemento, siendo los más habituales: relleno, borde y estados de interacción. Un valor en blanco indica que el elemento usará la paleta de colores del tema de la aplicación.\"}}}",
       "Type": 3
     },
     {

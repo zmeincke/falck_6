@@ -306,7 +306,7 @@
       "WebDefaultValue": ""
     }
   ],
-  "Name": "Badge",
+  "Name": "Distintivo",
   "Properties": [
     {
       "Category": "data",
@@ -339,35 +339,35 @@
     {
       "Category": "data",
       "DefaultValue": "Tint",
-      "Description": "Vælg en af et udvalg af udseendetypografier.",
+      "Description": "Elija uno de los estilos de apariencia disponibles.",
       "DescriptionResourceString": "BadgeCanvas_Appearance_Desc",
-      "DisplayName": "Udseende",
+      "DisplayName": "Apariencia",
       "DisplayNameResourceString": "BadgeCanvas_Appearance",
       "EnumValues": [
         {
-          "Description": "Udfyldt",
-          "DisplayName": "Udfyldt",
+          "Description": "Relleno",
+          "DisplayName": "Relleno",
           "IsDefaultValue": true,
           "Name": "Filled",
           "Value": "Filled"
         },
         {
-          "Description": "Skygge",
-          "DisplayName": "Skygge",
+          "Description": "Fantasma",
+          "DisplayName": "Fantasma",
           "IsDefaultValue": false,
           "Name": "Ghost",
           "Value": "Ghost"
         },
         {
-          "Description": "Kontur",
-          "DisplayName": "Kontur",
+          "Description": "Contorno",
+          "DisplayName": "Contorno",
           "IsDefaultValue": false,
           "Name": "Outline",
           "Value": "Outline"
         },
         {
-          "Description": "Farvetone",
-          "DisplayName": "Farvetone",
+          "Description": "Tono",
+          "DisplayName": "Tono",
           "IsDefaultValue": false,
           "Name": "Tint",
           "Value": "Tint"
@@ -396,63 +396,63 @@
     {
       "Category": "data",
       "DefaultValue": "Brand",
-      "Description": "Vælg en af et udvalg af farver fra temaet.",
+      "Description": "Elija uno de los colores disponibles del tema.",
       "DescriptionResourceString": "BadgeCanvas_ThemeColor_Desc",
-      "DisplayName": "Farve",
+      "DisplayName": "Color",
       "DisplayNameResourceString": "BadgeCanvas_ThemeColor",
       "EnumValues": [
         {
-          "Description": "Mærke",
-          "DisplayName": "Mærke",
+          "Description": "Marca",
+          "DisplayName": "Marca",
           "IsDefaultValue": true,
           "Name": "Brand",
           "Value": "Brand"
         },
         {
-          "Description": "Fare",
-          "DisplayName": "Fare",
+          "Description": "Peligro",
+          "DisplayName": "Peligro",
           "IsDefaultValue": false,
           "Name": "Danger",
           "Value": "Danger"
         },
         {
-          "Description": "Vigtigt",
-          "DisplayName": "Vigtigt",
+          "Description": "Importante",
+          "DisplayName": "Importante",
           "IsDefaultValue": false,
           "Name": "Important",
           "Value": "Important"
         },
         {
-          "Description": "Information",
-          "DisplayName": "Information",
+          "Description": "Informativa",
+          "DisplayName": "Informativa",
           "IsDefaultValue": false,
           "Name": "Informative",
           "Value": "Informative"
         },
         {
-          "Description": "Alvorlig",
-          "DisplayName": "Alvorlig",
+          "Description": "Grave",
+          "DisplayName": "Grave",
           "IsDefaultValue": false,
           "Name": "Severe",
           "Value": "Severe"
         },
         {
-          "Description": "Raffineret",
-          "DisplayName": "Raffineret",
+          "Description": "Tenue",
+          "DisplayName": "Tenue",
           "IsDefaultValue": false,
           "Name": "Subtle",
           "Value": "Subtle"
         },
         {
-          "Description": "Fuldført",
-          "DisplayName": "Fuldført",
+          "Description": "Correcto",
+          "DisplayName": "Correcto",
           "IsDefaultValue": false,
           "Name": "Success",
           "Value": "Success"
         },
         {
-          "Description": "Advarsel",
-          "DisplayName": "Advarsel",
+          "Description": "Advertencia",
+          "DisplayName": "Advertencia",
           "IsDefaultValue": false,
           "Name": "Warning",
           "Value": "Warning"
@@ -481,9 +481,9 @@
     {
       "Category": "data",
       "DefaultValue": "AB",
-      "Description": "Tekstindhold, der skal vises i pop op-menuen.",
+      "Description": "Contenido de texto que se mostrará en la ventana emergente.",
       "DescriptionResourceString": "BadgeCanvas_Content_Desc",
-      "DisplayName": "Indhold",
+      "DisplayName": "Contenido",
       "DisplayNameResourceString": "BadgeCanvas_Content",
       "EnumValues": [],
       "HelperUI": null,
@@ -509,28 +509,28 @@
     {
       "Category": "data",
       "DefaultValue": "Circular",
-      "Description": "Vælg en fra et udvalg af former.",
+      "Description": "Elija una de las formas disponibles.",
       "DescriptionResourceString": "BadgeCanvas_Shape_Desc",
-      "DisplayName": "Form",
+      "DisplayName": "Forma",
       "DisplayNameResourceString": "BadgeCanvas_Shape",
       "EnumValues": [
         {
-          "Description": "Cirkulær",
-          "DisplayName": "Cirkulær",
+          "Description": "Circular",
+          "DisplayName": "Circular",
           "IsDefaultValue": true,
           "Name": "Circular",
           "Value": "Circular"
         },
         {
-          "Description": "Firkant",
-          "DisplayName": "Firkant",
+          "Description": "Cuadrada",
+          "DisplayName": "Cuadrada",
           "IsDefaultValue": false,
           "Name": "Square",
           "Value": "Square"
         },
         {
-          "Description": "Afrundet",
-          "DisplayName": "Afrundet",
+          "Description": "Redondeada",
+          "DisplayName": "Redondeada",
           "IsDefaultValue": false,
           "Name": "Rounded",
           "Value": "Rounded"
@@ -559,9 +559,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Du kan angive en anden farvepalet til det valgte element ved at angive en basispaletfarve. Denne farve genererer et sæt lignende farver, der derefter anvendes på forskellige aspekter af elementet, mest almindeligt: udfyldning, ramme og interaktionstilstande. En tom værdi angiver, at elementet bruger farvepaletten i appens tema.",
+      "Description": "Puede proporcionar una paleta de colores diferente para el elemento seleccionado si especifica un color base de la paleta. Este color genera un conjunto de colores similares que se aplicarán después a diferentes aspectos del elemento, siendo los más habituales: relleno, borde y estados de interacción. Un valor en blanco indica que el elemento usará la paleta de colores del tema de la aplicación.",
       "DescriptionResourceString": "Base_Palette_Color_description",
-      "DisplayName": "Basispaletfarve",
+      "DisplayName": "Color base de la paleta",
       "DisplayNameResourceString": "Base_Palette_Color",
       "EnumValues": [],
       "HelperUI": "color",
@@ -587,9 +587,9 @@
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Angiv skrifttypestørrelsen for den viste tekst.",
+      "Description": "Establezca el tamaño de fuente para el texto mostrado.",
       "DescriptionResourceString": "Font_Size_description",
-      "DisplayName": "Skrifttypestørrelse",
+      "DisplayName": "Tamaño de fuente",
       "DisplayNameResourceString": "Font_Size",
       "EnumValues": [],
       "HelperUI": null,
@@ -779,7 +779,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 12,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"-\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"d. MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"d. MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d. MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd-MM-yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"sø\",\"ma\",\"ti\",\"on\",\"to\",\"fr\",\"lø\"],\"ShortestDayNames\":[\"sø\",\"ma\",\"ti\",\"on\",\"to\",\"fr\",\"lø\"],\"DayNames\":[\"søndag\",\"mandag\",\"tirsdag\",\"onsdag\",\"torsdag\",\"fredag\",\"lørdag\"],\"AbbreviatedMonthNames\":[\"jan\",\"feb\",\"mar\",\"apr\",\"maj\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthNames\":[\"januar\",\"februar\",\"marts\",\"april\",\"maj\",\"juni\",\"juli\",\"august\",\"september\",\"oktober\",\"november\",\"december\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregoriansk kalender\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"feb\",\"mar\",\"apr\",\"maj\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthGenitiveNames\":[\"januar\",\"februar\",\"marts\",\"april\",\"maj\",\"juni\",\"juli\",\"august\",\"september\",\"oktober\",\"november\",\"december\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"kr.\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"da-DK\",\"formatter\":null,\"languagesByCode\":{\"1030\":\"Danish (Denmark)\",\"-1\":\"All Languages\"}}}",
+      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd, d' de 'MMMM' de 'yyyy H:mm:ss\",\"LongDatePattern\":\"dddd, d' de 'MMMM' de 'yyyy\",\"LongTimePattern\":\"H:mm:ss\",\"MonthDayPattern\":\"d 'de' MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd/MM/yyyy\",\"ShortTimePattern\":\"H:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM' de 'yyyy\",\"AbbreviatedDayNames\":[\"do.\",\"lu.\",\"ma.\",\"mi.\",\"ju.\",\"vi.\",\"sá.\"],\"ShortestDayNames\":[\"D\",\"L\",\"M\",\"X\",\"J\",\"V\",\"S\"],\"DayNames\":[\"domingo\",\"lunes\",\"martes\",\"miércoles\",\"jueves\",\"viernes\",\"sábado\"],\"AbbreviatedMonthNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"calendario gregoriano\",\"AbbreviatedMonthGenitiveNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthGenitiveNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"es-ES\",\"formatter\":null,\"languagesByCode\":{\"3082\":\"Spanish (Spain, International Sort)\",\"-1\":\"All Languages\"}}}",
       "Type": 3
     },
     {
@@ -1101,7 +1101,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"BadgeCanvas\":\"Badge\",\"BadgeCanvas_AccessibleLabel\":\"Accessible label\",\"BadgeCanvas_AccessibleLabel_Desc\":\"Label read out by screen readers.\",\"BadgeCanvas_Default_Content\":\"AB\",\"BadgeCanvas_Desc\":\"En visuel dekoration til brugergrænsefladeelementer.\",\"BadgeCanvas_Appearance\":\"Udseende\",\"BadgeCanvas_Appearance_Desc\":\"Vælg en af et udvalg af udseendetypografier.\",\"BadgeCanvas_Appearance_Filled\":\"Udfyldt\",\"BadgeCanvas_Appearance_Ghost\":\"Skygge\",\"BadgeCanvas_Appearance_Outline\":\"Kontur\",\"BadgeCanvas_Appearance_Tint\":\"Farvetone\",\"BadgeCanvas_ThemeColor\":\"Farve\",\"BadgeCanvas_ThemeColor_Desc\":\"Vælg en af et udvalg af farver fra temaet.\",\"BadgeCanvas_ThemeColor_Brand\":\"Mærke\",\"BadgeCanvas_ThemeColor_Danger\":\"Fare\",\"BadgeCanvas_ThemeColor_Important\":\"Vigtigt\",\"BadgeCanvas_ThemeColor_Informative\":\"Information\",\"BadgeCanvas_ThemeColor_Severe\":\"Alvorlig\",\"BadgeCanvas_ThemeColor_Subtle\":\"Raffineret\",\"BadgeCanvas_ThemeColor_Success\":\"Fuldført\",\"BadgeCanvas_ThemeColor_Warning\":\"Advarsel\",\"BadgeCanvas_Content\":\"Indhold\",\"BadgeCanvas_Content_Desc\":\"Tekstindhold, der skal vises i pop op-menuen.\",\"BadgeCanvas_Shape\":\"Form\",\"BadgeCanvas_Shape_Desc\":\"Vælg en fra et udvalg af former.\",\"BadgeCanvas_Shape_Circular\":\"Cirkulær\",\"BadgeCanvas_Shape_Square\":\"Firkant\",\"BadgeCanvas_Shape_Rounded\":\"Afrundet\",\"Base_Palette_Color\":\"Basispaletfarve\",\"Base_Palette_Color_description\":\"Du kan angive en anden farvepalet til det valgte element ved at angive en basispaletfarve. Denne farve genererer et sæt lignende farver, der derefter anvendes på forskellige aspekter af elementet, mest almindeligt: udfyldning, ramme og interaktionstilstande. En tom værdi angiver, at elementet bruger farvepaletten i appens tema.\",\"Font_Size\":\"Skrifttypestørrelse\",\"Font_Size_description\":\"Angiv skrifttypestørrelsen for den viste tekst.\"}}}",
+      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"BadgeCanvas\":\"Distintivo\",\"BadgeCanvas_AccessibleLabel\":\"Accessible label\",\"BadgeCanvas_AccessibleLabel_Desc\":\"Label read out by screen readers.\",\"BadgeCanvas_Default_Content\":\"AB\",\"BadgeCanvas_Desc\":\"Una decoración visual para los elementos de la interfaz de usuario.\",\"BadgeCanvas_Appearance\":\"Apariencia\",\"BadgeCanvas_Appearance_Desc\":\"Elija uno de los estilos de apariencia disponibles.\",\"BadgeCanvas_Appearance_Filled\":\"Relleno\",\"BadgeCanvas_Appearance_Ghost\":\"Fantasma\",\"BadgeCanvas_Appearance_Outline\":\"Contorno\",\"BadgeCanvas_Appearance_Tint\":\"Tono\",\"BadgeCanvas_ThemeColor\":\"Color\",\"BadgeCanvas_ThemeColor_Desc\":\"Elija uno de los colores disponibles del tema.\",\"BadgeCanvas_ThemeColor_Brand\":\"Marca\",\"BadgeCanvas_ThemeColor_Danger\":\"Peligro\",\"BadgeCanvas_ThemeColor_Important\":\"Importante\",\"BadgeCanvas_ThemeColor_Informative\":\"Informativa\",\"BadgeCanvas_ThemeColor_Severe\":\"Grave\",\"BadgeCanvas_ThemeColor_Subtle\":\"Tenue\",\"BadgeCanvas_ThemeColor_Success\":\"Correcto\",\"BadgeCanvas_ThemeColor_Warning\":\"Advertencia\",\"BadgeCanvas_Content\":\"Contenido\",\"BadgeCanvas_Content_Desc\":\"Contenido de texto que se mostrará en la ventana emergente.\",\"BadgeCanvas_Shape\":\"Forma\",\"BadgeCanvas_Shape_Desc\":\"Elija una de las formas disponibles.\",\"BadgeCanvas_Shape_Circular\":\"Circular\",\"BadgeCanvas_Shape_Square\":\"Cuadrada\",\"BadgeCanvas_Shape_Rounded\":\"Redondeada\",\"Base_Palette_Color\":\"Color base de la paleta\",\"Base_Palette_Color_description\":\"Puede proporcionar una paleta de colores diferente para el elemento seleccionado si especifica un color base de la paleta. Este color genera un conjunto de colores similares que se aplicarán después a diferentes aspectos del elemento, siendo los más habituales: relleno, borde y estados de interacción. Un valor en blanco indica que el elemento usará la paleta de colores del tema de la aplicación.\",\"Font_Size\":\"Tamaño de fuente\",\"Font_Size_description\":\"Establezca el tamaño de fuente para el texto mostrado.\"}}}",
       "Type": 3
     },
     {
