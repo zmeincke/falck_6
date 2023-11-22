@@ -328,14 +328,14 @@
       "WebDefaultValue": ""
     }
   ],
-  "Name": "Barra de progreso",
+  "Name": "Progress Bar",
   "Properties": [
     {
       "Category": "data",
       "DefaultValue": "",
-      "Description": "Texto de la etiqueta Aria del componente",
+      "Description": "Aria label text of the component",
       "DescriptionResourceString": "ProgressBar_AccessibleLabel_Desc_Key",
-      "DisplayName": "Etiqueta de accesibilidad",
+      "DisplayName": "Accessibility Label",
       "DisplayNameResourceString": "ProgressBar_AccessibleLabel_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -361,9 +361,9 @@
     {
       "Category": "data",
       "DefaultValue": "50",
-      "Description": "Valor",
+      "Description": "Value",
       "DescriptionResourceString": "ProgressBar_Value_Display_Key",
-      "DisplayName": "Valor",
+      "DisplayName": "Value",
       "DisplayNameResourceString": "ProgressBar_Value_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -389,9 +389,9 @@
     {
       "Category": "data",
       "DefaultValue": "100",
-      "Description": "Descripción máxima de la barra de progreso",
+      "Description": "Max description of Progress Bar",
       "DescriptionResourceString": "ProgressBar_Max_Desc_Key",
-      "DisplayName": "Máximo",
+      "DisplayName": "Max",
       "DisplayNameResourceString": "ProgressBar_Max_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -417,21 +417,21 @@
     {
       "Category": "data",
       "DefaultValue": "Medium",
-      "Description": "Definir el grosor de la barra de progreso",
+      "Description": "Define thickness of the Progress Bar",
       "DescriptionResourceString": "ProgressBar_Thickness_Desc_Key",
-      "DisplayName": "Grosor",
+      "DisplayName": "Thickness",
       "DisplayNameResourceString": "ProgressBar_Thickness_Display_Key",
       "EnumValues": [
         {
-          "Description": "Medio",
-          "DisplayName": "Medio",
+          "Description": "Medium",
+          "DisplayName": "Medium",
           "IsDefaultValue": true,
           "Name": "Medium",
           "Value": "Medium"
         },
         {
-          "Description": "Grande",
-          "DisplayName": "Grande",
+          "Description": "Large",
+          "DisplayName": "Large",
           "IsDefaultValue": false,
           "Name": "Large",
           "Value": "Large"
@@ -460,21 +460,21 @@
     {
       "Category": "data",
       "DefaultValue": "Rounded",
-      "Description": "Forma del componente de barra de progreso",
+      "Description": "Shape of Progress Bar component",
       "DescriptionResourceString": "ProgressBar_Shape_Desc_Key",
-      "DisplayName": "Forma",
+      "DisplayName": "Shape",
       "DisplayNameResourceString": "ProgressBar_Shape_Display_Key",
       "EnumValues": [
         {
-          "Description": "Redondeada",
-          "DisplayName": "Redondeada",
+          "Description": "Rounded",
+          "DisplayName": "Rounded",
           "IsDefaultValue": true,
           "Name": "Rounded",
           "Value": "Rounded"
         },
         {
-          "Description": "Cuadrado",
-          "DisplayName": "Cuadrado",
+          "Description": "Square",
+          "DisplayName": "Square",
           "IsDefaultValue": false,
           "Name": "Square",
           "Value": "Square"
@@ -503,9 +503,9 @@
     {
       "Category": "data",
       "DefaultValue": "false",
-      "Description": "Barra de progreso indeterminado",
+      "Description": "Indeterminate Progress bar",
       "DescriptionResourceString": "ProgressBar_Indeterminate_Desc_Key",
-      "DisplayName": "Indeterminado",
+      "DisplayName": "Indeterminate",
       "DisplayNameResourceString": "ProgressBar_Indeterminate_Display_Key",
       "EnumValues": [],
       "HelperUI": null,
@@ -531,28 +531,28 @@
     {
       "Category": "data",
       "DefaultValue": "Brand",
-      "Description": "Color de la barra de progreso",
+      "Description": "Color of Progress Bar",
       "DescriptionResourceString": "ProgressBar_ProgressColor_Desc_Key",
       "DisplayName": "Color",
       "DisplayNameResourceString": "ProgressBar_ProgressColor_Display_Key",
       "EnumValues": [
         {
-          "Description": "Ninguno",
-          "DisplayName": "Ninguno",
+          "Description": "None",
+          "DisplayName": "None",
           "IsDefaultValue": true,
           "Name": "Brand",
           "Value": "Brand"
         },
         {
-          "Description": "Correcto",
-          "DisplayName": "Correcto",
+          "Description": "Success",
+          "DisplayName": "Success",
           "IsDefaultValue": false,
           "Name": "Success",
           "Value": "Success"
         },
         {
-          "Description": "Advertencia",
-          "DisplayName": "Advertencia",
+          "Description": "Warning",
+          "DisplayName": "Warning",
           "IsDefaultValue": false,
           "Name": "Warning",
           "Value": "Warning"
@@ -780,7 +780,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 12,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd, d' de 'MMMM' de 'yyyy H:mm:ss\",\"LongDatePattern\":\"dddd, d' de 'MMMM' de 'yyyy\",\"LongTimePattern\":\"H:mm:ss\",\"MonthDayPattern\":\"d 'de' MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd/MM/yyyy\",\"ShortTimePattern\":\"H:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM' de 'yyyy\",\"AbbreviatedDayNames\":[\"do.\",\"lu.\",\"ma.\",\"mi.\",\"ju.\",\"vi.\",\"sá.\"],\"ShortestDayNames\":[\"D\",\"L\",\"M\",\"X\",\"J\",\"V\",\"S\"],\"DayNames\":[\"domingo\",\"lunes\",\"martes\",\"miércoles\",\"jueves\",\"viernes\",\"sábado\"],\"AbbreviatedMonthNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"calendario gregoriano\",\"AbbreviatedMonthGenitiveNames\":[\"ene.\",\"feb.\",\"mar.\",\"abr.\",\"may.\",\"jun.\",\"jul.\",\"ago.\",\"sep.\",\"oct.\",\"nov.\",\"dic.\",\"\"],\"MonthGenitiveNames\":[\"enero\",\"febrero\",\"marzo\",\"abril\",\"mayo\",\"junio\",\"julio\",\"agosto\",\"septiembre\",\"octubre\",\"noviembre\",\"diciembre\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":8,\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":3,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"es-ES\",\"formatter\":null,\"languagesByCode\":{\"3082\":\"Spanish (Spain, International Sort)\",\"-1\":\"All Languages\"}}}",
+      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"AM\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":0,\"CalendarWeekRule\":0,\"FullDateTimePattern\":\"dddd, MMMM d, yyyy h:mm:ss tt\",\"LongDatePattern\":\"dddd, MMMM d, yyyy\",\"LongTimePattern\":\"h:mm:ss tt\",\"MonthDayPattern\":\"MMMM d\",\"PMDesignator\":\"PM\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"M/d/yyyy\",\"ShortTimePattern\":\"h:mm tt\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"],\"ShortestDayNames\":[\"Su\",\"Mo\",\"Tu\",\"We\",\"Th\",\"Fr\",\"Sa\"],\"DayNames\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"],\"AbbreviatedMonthNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"MonthNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregorian Calendar\",\"AbbreviatedMonthGenitiveNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"MonthGenitiveNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\".\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\",\",\"CurrencySymbol\":\"$\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":0,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\".\",\"NumberGroupSeparator\":\",\",\"CurrencyPositivePattern\":0,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\".\",\"PercentGroupSeparator\":\",\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"en-US\",\"formatter\":null,\"languagesByCode\":{\"1033\":\"English (United States)\",\"-1\":\"All Languages\"}}}",
       "Type": 3
     },
     {
@@ -1102,7 +1102,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 13,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"ProgressBar_Display_Key\":\"Barra de progreso\",\"ProgressBar_Desc_Key\":\"Permitir que los usuarios visualicen el efecto de la barra de progreso\",\"ProgressBar_Shape_Display_Key\":\"Forma\",\"ProgressBar_Shape_Desc_Key\":\"Forma del componente de barra de progreso\",\"ProgressBar_AccessibleLabel_Display_Key\":\"Etiqueta de accesibilidad\",\"ProgressBar_AccessibleLabel_Desc_Key\":\"Texto de la etiqueta Aria del componente\",\"ProgressBar_ProgressColor_Display_Key\":\"Color\",\"ProgressBar_ProgressColor_Desc_Key\":\"Color de la barra de progreso\",\"ProgressBar_Thickness_Display_Key\":\"Grosor\",\"ProgressBar_Thickness_Desc_Key\":\"Definir el grosor de la barra de progreso\",\"ProgressBar_Max_Display_Key\":\"Máximo\",\"ProgressBar_Max_Desc_Key\":\"Descripción máxima de la barra de progreso\",\"ProgressBar_Value_Display_Key\":\"Valor\",\"ProgressBar_Value_Desc_Key\":\"Un número decimal entre 0 y 100 (o Máximo si se indica) que especifica qué cantidad de la tarea se ha completado.\",\"ProgressBar_Thickness_Medium\":\"Medio\",\"ProgressBar_Thickness_Large\":\"Grande\",\"ProgressBar_Shape_Square\":\"Cuadrado\",\"ProgressBar_Shape_Rounded\":\"Redondeada\",\"ProgressBar_Rounded_Desc_Key\":\"La forma de la barra de progreso es redondeada\",\"ProgressBar_Color_Success\":\"Correcto\",\"ProgressBar_Color_Brand\":\"Ninguno\",\"ProgressBar_Color_Warning\":\"Advertencia\",\"ProgressBar_Color_Error\":\"Error\",\"ProgressBar_Indeterminate_Display_Key\":\"Indeterminado\",\"ProgressBar_Indeterminate_Desc_Key\":\"Barra de progreso indeterminado\"}}}",
+      "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"ProgressBar_Display_Key\":\"Progress Bar\",\"ProgressBar_Desc_Key\":\"Let users visualise Progress Bar effect\",\"ProgressBar_Shape_Display_Key\":\"Shape\",\"ProgressBar_Shape_Desc_Key\":\"Shape of Progress Bar component\",\"ProgressBar_AccessibleLabel_Display_Key\":\"Accessibility Label\",\"ProgressBar_AccessibleLabel_Desc_Key\":\"Aria label text of the component\",\"ProgressBar_ProgressColor_Display_Key\":\"Color\",\"ProgressBar_ProgressColor_Desc_Key\":\"Color of Progress Bar\",\"ProgressBar_Thickness_Display_Key\":\"Thickness\",\"ProgressBar_Thickness_Desc_Key\":\"Define thickness of the Progress Bar\",\"ProgressBar_Max_Display_Key\":\"Max\",\"ProgressBar_Max_Desc_Key\":\"Max description of Progress Bar\",\"ProgressBar_Value_Display_Key\":\"Value\",\"ProgressBar_Value_Desc_Key\":\"A decimal number between 0 and 100 (or Max if given) which specifies how much of the task has been compeleted.\",\"ProgressBar_Thickness_Medium\":\"Medium\",\"ProgressBar_Thickness_Large\":\"Large\",\"ProgressBar_Shape_Square\":\"Square\",\"ProgressBar_Shape_Rounded\":\"Rounded\",\"ProgressBar_Rounded_Desc_Key\":\"Shape of the progress bar to be rounded\",\"ProgressBar_Color_Success\":\"Success\",\"ProgressBar_Color_Brand\":\"None\",\"ProgressBar_Color_Warning\":\"Warning\",\"ProgressBar_Color_Error\":\"Error\",\"ProgressBar_Indeterminate_Display_Key\":\"Indeterminate\",\"ProgressBar_Indeterminate_Desc_Key\":\"Indeterminate Progress bar\",\"Base_Palette_Color\":\"Base palette color\",\"Base_Palette_Color_description\":\"You can provide a different color palette for the selected item by specifying a base palette color. This color generates a set of similar colors that are then applied to different aspects of the item, most commonly: fill, border, and interaction states. A blank value indicates the item will use the color palette of the app's theme.\"}}}",
       "Type": 3
     },
     {

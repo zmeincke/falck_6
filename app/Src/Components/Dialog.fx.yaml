@@ -203,7 +203,7 @@ Dialog As CanvasComponent:
                     X: =20
                     ZIndex: =4
 
-                    Button1_1 As Botón:
+                    Button1_1 As Button:
                         BorderColor: =
                         BorderRadius: =
                         DisabledBorderColor: =
